@@ -9,5 +9,6 @@
 <?php
 if ($pag == "Login.php"){
     echo "<script src='js/typeUser.js'></script>";
+    echo "<script src='js/capsdetector.js'></script>";
 }
 ?>
