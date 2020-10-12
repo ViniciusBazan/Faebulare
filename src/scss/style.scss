@@ -1,0 +1,188 @@
+// Css personalizado
+
+
+    /* Inicio do css icone do menu hamburguer */
+    .barras {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #fff;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+
+    .change .barras .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+        //background-color: #ddd;
+    }
+
+    .change .barras .bar2 {
+        opacity: 0;
+    }
+
+    .change .barras .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+        //background-color: #ddd;
+    }
+
+    /* Fim do css do icone do menu hamburguer */
+
+@font-face{
+    font-family:"Andika New Basic";
+    src: url(../fonts/AndikaNewBasic-R.ttf) format("truetype");
+}
+
+@font-face{
+    font-family:"Antic Didone";
+    src: url(../fonts/AnticDidone-Regular.otf) format("opentype");
+}
+
+@font-face{
+    font-family:"Old London";
+    src: url(../fonts/OldLondon.ttf) format("truetype");
+}
+
+
+@media (max-width: 767px) {
+    .border-sm-bottom{
+        border-bottom: 2px solid #dee2e6 !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .border-md-right{
+        border-right: 2px solid #dee2e6 !important;
+    }
+}
+
+.wt-geral{
+    width:94% !important;
+}
+
+.opaci-son:hover *{
+    opacity: .5;
+}
+
+.opaci:hover{
+    opacity: .5;
+}
+
+
+.muda{
+    transition: all 0.8s;
+}
+
+.logo-wt{
+    width: 120px;
+    height:auto;
+}
+
+.selo-pos{
+    position:absolute;
+    left: 50%;
+    margin-left: -45px;
+    top:40px;
+}
+
+.selo-wt{
+    width: 90px;
+    height:auto;
+}
+
+.login-wt{
+    width:30px;
+    height:auto;
+}
+
+.font-s-10{
+    font-size: 1em;
+}
+
+.font-s-11{
+    font-size: 1.1em;
+}
+
+.font-s-12{
+    font-size: 1.2em;
+}
+
+.font-andika{
+    font-family: "Andika New Basic",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif !important;
+}
+
+.font-antic{
+    font-family: "Antic Didone",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif !important;
+}
+
+.font-london{
+    font-family: "Old London",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif !important;
+}
+
+
+
+
+
+// Criando nossa paleta
+$color-red-1  : #5e2129;
+$color-red-2  : #cc0000;
+$color-blue-1 : #065180;
+$color-blue-2 : #18485e;
+$color-blue-3 : #1485cc;
+$color-purple : #800080;
+$color-green-1: #154d44;
+$color-green-2: #239987;
+$color-gold   : #f4b12f;
+
+$color-dark-0 : #000000;
+$color-dark-1 : #111111;
+$color-dark-2 : #222222;
+$color-dark-3 : #333333;
+$color-dark-4 : #444444;
+
+$theme-colors:(
+    "color-red-1"  : $color-red-1,
+    "color-red-2"  : $color-red-2,
+    "color-blue-1" : $color-blue-1,
+    "color-blue-2" : $color-blue-2,
+    "color-blue-3" : $color-blue-3,
+    "color-purple" : $color-purple,
+    "color-green-1": $color-green-1,
+    "color-green-2": $color-green-2,
+    "color-gold"   : $color-gold,
+    "color-dark-1" : $color-dark-1,
+    "color-dark-2" : $color-dark-2,
+    "color-dark-3" : $color-dark-3,
+    "color-dark-4" : $color-dark-4
+);
+
+.navbar{
+    border-top: 3px solid $color-red-2;
+}
+
+// Classes personalizadas
+$body-bg: $color-dark-1;
+//$link-color: alguma cor;
+$navbar-dark-color      : rgba(255, 255, 255, 1);
+$navbar-dark-hover-color: rgba(255, 255, 255, .6);
+$font-family-sans-serif : "Andika New Basic",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+
+// Importando o bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.dropdown-item:hover{
+    background-color:#222222;
+    color: rgba(255, 255, 255, .6);
+}
+
+.dropdown-item{
+    background-color:#222222;
+    color: rgba(255, 255, 255, 1);
+}
