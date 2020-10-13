@@ -48,7 +48,7 @@
                         Nome inválido! Deve conter:
                         <hr>
                         <ul>
-                            <li>3 ou mais caracteres;</li>
+                            <li>De 3 a 20 caracteres;</li>
                             <li>Nenhum espaço em branco.</li>
                         <ul>
                     </div>
@@ -64,7 +64,7 @@
                         Sobrenome inválido! Deve conter:
                         <hr>
                         <ul>
-                            <li>3 ou mais caracteres;</li>
+                            <li>De 3 a 60 caracteres;</li>
                         <ul>
                     </div>
 
@@ -162,7 +162,7 @@
                     <div class="form-group col-10">
                         
                     <div class="alert alert-danger" role="alert">
-                        As senhas não batem!.
+                        As senhas não batem!
                     </div>
 
                     </div>
@@ -236,7 +236,7 @@
                 <!-- Botão de cadastrar -->
 
                     <div class="form-group">
-                        <center><button type="submit" id="cadastrar\" class="btn btn-color-green-2 mt-3 border border-color-green-1">Cadastrar</button></center>
+                        <center><button type="button" id="cadastrar" class="btn btn-color-green-2 mt-3 border border-color-green-1" onclick="validCad()">Cadastrar</button></center>
                     </div>
 
                 </form>
