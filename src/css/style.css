@@ -44,6 +44,14 @@
   .border-md-right {
     border-right: 2px solid #dee2e6 !important; } }
 
+.alink {
+  text-decoration: none !important;
+  color: white !important; }
+
+.alink:hover {
+  text-decoration: none !important;
+  color: rgba(255, 255, 255, 0.6) !important; }
+
 .wt-geral {
   width: 94% !important; }
 
@@ -58,6 +66,15 @@
 
 .logo-wt {
   width: 120px;
+  height: auto; }
+
+.book-pos {
+  position: absolute;
+  left: 50%;
+  margin-left: -35px; }
+
+.book-wt {
+  width: 70px;
   height: auto; }
 
 .selo-pos {

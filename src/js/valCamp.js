@@ -121,4 +121,10 @@ function validCad(){
 
         }
 
+        // Validar formulario
+
+        if (formValid == true){
+            document.formCad.submit()
+        }
+
 }

@@ -21,7 +21,7 @@
 
             <div class="col-12 col-md-6 mt-3 mt-md-0 border-md-right  border-color-red-2 order-2 order-md-1">
                 <h2 class="font-antic text-center">Não tem login? Cadastre-se</h2>
-                <form>
+                <form name="formCad" id="formCad" action="#" method="post">
 
                 <!-- Campos de Nome e Sobrenome -->
 
@@ -308,7 +308,12 @@
 
         </div>
 
+        <div class="row"><div class="col-12">&nbsp;</div></div>
+
     </div>
+
+    <!-- incluindo o rodapé -->
+    <?php require_once $rodape ?>
 
     <!-- incluindo scripts -->
     <?php require_once $scriptJs; ?>

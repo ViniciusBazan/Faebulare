@@ -10,6 +10,7 @@ $sep           = DIRECTORY_SEPARATOR;
     $head          = $pathInc.'head.php';
     $scriptJs      = $pathInc.'js.php';
     $menu          = $pathInc.'menu.php';
+    $rodape        = $pathInc.'rodape.php';
 
     /** img **/
     $pathImg       = 'img'.$sep;

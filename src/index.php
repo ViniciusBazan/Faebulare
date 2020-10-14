@@ -11,6 +11,12 @@
     <!-- Incluindo o menu -->
     <?php require_once $menu; ?>
 
+
+    <div class="row"><div class="col-12">&nbsp;</div></div>
+
+    <!-- incluindo o rodapé -->
+    <?php require_once $rodape ?>
+
     <!-- incluindo scripts -->
     <?php require_once $scriptJs; ?>
 
