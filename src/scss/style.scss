@@ -51,19 +51,21 @@
 }
 
 
-@media (max-width: 767px) {
-    .border-sm-bottom{
+@media (max-width: 1199px) {
+    .border-lg-bottom{
         border-bottom: 2px solid #dee2e6 !important;
     }
 }
 
-@media (min-width: 768px) {
-    .border-md-right{
+@media (min-width: 1200px) {
+    .border-xl-right{
         border-right: 2px solid #dee2e6 !important;
     }
 }
 
-
+.text-black {
+    color: rgba(0, 0, 0, 1) !important; 
+}
 
 .iconInfo{
     position: absolute !important;
@@ -197,6 +199,7 @@ $theme-colors:(
 // Classes personalizadas
 $body-bg: $color-dark-1;
 //$link-color: alguma cor;
+//$carousel-caption-color : #cc0000;
 $navbar-dark-color      : rgba(255, 255, 255, 1);
 $navbar-dark-hover-color: rgba(255, 255, 255, .6);
 $font-family-sans-serif : "Andika New Basic",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;

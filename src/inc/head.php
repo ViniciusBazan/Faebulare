@@ -4,7 +4,7 @@
 
 <!-- Favicon -->
 
-<link rel="shortcut icon" type="imagem/x-icon" href = "img/selo.ico"/>
+<link rel="shortcut icon" type="imagem/x-icon" href = "img/f.ico"/>
 
 <!-- Bootstrap CSS -->
 <!--<link rel="stylesheet" href="css/bootstrap.css">-->

@@ -19,7 +19,7 @@
 
             <!-- Cadastro -->
 
-            <div class="col-12 col-md-6 mt-3 mt-md-0 border-md-right  border-color-red-2 order-2 order-md-1">
+            <div class="col-12 col-xl-6 mt-5 mt-xl-0 border-xl-right  border-color-red-2 order-2 order-xl-1">
                 <h2 class="font-antic text-center">Não tem login? Cadastre-se</h2>
                 <form name="formCad" id="formCad" action="#" method="post">
 
@@ -244,7 +244,7 @@
 
             <!-- Login -->
 
-            <div class="col-12 col-md-6 border-sm-bottom order-1 border-color-red-2 order-md-2">
+            <div class="col-12 col-xl-6 border-lg-bottom order-1 border-color-red-2 order-xl-2 pb-4 pb-xl-0">
                 <h2 class="font-antic text-center mb-md-5">Faça o login</h2>
                 <form>
                    <div class="form-row"> 

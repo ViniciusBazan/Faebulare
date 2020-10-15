@@ -14,6 +14,7 @@ $sep           = DIRECTORY_SEPARATOR;
 
     /** img **/
     $pathImg       = 'img'.$sep;
+    $slide         = $pathImg.'slide'.$sep;
 
 /* Nome do arquivo em execução */
 

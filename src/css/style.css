@@ -36,13 +36,16 @@
   font-family: "Old London";
   src: url(../fonts/OldLondon.ttf) format("truetype"); }
 
-@media (max-width: 767px) {
-  .border-sm-bottom {
+@media (max-width: 1199px) {
+  .border-lg-bottom {
     border-bottom: 2px solid #dee2e6 !important; } }
 
-@media (min-width: 768px) {
-  .border-md-right {
+@media (min-width: 1200px) {
+  .border-xl-right {
     border-right: 2px solid #dee2e6 !important; } }
+
+.text-black {
+  color: black !important; }
 
 .iconInfo {
   position: absolute !important;
