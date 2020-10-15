@@ -12,7 +12,7 @@
     <?php require_once $menu; ?>
 
 
-    <div class="row"><div class="col-12">&nbsp;</div></div>
+    <div class="container-fluid mt-5  wt-geral text-white position-relative" style="background-color:red;"><div class="row"><div class="col-12">&nbsp;</div></div></div>
 
     <!-- incluindo o rodapé -->
     <?php require_once $rodape ?>

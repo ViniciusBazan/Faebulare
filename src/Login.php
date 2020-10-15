@@ -13,7 +13,7 @@
 
     <div ></div>
 
-    <div class="container-fluid mt-5  wt-geral text-white">
+    <div class="container-fluid mt-5  wt-geral text-white" style="min-height:81vh;">
 
         <div class="row">
 
@@ -28,11 +28,11 @@
                     <div class="form-row">
                         <div class="form-group col-1"></div>
                         <div class="form-group col-5">
-                            <label for="name">Nome:</label>
+                            <label for="name">Nome:</label><span class="iconInfo" data-toggle="tooltip" data-html="true" title="<strong>Não coloque seu sobrenome aqui. Preencha sem espaços em branco</strong>"><?php echo $info; ?></span>
                             <input type="text" class="form-control" id="name" name="name" placeholder="Primeiro nome">
                         </div>
                         <div class="form-group col-5">
-                            <label for="sobrenome">Sobrenome:</label>
+                            <label for="sobrenome">Sobrenome:</label><span class="iconInfo" data-toggle="tooltip" data-html="true" title="<strong>Preencha apenas com seu Sobrenome. respeite o limite de 60 caracteres.</strong>"><?php echo $info; ?></span>
                             <input type="text" class="form-control" id="sobrenome" name="sobrenome" placeholder="Sobrenome completo">
                         </div>
                         <div class="form-group col-1"></div>
@@ -77,7 +77,7 @@
                     <div class="form-row">
                         <div class="form-group col-1"></div>
                         <div class="form-group col-10">
-                            <label for="email">E-mail:</label>
+                            <label for="email">E-mail:</label><span class="iconInfo" data-toggle="tooltip" data-html="true" title="<strong>Preencha com um e-mail valído e que não tenha sido registrado anteriormente.</strong>"><?php echo $info; ?></span>
                             <input type="email" class="form-control" id="email" name="email" placeholder="SeuEmail@domínio.com">
                         </div>
                         <div class="form-group col-1"></div>
@@ -102,7 +102,7 @@
                     <div class="form-row">
                         <div class="form-group col-1"></div>
                         <div class="form-group col-10">
-                            <label for="password">Senha:</label>
+                            <label for="password">Senha:</label><span class="iconInfo" data-toggle="tooltip" data-html="true" title='<strong><span class="text-left">Sua senha deve conter no mínimo:<ul><li>8 a 16 caracteres</li><li>1 letra minúscula e 1 letra maiúscula</li><li>1 número</li><li>1 caracter especial</li></ul></span></strong>'><?php echo $info; ?></span>
                             <div class="conjunto">
                             <input type="password" class="form-control control-pass" id="password" name="password" placeholder="Preencha sua senha">
                             <div class="Caps position-absolute" style="bottom:9px;left:100%;">
@@ -142,7 +142,7 @@
                     <div class="form-row">
                         <div class="form-group col-1"></div>
                         <div class="form-group col-10">
-                            <label for="conf">Confirme a senha:</label>
+                            <label for="conf">Confirme a senha:</label><span class="iconInfo" data-toggle="tooltip" data-html="true" title="<strong>Repita a sua senha do campo anterior.</strong>"><?php echo $info; ?></span>
                             <div class="conjunto">
                             <input type="password" class="form-control control-pass" id="conf" name="conf" placeholder="Digite sua senha novamente">
                             <div class="Caps position-absolute" style="bottom:9px;left:100%;">
@@ -212,7 +212,7 @@
                     <div class="form-row">
                         <div class="col-1"></div>
                         <div id="groupSup" class="form-group col-10" style="display:none;">
-                            <label for="sup">E-mail do supervisor:</label>
+                            <label for="sup">E-mail do supervisor:</label><span class="iconInfo" data-toggle="tooltip" data-html="true" title="<strong>Preencha com um email do seu supervisor que já esteja registrado no sistema.</strong>"><?php echo $info; ?></span>
                             <input type="email" class="form-control" id="sup" name="sup" placeholder="Campo desativado"  disabled>
                         </div>
                         <div class="col-1"></div>

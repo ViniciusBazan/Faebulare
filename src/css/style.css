@@ -44,6 +44,10 @@
   .border-md-right {
     border-right: 2px solid #dee2e6 !important; } }
 
+.iconInfo {
+  position: absolute !important;
+  right: 7px !important; }
+
 .alink {
   text-decoration: none !important;
   color: white !important; }
@@ -8730,3 +8734,11 @@ a.text-color-dark-4:hover, a.text-color-dark-4:focus {
 .dropdown-item {
   background-color: #222222;
   color: white; }
+
+.arrow::before {
+  border-top-color: white !important; }
+
+.tooltip-inner {
+  color: black;
+  background-color: white !important;
+  opacity: 1; }

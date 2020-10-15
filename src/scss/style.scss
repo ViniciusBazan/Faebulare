@@ -63,6 +63,13 @@
     }
 }
 
+
+
+.iconInfo{
+    position: absolute !important;
+    right: 7px !important;
+}
+
 .alink{
     text-decoration: none !important;
     color: white !important;
@@ -205,4 +212,14 @@ $font-family-sans-serif : "Andika New Basic",-apple-system, BlinkMacSystemFont, 
 .dropdown-item{
     background-color:#222222;
     color: rgba(255, 255, 255, 1);
+}
+
+.arrow::before{
+    border-top-color: white !important;
+}
+
+.tooltip-inner{
+    color: black;
+    background-color: white !important;
+    opacity:1;
 }
