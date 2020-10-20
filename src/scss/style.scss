@@ -63,6 +63,14 @@
     }
 }
 
+.bg-home{
+    background-image: url(../img/bg/home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
 .text-black {
     color: rgba(0, 0, 0, 1) !important; 
 }
@@ -141,6 +149,123 @@
 
 .font-s-12{
     font-size: 1.2em;
+}
+
+.wtem-4{
+    width:4em;
+    height:auto;
+}
+
+.font-s-13{
+    font-size: 1.3em;
+}
+
+.font-s-14{
+    font-size: 1.4em;
+}
+
+.font-s-15{
+    font-size: 1.5em;
+}
+
+.font-s-16{
+    font-size: 1.6em;
+}
+
+.font-s-17{
+    font-size: 1.7em;
+}
+
+.font-s-18{
+    font-size: 1.8em;
+}
+
+.font-s-19{
+    font-size: 1.9em;
+}
+
+.font-s-20{
+    font-size: 2em;
+}
+
+.font-s-30{
+    font-size: 3em;
+}
+
+.font-s-40{
+    font-size: 4em;
+}
+
+@media (min-width: 721px){
+    .lf{
+        margin-left:70px;
+    }
+
+    .rg{
+        margin-right:70px;
+    }
+}
+
+@media (max-width: 720px){
+
+    .wtem-md-2{
+        width:2em;
+        height:auto;
+    }
+    
+    .font-s-md-10{
+        font-size: 1em;
+    }
+    
+    .font-s-md-11{
+        font-size: 1.1em;
+    }
+    
+    .font-s-md-12{
+        font-size: 1.2em;
+    }
+    
+    .font-s-md-13{
+        font-size: 1.3em;
+    }
+    
+    .font-s-md-14{
+        font-size: 1.4em;
+    }
+    
+    .font-s-md-15{
+        font-size: 1.5em;
+    }
+    
+    .font-s-md-16{
+        font-size: 1.6em;
+    }
+    
+    .font-s-md-17{
+        font-size: 1.7em;
+    }
+    
+    .font-s-md-18{
+        font-size: 1.8em;
+    }
+    
+    .font-s-md-19{
+        font-size: 1.9em;
+    }
+    
+    .font-s-md-20{
+        font-size: 2em;
+    }
+    
+    .font-s-md-30{
+        font-size: 3em;
+    }
+    
+    .font-s-md-40{
+        font-size: 4em;
+    }
+
+
 }
 
 .font-andika{
