@@ -3,7 +3,7 @@
 <html lang="pt-br">
   <head>
 
-    <!-- incluindo head padrão -->
+    <!-- Incluindo head padrão -->
     <?php require_once $head; ?>
 
   </head>
