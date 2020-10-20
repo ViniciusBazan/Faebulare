@@ -40,11 +40,7 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="nav-link muda font-s-12 mt-lg-4 dropdown-toggle" data-toggle="dropdown" id="navdrop2" href="#">Historiando</a>
-            <div class="dropdown-menu navbar-dark bg-color-dark-2">
-                <a class="dropdown-item muda mb-2" href="#">Jogo</a>
-                <a class="dropdown-item muda mb-2" href="#">Psicanalise</a>
-            </div>
+            <a class="nav-link muda font-s-12 mt-lg-4" href="#">Psicanalise</a>
         </li>
 
     </ul>
