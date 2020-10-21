@@ -25,7 +25,7 @@
         <li class="nav-item dropdown mr-lg-3">
             <a class="nav-link muda font-s-12 mt-lg-4 dropdown-toggle" data-toggle="dropdown" id="navdrop" href="#">Contos</a>
             <div class="dropdown-menu navbar-dark bg-color-dark-2">
-                <a class="dropdown-item muda mb-2" href="A_bela_adormecida.php">A bela adormecida</a>
+                <a class="dropdown-item muda mb-2" href="cont_A_bela_adormecida.php">A bela adormecida</a>
                 <a class="dropdown-item muda mb-2" href="#">A bela e a fera</a>
                 <a class="dropdown-item muda mb-2" href="#">A princisa e o sapo</a>
                 <a class="dropdown-item muda mb-2" href="#">Branca de neve</a>

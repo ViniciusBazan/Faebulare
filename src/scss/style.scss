@@ -317,6 +317,8 @@ $color-dark-2 : #222222;
 $color-dark-3 : #333333;
 $color-dark-4 : #444444;
 
+$color-light-1: #F3F3E9;
+
 $theme-colors:(
     "color-red-1"  : $color-red-1,
     "color-red-2"  : $color-red-2,
@@ -330,7 +332,8 @@ $theme-colors:(
     "color-dark-1" : $color-dark-1,
     "color-dark-2" : $color-dark-2,
     "color-dark-3" : $color-dark-3,
-    "color-dark-4" : $color-dark-4
+    "color-dark-4" : $color-dark-4,
+    "color-light-1": $color-light-1
 );
 
 .navbar{
@@ -366,4 +369,52 @@ $font-family-sans-serif : "Andika New Basic",-apple-system, BlinkMacSystemFont, 
     color: black;
     background-color: white !important;
     opacity:1;
+}
+
+// Switch css
+
+.light{
+    --bg : var(--color-light-1);
+    --text: black;
+    --fill: black;
+    --border-fill: black;
+}
+
+.light{
+    --bg : var(--color-light-1);
+    --text: black;
+    --fill: black;
+    --fill-hover: rgba(0,0,0,.7);
+    --border-fill: black;
+}
+
+.dark{
+    --bg : var(--color-dark-1);
+    --text: white;
+    --fill: white;
+    --fill-hover: rgba(255,255,255,.7);
+    --border-fill: white;
+}
+
+#contBg{
+    background-color: var(--bg) !important;
+    color: var(--text) !important;
+}
+
+.switch-icon{
+    fill: var(--fill) !important;
+}
+
+.switch-icon:hover{
+    fill: var(--fill-hover) !important;
+}
+
+.switch-border{
+    border-color: var(--border-fill) !important;
+}
+
+#dark, #light{
+
+    cursor:pointer;
+
 }

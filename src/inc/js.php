@@ -13,4 +13,9 @@ if ($pag == "Login.php"){
     echo "<script src='js/valCamp.js'></script>";
     echo "<script src='js/toolTip.js'></script>";
 }
+
+if ($verCont){
+    echo "<script src='js/switch.js'></script>";
+}
+
 ?>
