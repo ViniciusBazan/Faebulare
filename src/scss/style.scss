@@ -63,6 +63,20 @@
     }
 }
 
+.bg-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 30%;
+}
+
+@media (max-width: 767px){
+.imgc-size{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width:100% !important;
+    height:370px !important;
+}
+}
 .bg-home{
     background-image: url(../img/bg/home.png);
     background-repeat: no-repeat;
@@ -373,12 +387,6 @@ $font-family-sans-serif : "Andika New Basic",-apple-system, BlinkMacSystemFont, 
 
 // Switch css
 
-.light{
-    --bg : var(--color-light-1);
-    --text: black;
-    --fill: black;
-    --border-fill: black;
-}
 
 .light{
     --bg : var(--color-light-1);
@@ -386,6 +394,8 @@ $font-family-sans-serif : "Andika New Basic",-apple-system, BlinkMacSystemFont, 
     --fill: black;
     --fill-hover: rgba(0,0,0,.7);
     --border-fill: black;
+    --bg-cap: var(--color-red-2);
+    --border-cap: var(--color-red-1);
 }
 
 .dark{
@@ -394,6 +404,8 @@ $font-family-sans-serif : "Andika New Basic",-apple-system, BlinkMacSystemFont, 
     --fill: white;
     --fill-hover: rgba(255,255,255,.7);
     --border-fill: white;
+    --bg-cap: var(--color-red-1);
+    --border-cap: var(--color-red-2);
 }
 
 #contBg{
@@ -411,6 +423,11 @@ $font-family-sans-serif : "Andika New Basic",-apple-system, BlinkMacSystemFont, 
 
 .switch-border{
     border-color: var(--border-fill) !important;
+}
+
+.switch-cap{
+    border-color: var(--border-cap) !important;
+    background-color: var(--bg-cap) !important;
 }
 
 #dark, #light{

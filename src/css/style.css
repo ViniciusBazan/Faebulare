@@ -45,6 +45,18 @@
   .border-xl-right {
     border-right: 2px solid #dee2e6 !important; } }
 
+.bg-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 30%; }
+
+@media (max-width: 767px) {
+  .imgc-size {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100% !important;
+    height: 370px !important; } }
+
 .bg-home {
   background-image: url(../img/bg/home.png);
   background-repeat: no-repeat;
@@ -8956,21 +8968,19 @@ a.text-color-light-1:hover, a.text-color-light-1:focus {
   --bg: var(--color-light-1);
   --text: black;
   --fill: black;
-  --border-fill: black; }
-
-.light {
-  --bg: var(--color-light-1);
-  --text: black;
-  --fill: black;
   --fill-hover: rgba(0,0,0,.7);
-  --border-fill: black; }
+  --border-fill: black;
+  --bg-cap: var(--color-red-2);
+  --border-cap: var(--color-red-1); }
 
 .dark {
   --bg: var(--color-dark-1);
   --text: white;
   --fill: white;
   --fill-hover: rgba(255,255,255,.7);
-  --border-fill: white; }
+  --border-fill: white;
+  --bg-cap: var(--color-red-1);
+  --border-cap: var(--color-red-2); }
 
 #contBg {
   background-color: var(--bg) !important;
@@ -8984,6 +8994,10 @@ a.text-color-light-1:hover, a.text-color-light-1:focus {
 
 .switch-border {
   border-color: var(--border-fill) !important; }
+
+.switch-cap {
+  border-color: var(--border-cap) !important;
+  background-color: var(--bg-cap) !important; }
 
 #dark, #light {
   cursor: pointer; }
