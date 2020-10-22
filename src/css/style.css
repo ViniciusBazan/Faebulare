@@ -9001,3 +9001,14 @@ a.text-color-light-1:hover, a.text-color-light-1:focus {
 
 #dark, #light {
   cursor: pointer; }
+
+a[href="#top"] {
+  padding: 10px;
+  position: fixed;
+  top: 90%;
+  right: 1px;
+  display: none;
+  font-size: 30px; }
+
+a[href="#top"]:hover {
+  text-decoration: none; }

@@ -16,6 +16,7 @@ if ($pag == "Login.php"){
 
 if ($verCont){
     echo "<script src='js/switch.js'></script>";
+    echo "<script src='js/topo.js'></script>";
 }
 
 ?>
