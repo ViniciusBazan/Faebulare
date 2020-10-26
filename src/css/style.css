@@ -8964,6 +8964,9 @@ a.text-color-light-1:hover, a.text-color-light-1:focus {
   background-color: white !important;
   opacity: 1; }
 
+.recuo {
+  text-indent: 10px; }
+
 .light {
   --bg: var(--color-light-1);
   --text: black;

@@ -48,7 +48,7 @@
     <ul class="navbar-nav ml-auto">
 
         <li class="nav-item">
-            <a class="nav-link muda font-s-12 mt-lg-4 mr-lg-3" href="#">Autores</a>
+            <a class="nav-link muda font-s-12 mt-lg-4 mr-lg-3" href="cont_Autores.php">Autores</a>
         </li>
 
 

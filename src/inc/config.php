@@ -17,6 +17,7 @@ $sep           = DIRECTORY_SEPARATOR;
     $slide         = $pathImg.'slide'.$sep;
     $folhas        = $pathImg.'folhas'.$sep;
     $conto         = $pathImg.'cont'.$sep;
+    $autor         = $pathImg.'autores'.$sep;
 
 /* Nome do arquivo em execução */
 
