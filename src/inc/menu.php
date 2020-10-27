@@ -53,7 +53,7 @@
 
 
         <li class="nav-item">
-            <a class="nav-link muda font-s-12 mt-lg-4 mr-lg-4" href="#">Sobre nós</a>
+            <a class="nav-link muda font-s-12 mt-lg-4 mr-lg-4" href="Quem_somos.php">Sobre nós</a>
         </li>
     
         <li class="nav-item  ml-auto">

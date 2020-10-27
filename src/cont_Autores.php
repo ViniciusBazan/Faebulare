@@ -89,64 +89,64 @@
 
         </div>
 
-        <center><h1 class="font-antic mt-5 mb-5"> <span style="border-bottom: #cccccc solid 3px;">Giambattista Basile </span> </h1></center>
+        <center><h1 class="font-antic mt-5 mb-5"> <span style="border-bottom: #1485cc solid 3px;">Giambattista Basile </span> </h1></center>
 
         <div class="row mb-5">
 
-            <div class="col-12 col-lg-4 mb-4 mt-lg-0 order-lg-2"><center><img class="img-fluid" src="<?php echo $autor.'irmao_grimm.png'; ?>"></center></div>
-            <div class="col-12 col-lg-8 text-justify mt-3 order-lg-1">
+            <div class="col-12 col-lg-3 mb-4 mt-lg-0 order-lg-2"><center><img class="img-fluid" src="<?php echo $autor.'giam.png'; ?>"></center></div>
+            <div class="col-12 col-lg-9 text-justify mt-3 order-lg-1">
             <p class="recuo font-s-11">Nascido em Giugliano in Campania, foi um soldado e escritor italiano. Mercenário a serviço da República de Veneza, servindo também na ilha de Creta, onde frequentou a Accademia degli Stravaganti, sociedade literária local. Após curtas temporadas em Stigliano e Mântua, retorna à Nápoles, onde presta serviços como soldado e administrador a vários senhores feudais.</p>
             <p class="recuo font-s-11">Sua obra maior é “Lo Cunto de li Cunti”, também conhecida como "Pentamerão", livro escrito em prosa no dialeto napolitano, um conjunto de fábulas dirigidas às crianças que recolheu do povo e de tradições locais em suas viagens. Vários personagens hoje muito conhecidos como Cinderela (La Cenerentola), Rapunzel e A Bela Adormecida (La Bella Addormentata nel Bosco), posteriormente também recontadas por Charles Perrault e os Irmãos Grimm, constam dessa obra. Foi o primeiro livro em língua latina a citar um ogro. Foi publicada postumamente por sua irmã, Adriana Basile, uma famosa cantora da época. Foi sepultado na igreja de Santa Sofia.</p>
                 <div class="row mt-5">
                     <div class="col-4 order-2">
-                    <center><p><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-geo-alt-fill" fill="#cccccc" xmlns="http://www.w3.org/2000/svg">
+                    <center><p><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-geo-alt-fill" fill="#1485cc" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
                     </svg> itália</p></center>
                     </div>
-                    <div class="col-5 order-3"><center><svg id="Capa_1" fill="#cccccc" enable-background="new 0 0 512 512" height="2em" viewBox="0 0 512 512" width="2em" xmlns="http://www.w3.org/2000/svg"><g><path d="m407.271 119.471h-119.532v-104.489c0-8.274-6.716-14.982-15-14.982h-33.478c-8.284 0-15 6.708-15 14.982v104.489h-119.532c-8.284 0-15 6.708-15 14.982v33.438c0 8.274 6.716 14.982 15 14.982h119.532v314.145c0 8.274 6.716 14.982 15 14.982h33.478c8.284 0 15-6.708 15-14.982v-314.145h119.532c8.284 0 15-6.708 15-14.982v-33.438c0-8.274-6.716-14.982-15-14.982z"/></g></svg> <span class="mr-2">1566 – 1632</span></div>
-                    <div class="col-3 order-1" style="border-bottom: #cccccc solid 3px;border-left: #cccccc solid 3px;"></div>
+                    <div class="col-5 order-3"><center><svg id="Capa_1" fill="#1485cc" enable-background="new 0 0 512 512" height="2em" viewBox="0 0 512 512" width="2em" xmlns="http://www.w3.org/2000/svg"><g><path d="m407.271 119.471h-119.532v-104.489c0-8.274-6.716-14.982-15-14.982h-33.478c-8.284 0-15 6.708-15 14.982v104.489h-119.532c-8.284 0-15 6.708-15 14.982v33.438c0 8.274 6.716 14.982 15 14.982h119.532v314.145c0 8.274 6.716 14.982 15 14.982h33.478c8.284 0 15-6.708 15-14.982v-314.145h119.532c8.284 0 15-6.708 15-14.982v-33.438c0-8.274-6.716-14.982-15-14.982z"/></g></svg> <span class="mr-2">1566 – 1632</span></div>
+                    <div class="col-3 order-1" style="border-bottom: #1485cc solid 3px;border-left: #1485cc solid 3px;"></div>
                 </div>
             </div>
 
         </div>
 
-        <center><h1 class="font-antic mt-5 mb-5"> <span style="border-bottom: #cccccc solid 3px;">Hans Cristian Andersen</span> </h1></center>
+        <center><h1 class="font-antic mt-5 mb-5"> <span style="border-bottom: #f4b12f solid 3px;">Hans Cristian Andersen</span> </h1></center>
 
         <div class="row mb-5">
 
-            <div class="col-12 col-lg-4 mb-4 mt-lg-0"><center><img class="img-fluid" src="<?php echo $autor.'bruno_bettelheim.png'; ?>"></center></div>
+            <div class="col-12 col-lg-4 mb-4 mt-lg-0"><center><img class="img-fluid" src="<?php echo $autor.'hans.png'; ?>"></center></div>
             <div class="col-12 col-lg-8 text-justify mt-3">
             <p class="recuo font-s-11">Andersen ficou célebre principalmente pelos contos de fadas que criou, como o Patinho Feio e a Pequena Sereia, na época este gênero era muito raro. Nasceu em Odense, em uma família extremamente pobre. O pai estimulava as fantasias e o dom criativo do filho, contava várias histórias e o presenteou com um teatro de marionetes. Ele até chegou a memorizar muitas peças de Shakespeare.</p>
             <p class="recuo font-s-11">Quando tinha 11 anos, seu pai morreu e ele teve que parar de estudar. Começou a trabalhar, e ao completar 14 anos partiu para Copenhague, onde garantiu uma vaga no Teatro Real, com a ajuda de um conselheiro de Estado. Na instituição ele atuou como ator e bailarino, além de compor diversas peças. Terminou os estudos com 22 anos; alto, magro e desajeitado, sentia-se constrangido entre os colegas bem mais jovens e muito menores que ele. Para sair de uma crise financeira escreveu algumas histórias infantis baseadas no folclore dinamarquês. A fama mundial chegou em 1835, com o livro “O Improvisador”. Nas obras, o autor buscava transmitir modelos comportamentais e refletir os conflitos sociais. Ele acreditava que a igualdade de direitos deveria reger o mundo e a relação entre os homens. Em reconhecimento à contribuição para a literatura, em 2 de abril, data de seu nascimento, é celebrado o Dia Internacional do Livro Infanto-juvenil.</p>
                 <div class="row mt-5">
                     <div class="col-4">
-                    <center><p><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-geo-alt-fill" fill="#cccccc" xmlns="http://www.w3.org/2000/svg">
+                    <center><p><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-geo-alt-fill" fill="#f4b12f" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
                     </svg> Dinamarca</p></center>
                     </div>
-                    <div class="col-4"><center><svg id="Capa_1" fill="#cccccc" enable-background="new 0 0 512 512" height="2em" viewBox="0 0 512 512" width="2em" xmlns="http://www.w3.org/2000/svg"><g><path d="m407.271 119.471h-119.532v-104.489c0-8.274-6.716-14.982-15-14.982h-33.478c-8.284 0-15 6.708-15 14.982v104.489h-119.532c-8.284 0-15 6.708-15 14.982v33.438c0 8.274 6.716 14.982 15 14.982h119.532v314.145c0 8.274 6.716 14.982 15 14.982h33.478c8.284 0 15-6.708 15-14.982v-314.145h119.532c8.284 0 15-6.708 15-14.982v-33.438c0-8.274-6.716-14.982-15-14.982z"/></g></svg> 1805 - 1875</center></div>
-                    <div class="col-4" style="border-bottom: #cccccc solid 3px;border-right: #cccccc solid 3px;"></div>
+                    <div class="col-4"><center><svg id="Capa_1" fill="#f4b12f" enable-background="new 0 0 512 512" height="2em" viewBox="0 0 512 512" width="2em" xmlns="http://www.w3.org/2000/svg"><g><path d="m407.271 119.471h-119.532v-104.489c0-8.274-6.716-14.982-15-14.982h-33.478c-8.284 0-15 6.708-15 14.982v104.489h-119.532c-8.284 0-15 6.708-15 14.982v33.438c0 8.274 6.716 14.982 15 14.982h119.532v314.145c0 8.274 6.716 14.982 15 14.982h33.478c8.284 0 15-6.708 15-14.982v-314.145h119.532c8.284 0 15-6.708 15-14.982v-33.438c0-8.274-6.716-14.982-15-14.982z"/></g></svg> 1805 - 1875</center></div>
+                    <div class="col-4" style="border-bottom: #f4b12f solid 3px;border-right: #f4b12f solid 3px;"></div>
                 </div>
             </div>
 
         </div>
 
-        <center><h1 class="font-antic mt-5 mb-5"> <span style="border-bottom: #cccccc solid 3px;">Gabrielle Suzanne Barbort</span> </h1></center>
+        <center><h1 class="font-antic mt-5 mb-5"> <span style="border-bottom: #239987 solid 3px;">Gabrielle Suzanne Barbort</span> </h1></center>
 
         <div class="row mb-5">
 
-            <div class="col-12 col-lg-4 mb-4 mt-lg-0 order-lg-2"><center><img class="img-fluid" src="<?php echo $autor.'irmao_grimm.png'; ?>"></center></div>
+            <div class="col-12 col-lg-4 mb-4 mt-lg-0 order-lg-2"><center><img class="img-fluid" src="<?php echo $autor.'gabi.png'; ?>"></center></div>
             <div class="col-12 col-lg-8 text-justify mt-3 order-lg-1">
             <p class="recuo font-s-11">Gabrielle-Suzanne Barbot de Villeneuve foi uma autora francesa, mais conhecida por escrever a versão original do conto de fadas "La Belle et la Bête - 1740", história que critica o matrimônio. Nasceu em Paris, mas pertencia a uma poderosa família protestante de La Rochelle. </p>
             <p class="recuo font-s-11">Sua trajetória é marcada por relações amorosas complicadas. Em 1706, casou-se com Jean-Baptiste Gaalon de Barzay, membro da aristocracia de Poitou e tenente-coronel de infantaria no Regimento de Berville, juntos tiveram uma filha. Gabrielle-Suzanne ficou viúva aos 26 anos, perdeu progressivamente a fortuna da família e foi forçada a procurar um meio de trabalho para se sustentar. Ela fez seu caminho para Paris, onde embarcou em sua carreira literária. O primeiro livro dela foi uma novela intitulada “La Phoénix conjugal”, publicada somente em 1734, quando tinha já seus quarenta e nove anos. Muitos acreditam, que seu revisor foi Crébillon, o maior e mais famoso dramaturgo da época. Eles se casaram e viveram juntos até a morte de Gabrielle.</p>
                 <div class="row mt-5">
                     <div class="col-4 order-2">
-                    <center><p><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-geo-alt-fill" fill="#cccccc" xmlns="http://www.w3.org/2000/svg">
+                    <center><p><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-geo-alt-fill" fill="#239987" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
                     </svg> França</p></center>
                     </div>
-                    <div class="col-5 order-3"><center><svg id="Capa_1" fill="#cccccc" enable-background="new 0 0 512 512" height="2em" viewBox="0 0 512 512" width="2em" xmlns="http://www.w3.org/2000/svg"><g><path d="m407.271 119.471h-119.532v-104.489c0-8.274-6.716-14.982-15-14.982h-33.478c-8.284 0-15 6.708-15 14.982v104.489h-119.532c-8.284 0-15 6.708-15 14.982v33.438c0 8.274 6.716 14.982 15 14.982h119.532v314.145c0 8.274 6.716 14.982 15 14.982h33.478c8.284 0 15-6.708 15-14.982v-314.145h119.532c8.284 0 15-6.708 15-14.982v-33.438c0-8.274-6.716-14.982-15-14.982z"/></g></svg> <span class="mr-2">1695 – 1755</span> </center></div>
-                    <div class="col-3 order-1" style="border-bottom: #cccccc solid 3px;border-left: #cccccc solid 3px;"></div>
+                    <div class="col-5 order-3"><center><svg id="Capa_1" fill="#239987" enable-background="new 0 0 512 512" height="2em" viewBox="0 0 512 512" width="2em" xmlns="http://www.w3.org/2000/svg"><g><path d="m407.271 119.471h-119.532v-104.489c0-8.274-6.716-14.982-15-14.982h-33.478c-8.284 0-15 6.708-15 14.982v104.489h-119.532c-8.284 0-15 6.708-15 14.982v33.438c0 8.274 6.716 14.982 15 14.982h119.532v314.145c0 8.274 6.716 14.982 15 14.982h33.478c8.284 0 15-6.708 15-14.982v-314.145h119.532c8.284 0 15-6.708 15-14.982v-33.438c0-8.274-6.716-14.982-15-14.982z"/></g></svg> <span class="mr-2">1695 – 1755</span> </center></div>
+                    <div class="col-3 order-1" style="border-bottom: #239987 solid 3px;border-left: #239987 solid 3px;"></div>
                 </div>
             </div>
 
