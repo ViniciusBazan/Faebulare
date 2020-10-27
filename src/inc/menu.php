@@ -28,7 +28,7 @@
                 <a class="dropdown-item muda mb-2" href="cont_A_bela_adormecida.php">A bela adormecida</a>
                 <a class="dropdown-item muda mb-2" href="#">A bela e a fera</a>
                 <a class="dropdown-item muda mb-2" href="#">A princisa e o sapo</a>
-                <a class="dropdown-item muda mb-2" href="#">Branca de neve</a>
+                <a class="dropdown-item muda mb-2" href="cont_Branca_de_neve.php">Branca de neve</a>
                 <a class="dropdown-item muda mb-2" href="#">Chapeuzinho</a>
                 <a class="dropdown-item muda mb-2" href="#">Cinderela</a>
                 <a class="dropdown-item muda mb-2" href="#">João e maria</a>
