@@ -18,6 +18,8 @@ $sep           = DIRECTORY_SEPARATOR;
     $folhas        = $pathImg.'folhas'.$sep;
     $conto         = $pathImg.'cont'.$sep;
     $autor         = $pathImg.'autores'.$sep;
+    $bg            = $pathImg.'bg'.$sep;
+    $devs          = $pathImg.'devs'.$sep;
 
 /* Nome do arquivo em execução */
 

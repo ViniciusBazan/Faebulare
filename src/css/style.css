@@ -104,6 +104,15 @@
   width: 70px;
   height: auto; }
 
+.peaple-pos {
+  position: absolute;
+  left: 50%;
+  margin-left: -2.5em; }
+
+.peaple-wt {
+  width: 5em;
+  height: 5em; }
+
 .selo-pos {
   position: absolute;
   left: 50%;
