@@ -34,66 +34,77 @@
   </ol>
   <center><div class="carousel-inner" style="width:90%;height:auto;">
     <div class="carousel-item active">
+	<a href="cont_Chepeuzinho_Vermelho.php">
       <img class="d-block w-100" src="<?php echo $slide.'chapeuzinho.png' ?>" alt="Primeiro Slide">
       <div class="carousel-caption d-none d-md-block">
         <h3 style="background-color: rgba(0,0,0,.4)"><strong>Chapeuzinho vermelho</strong></h5>
       </div>
     </div>
     <div class="carousel-item">
+	<a href="cont_Joao_e_Maria.php">
       <img class="d-block w-100" src="<?php echo $slide.'joao_maria.png' ?>" alt="Segundo Slide">
       <div class="carousel-caption d-none d-md-block">
         <h3 style="background-color: rgba(0,0,0,.4)"><strong>João e Maria</strong></h5>
       </div>
     </div>
     <div class="carousel-item">
+	<a href="cont_A_Bela_Adormecida.php">
       <img class="d-block w-100" src="<?php echo $slide.'bela_adormecida.png' ?>" alt="Terceiro Slide">
       <div class="carousel-caption d-none d-md-block">
         <h3 style="background-color: rgba(0,0,0,.4)"><strong>Bela adormecida</strong></h5>
       </div>
     </div>
     <div class="carousel-item">
+	<a href="cont_A_Bela_e_a_Fera.php">
       <img class="d-block w-100" src="<?php echo $slide.'bela_fera.png' ?>" alt="Segundo Slide">
       <div class="carousel-caption d-none d-md-block">
         <h3 style="background-color: rgba(0,0,0,.4)"><strong>Bela e a Fera</strong></h5>
       </div>
     </div>
     <div class="carousel-item">
+	<a href="cont_Branca_de_Neve.php">
       <img class="d-block w-100" src="<?php echo $slide.'branca_neve.png' ?>" alt="Segundo Slide">
       <div class="carousel-caption d-none d-md-block">
         <h3 style="background-color: rgba(0,0,0,.4)"><strong>Branca de neve</strong></h5>
       </div>
     </div>
     <div class="carousel-item">
+	<a href="cont_Cinderela.php">
       <img class="d-block w-100" src="<?php echo $slide.'cinderela.png' ?>" alt="Segundo Slide">
       <div class="carousel-caption d-none d-md-block">
-        <h3 style="background-color: rgba(0,0,0,.4)"><strong>Cinderala</strong></h5>
+        <h3 style="background-color: rgba(0,0,0,.4)"><strong>Cinderela</strong></h5>
       </div>
     </div>
     <div class="carousel-item">
+	<a href="cont_O_Gato_de_Botas.php">
       <img class="d-block w-100" src="<?php echo $slide.'gato.png' ?>" alt="Segundo Slide">
       <div class="carousel-caption d-none d-md-block">
         <h3 style="background-color: rgba(0,0,0,.4)"><strong>Gato de botas</strong></h5>
       </div>
     </div>
     <div class="carousel-item">
+	<a href="cont_Pinoquio.php">
       <img class="d-block w-100" src="<?php echo $slide.'pinoquio.png' ?>" alt="Segundo Slide">
       <div class="carousel-caption d-none d-md-block">
         <h3 style="background-color: rgba(0,0,0,.4)"><strong>Pinoquio</strong></h5>
       </div>
     </div>
     <div class="carousel-item">
+	<a href="cont_A_Princesa_e_o_Sapo.php">
       <img class="d-block w-100" src="<?php echo $slide.'princesa_sapo.png' ?>" alt="Segundo Slide">
       <div class="carousel-caption d-none d-md-block">
         <h3 style="background-color: rgba(0,0,0,.4)"><strong>Princesa e o sapo</strong></h5>
       </div>
     </div>
     <div class="carousel-item">
+	<a href="cont_Rapunzel.php">
       <img class="d-block w-100" src="<?php echo $slide.'rapunzel.png' ?>" alt="Segundo Slide">
       <div class="carousel-caption d-none d-md-block">
         <h3 style="background-color: rgba(0,0,0,.4)"><strong>Rapunzel</strong></h5>
       </div>
     </div>
     <div class="carousel-item">
+	<a href="cont_Pequena_Sereia.php">
       <img class="d-block w-100" src="<?php echo $slide.'sereia.png' ?>" alt="Segundo Slide">
       <div class="carousel-caption d-none d-md-block">
         <h3 style="background-color: rgba(0,0,0,.4)"><strong>Ariel</strong></h5>
@@ -114,6 +125,8 @@
 
 
 </div>
+
+
 
 <div class="row d-none d-md-flex">
 
@@ -146,11 +159,13 @@
 
   <div class="col-9">
   <h1 class="font-london font-s-40 font-s-md-20 position-relative" style="z-index:1">Terminou com um final feliz... </h1>
+  
   </div>
 
   
 
 </div>
+
 
 <br><br><br><br><br><br><br><br>
 
