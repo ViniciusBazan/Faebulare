@@ -220,6 +220,7 @@
 
 </div>
 <br>
+    <a href="#top"><?php echo $topo;?></a>
     <!-- incluindo o rodapé -->
     <?php require_once $rodape ?>
 

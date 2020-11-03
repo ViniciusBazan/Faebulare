@@ -35,7 +35,7 @@
                 <a class="dropdown-item muda mb-2" href="#">O gato de botas</a>
                 <a class="dropdown-item muda mb-2" href="#">Pequena sereia</a>
                 <a class="dropdown-item muda mb-2" href="#">Pinoquio</a>
-                <a class="dropdown-item muda mb-2" href="#">Rapunzel</a>
+                <a class="dropdown-item muda mb-2" href="cont_Rapunzel.php">Rapunzel</a>
             </div>
         </li>
 
@@ -53,7 +53,7 @@
 
 
         <li class="nav-item">
-            <a class="nav-link muda font-s-12 mt-lg-4 mr-lg-4" href="Quem_somos.php">Sobre nós</a>
+            <a class="nav-link muda font-s-12 mt-lg-4 mr-lg-4" href="cont_Quem_somos.php">Sobre nós</a>
         </li>
     
         <li class="nav-item  ml-auto">
