@@ -24,7 +24,6 @@ $sep           = DIRECTORY_SEPARATOR;
 /* Nome do arquivo em execução */
 
 $pag           = basename($_SERVER['PHP_SELF']);
-$pagLen        = strlen($pag);
 $pagForm       = substr($pag, 0, -4);
 
 // Verificar se é um conteúdo

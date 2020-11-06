@@ -19,7 +19,7 @@ if ($verCont){
     echo "<script src='js/topo.js'></script>";
 }
 
-if ($pag == "Quem_somos.php"){
+if ($pag == "cont_Quem_somos.php" || $pag == "cont_Psicanalise.php"){
     echo "<script src='js/scrollSuave.js'></script>";
 }
 

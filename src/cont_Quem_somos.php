@@ -22,10 +22,10 @@
             <div class="col-md-2"></div><div class="col-12 col-md-8"><center><h3>A equipe do Faebulare é composta por 4 adolescentes que cursam informática para a internet na Etec Parque Belém e são grandes interessados em contos de fadas.</h3></center></div><div class="col-md-2"></div>
         </div>
 
-        <center class="mt-5"><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-chevron-double-down" fill="#cc0000" xmlns="http://www.w3.org/2000/svg">
+        <center class="mt-5"><a href="#julia" class="scrollSuave opaci muda"><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-chevron-double-down" fill="#cc0000" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
             <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-            </svg>
+            </svg></a>
          </center>   
 
     </div>
@@ -38,8 +38,8 @@
 
           <div class="row mt-5 mb-5">
 
-            <div class="col-6 col-md-3"><a href="#julia" class="scrollSuave opaci muda"><img class="img-fluid" src="<?php echo $devs.'juh1.png'; ?>"></a></div>
-            <div class="col-6 col-md-3"><a href="#hao" class="scrollSuave opaci muda"><img class="img-fluid" src="<?php echo $devs.'vini1.png'; ?>"></a></div>
+            <div class="col-6 col-md-3 mb-5 mb-md-0"><a href="#julia" class="scrollSuave opaci muda"><img class="img-fluid" src="<?php echo $devs.'juh1.png'; ?>"></a></div>
+            <div class="col-6 col-md-3 mb-5 mb-md-0"><a href="#hao" class="scrollSuave opaci muda"><img class="img-fluid" src="<?php echo $devs.'Hao1.png'; ?>"></a></div>
             <div class="col-6 col-md-3"><a href="#vini" class="scrollSuave opaci muda"><img class="img-fluid" src="<?php echo $devs.'vini1.png'; ?>"></a></div>
             <div class="col-6 col-md-3"><a href="#dani" class="scrollSuave opaci muda"><img class="img-fluid" src="<?php echo $devs.'dani2.png'; ?>"></a></div>
 
@@ -58,9 +58,9 @@
       <!-- Julia !-->
       <!-- 0 !--><div class="row mb-5">
 
-        <!-- 1 !--><div class="col-12 col-lg-3 mb-4 mt-lg-0"><center><img class="img-fluid" src="<?php echo $devs.'juh2.png'; ?>"></center></div><!-- /1 !-->
+        <!-- 1 !--><div class="col-12 col-lg-3 mb-4 mt-lg-0"><center><img id="julia" class="img-fluid" src="<?php echo $devs.'juh2.png'; ?>"></center></div><!-- /1 !-->
         <!-- 2 !--><div class="col-12 col-lg-9 text-justify mt-3">
-        <h1 class="font-antic mt-0 mb-5 font-s-30 "> <span id="julia" class="pb-md-2" style="border-bottom: #00FE00 solid 3px;">Julia Oliveira</span> </h1>
+        <h1 class="font-antic mt-0 mb-5 font-s-30 "> <span class="pb-md-2" style="border-bottom: #00FE00 solid 3px;">Julia Oliveira</span> </h1>
         <p class="recuo font-s-18 font-s-md-16"> Nasceu em fevereiro de 2003. Gosta de esportes aquáticos, livros e tem grande interessem em tecnologia. Pretende seguir na área da saúde. </p>
             <!-- 3 !--><div class="row mt-5">
                 <!-- 4 !--><div class="col-8">
@@ -92,9 +92,9 @@
         <!-- Hao !-->
         <!-- 0 !--><div class="row mb-5">
 
-        <!-- 1 !--><div class="col-12 col-lg-3 mb-4 mt-lg-0"><center><img class="img-fluid" src="<?php echo $autor.'charles_perrault.png'; ?>"></center></div><!-- /1 !-->
+        <!-- 1 !--><div class="col-12 col-lg-3 mb-4 mt-lg-0"><center><img id="hao" class="img-fluid" src="<?php echo $devs.'Hao2.png'; ?>"></center></div><!-- /1 !-->
         <!-- 2 !--><div class="col-12 col-lg-9 text-justify mt-3">
-        <h1 class="font-antic mt-0 mb-5 font-s-30 "> <span id="hao" class="pb-md-2" style="border-bottom: #FF7F00 solid 3px;">Hao Zheng</span> </h1>
+        <h1 class="font-antic mt-0 mb-5 font-s-30 "> <span class="pb-md-2" style="border-bottom: #FF7F00 solid 3px;">Hao Zheng</span> </h1>
         <p class="recuo font-s-18 font-s-md-16"> Nasceu em junho de 2003. Gosta de ler, jogar e estudar. Tem grande interesse em idiomas, histórias e pretende seguir na área da tecnologia e inovação. </p>
             <!-- 3 !--><div class="row mt-5">
                 <!-- 4 !--><div class="col-8">
@@ -125,9 +125,9 @@
         <!-- Vini !-->
         <!-- 0 !--><div class="row mb-5">
 
-        <!-- 1 !--><div class="col-12 col-lg-3 mb-4 mt-lg-0 order-1 order-lg-2"><center><img class="img-fluid" src="<?php echo $devs.'vini2.png'; ?>"></center></div><!-- /1 !-->
+        <!-- 1 !--><div class="col-12 col-lg-3 mb-4 mt-lg-0 order-1 order-lg-2"><center><img id="vini" class="img-fluid" src="<?php echo $devs.'vini2.png'; ?>"></center></div><!-- /1 !-->
         <!-- 2 !--><div class="col-12 col-lg-9 text-justify mt-3 order-2 order-lg-1">
-        <h1 class="font-antic mt-0 mb-5 font-s-30 "> <span id="vini" class="pb-md-2" style="border-bottom:  #00FEFE solid 3px;">Vinícius Bazan</span> </h1>
+        <h1 class="font-antic mt-0 mb-5 font-s-30 "> <span class="pb-md-2" style="border-bottom:  #00FEFE solid 3px;">Vinícius Bazan</span> </h1>
         <p class="recuo font-s-18 font-s-md-16"> Nasceu em janeiro de 2003. Possui grande interesse na área de tecnologia, gosta de jogos eletrônicos, músicas e da cultura japonesa. Pretende seguir na área de desenvolvimento web. </p>
             <!-- 3 !--><div class="row mt-5">
                 <!-- 4 !--><div class="col-8 order-2">
@@ -161,9 +161,9 @@
         <!-- Dani !-->
         <!-- 0 !--><div class="row mb-5">
 
-        <!-- 1 !--><div class="col-12 col-lg-3 mb-4 mt-lg-0 order-1 order-lg-2"><center><img class="img-fluid" src="<?php echo $devs.'dani1.png'; ?>"></center></div><!-- /1 !-->
+        <!-- 1 !--><div class="col-12 col-lg-3 mb-4 mt-lg-0 order-1 order-lg-2"><center><img id="dani" class="img-fluid" src="<?php echo $devs.'dani1.png'; ?>"></center></div><!-- /1 !-->
         <!-- 2 !--><div class="col-12 col-lg-9 text-justify mt-3 order-2 order-lg-1">
-        <h1 class="font-antic mt-0 mb-5 font-s-30 "> <span id="dani" class="pb-md-2" style="border-bottom: #CFBFFF solid 3px;">Daniela Houck</span> </h1>
+        <h1 class="font-antic mt-0 mb-5 font-s-30 "> <span class="pb-md-2" style="border-bottom: #CFBFFF solid 3px;">Daniela Houck</span> </h1>
         <p class="recuo font-s-18 font-s-md-16"> Nasceu em dezembro de 2003. Gosta de tecnologia e pretende seguir na área. Também tem grande interesse em esportes, viagens, astronomia e crianças.</p>
             <!-- 3 !--><div class="row mt-5">
                 <!-- 4 !--><div class="col-8 order-2">

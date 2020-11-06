@@ -80,7 +80,7 @@
   color: rgba(255, 255, 255, 0.6) !important; }
 
 .wt-geral {
-  width: 94% !important; }
+  width: 90% !important; }
 
 .opaci-son:hover * {
   opacity: .5; }
@@ -89,7 +89,7 @@
   opacity: .5; }
 
 .muda {
-  transition: all 0.8s; }
+  transition: all 0.8s !important; }
 
 .logo-wt {
   width: 120px;
@@ -112,6 +112,13 @@
 .peaple-wt {
   width: 5em;
   height: 5em; }
+
+.mental {
+  position: absolute;
+  width: 320px;
+  height: auto;
+  left: 50%;
+  margin-left: -160px; }
 
 .selo-pos {
   position: absolute;
@@ -167,6 +174,9 @@
 .font-s-30 {
   font-size: 3em; }
 
+.font-s-35 {
+  font-size: 3.5em; }
+
 .font-s-40 {
   font-size: 4em; }
 
@@ -204,6 +214,8 @@
     font-size: 2em; }
   .font-s-md-30 {
     font-size: 3em; }
+  .font-s-md-35 {
+    font-size: 3.5em; }
   .font-s-md-40 {
     font-size: 4em; } }
 
@@ -8974,7 +8986,8 @@ a.text-color-light-1:hover, a.text-color-light-1:focus {
   opacity: 1; }
 
 .recuo {
-  text-indent: 10px; }
+  text-indent: 10px;
+  line-height: 1.7; }
 
 .light {
   --bg: var(--color-light-1);
@@ -8983,7 +8996,13 @@ a.text-color-light-1:hover, a.text-color-light-1:focus {
   --fill-hover: rgba(0,0,0,.7);
   --border-fill: black;
   --bg-cap: var(--color-red-2);
-  --border-cap: var(--color-red-1); }
+  --border-cap: var(--color-red-1);
+  --purple-dest: var(--color-purple);
+  --bg-dif: url(../img/bg/bg3.png);
+  --color-timeline: black;
+  --color-seta: #05B3B1;
+  --peaple-light: inline;
+  --peaple-dark: none; }
 
 .dark {
   --bg: var(--color-dark-1);
@@ -8992,13 +9011,34 @@ a.text-color-light-1:hover, a.text-color-light-1:focus {
   --fill-hover: rgba(255,255,255,.7);
   --border-fill: white;
   --bg-cap: var(--color-red-1);
-  --border-cap: var(--color-red-2); }
+  --border-cap: var(--color-red-2);
+  --purple-dest: #CFBFFF;
+  --bg-dif: url(../img/bg/bg2.png);
+  --color-timeline: white;
+  --color-seta: #cc0000;
+  --peaple-light: none;
+  --peaple-dark: inline; }
+
+#pea-dark {
+  display: var(--peaple-dark); }
+
+#pea-light {
+  display: var(--peaple-light); }
+
+.bg-dif {
+  background-image: var(--bg-dif); }
+
+.dest-purple {
+  color: var(--purple-dest); }
 
 #contBg {
   background-color: var(--bg) !important;
   color: var(--text) !important; }
 
 .switch-icon {
+  fill: var(--fill) !important; }
+
+.switch-icon-nohover {
   fill: var(--fill) !important; }
 
 .switch-icon:hover {
@@ -9010,6 +9050,16 @@ a.text-color-light-1:hover, a.text-color-light-1:focus {
 .switch-cap {
   border-color: var(--border-cap) !important;
   background-color: var(--bg-cap) !important; }
+
+.ancora {
+  text-decoration: none !important;
+  color: var(--text);
+  transition: all 0.1s !important; }
+
+.ancora:hover {
+  text-decoration: none !important;
+  color: var(--color-seta);
+  transition: all 0.1s !important; }
 
 #dark, #light {
   cursor: pointer; }
@@ -9024,3 +9074,123 @@ a[href="#top"] {
 
 a[href="#top"]:hover {
   text-decoration: none; }
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: var(--color-timeline);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+  transition: all 0.8s; }
+
+/* Container around content */
+.container-t {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%; }
+
+/* The circles on the timeline */
+.container-t::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -12.5px;
+  background-color: #CFBFFF;
+  border: 4px solid var(--color-timeline);
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+  transition: all 0.8s; }
+
+/* Place the container to the left */
+.left-t {
+  left: 0; }
+
+/* Place the container to the right */
+.right-t {
+  left: 50%; }
+
+/* Add arrows to the left container (pointing right) */
+.left-t::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent var(--color-seta);
+  transition: all 0.8s; }
+
+/* Add arrows to the right container (pointing left) */
+.right-t::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent var(--color-seta) transparent transparent;
+  transition: all 0.8s; }
+
+/* Fix the circle for containers on the right side */
+.right-t::after {
+  left: -12.5px; }
+
+/* The actual content */
+.content-t {
+  padding: 0px 30px;
+  background-color: transparent;
+  position: relative;
+  border-radius: 6px;
+  transition: all 0.8s; }
+
+.float-time {
+  float: right;
+  transition: all 0.8s; }
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  .float-time {
+    float: none;
+    transition: all 0.8s; }
+  /* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+    transition: all 0.8s; }
+  /* Full-width containers */
+  .container-t {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+    transition: all 0.8s; }
+  /* Make sure that all arrows are pointing leftwards */
+  .container-t::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent var(--color-seta) transparent transparent;
+    transition: all 0.8s; }
+  /* Make sure all circles are at the same spot */
+  .left-t::after, .right-t::after {
+    left: 18px; }
+  /* Make all right containers behave like the left ones */
+  .right-t {
+    left: 0%; } }
