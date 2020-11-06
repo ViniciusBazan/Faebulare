@@ -8,7 +8,6 @@
 <script src="js/bars.js"></script>
 <?php
 if ($pag == "Login.php"){
-    echo "<script src='js/typeUser.js'></script>";
     echo "<script src='js/capsdetector.js'></script>";
     echo "<script src='js/valCamp.js'></script>";
     echo "<script src='js/toolTip.js'></script>";

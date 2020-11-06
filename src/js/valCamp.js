@@ -11,12 +11,6 @@ function validCad(){
     var dominio         = email.value.substring(email.value.indexOf("@")+ 1, email.value.length);
     var senha           = document.getElementById('password');
     var conf            = document.getElementById('conf');
-    var radioConf       = false;
-    var radios          = document.getElementsByName('tipo');
-    var groupSup        = document.getElementById('groupSup');
-    var sup             = document.getElementById('sup');
-    var usuarioSup         = sup.value.substring(0, sup.value.indexOf("@"));
-    var dominioSup         = sup.value.substring(sup.value.indexOf("@")+ 1, sup.value.length);
     var regex     = /^(?=(?:.*?[A-Z]){1})(?=(?:.*?[0-9]){1})(?=(?:.*?[!@#$%*()_+^&}{:;?.]){1})(?=(?:.*?[a-z]){1})(?!.*\s)[0-9a-zA-Z!@#$%;*(){}_+^&]*$/;
 
     // Var de Warnings
@@ -25,8 +19,6 @@ function validCad(){
     var emailWarn       = document.getElementById('WarnEmail');
     var senhaWarn       = document.getElementById('WarnPass');
     var confWarn        = document.getElementById('WarnConf');
-    var radioWarn       = document.getElementById('WarnType');
-    var supWarn        = document.getElementById('WarnES');
 
     // Validação
 
@@ -83,43 +75,6 @@ function validCad(){
             confWarn.style.display = "none";
         }
 
-        // confirmar Radios
-
-        var i = 0;
-        while (!formValid && i < radios.length) {
-        if (radios[i].checked) radioConf = true;
-        i++;        
-        }
-
-        if (radioConf == true){
-            radioWarn.style.display = "none";
-        } else {
-            radioWarn.style.display = "";
-            formValid = false;
-        }
-
-        // Email supervisor
-
-        if (groupSup.style.display === "none"){
-            supWarn.style.display = "none";
-        } else{
-
-            if ((usuarioSup.length >=1) &&
-            (dominioSup.length >=3) &&
-            (usuarioSup.search("@")==-1) &&
-            (dominioSup.search("@")==-1) &&
-            (usuarioSup.search(" ")==-1) &&
-            (dominioSup.search(" ")==-1) &&
-            (dominioSup.search(".")!=-1) &&
-            (dominioSup.indexOf(".") >=1)&&
-            (dominioSup.lastIndexOf(".") < dominioSup.length - 1)) {
-                supWarn.style.display = "none";
-            } else {
-                supWarn.style.display = "";
-                formValid = false;
-            }
-
-        }
 
         // Validar formulario
 

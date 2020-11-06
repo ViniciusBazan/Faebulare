@@ -169,68 +169,7 @@
                     <div class="form-group col-1"></div>
                 </div>
 
-                <!-- Campo de tipo user -->
-
-                    <fieldset class="form-group">
-                        <div class="row">
-                        <div class="form-group col-1"></div>
-                        <legend class="col-form-label col-3 pt-0">Eu sou:</legend>
-                        <div class="col-7">
-                            <div class="form-check">
-                            <input class="form-check-input" type="radio" name="tipo" id="tipo1" value="1">
-                            <label class="form-check-label" for="tipo1">
-                                Criança ou adolescente
-                            </label>
-                            </div>
-                            <div class="form-check">
-                            <input class="form-check-input" type="radio" name="tipo" id="tipo2" value="2">
-                            <label class="form-check-label" for="tipo2">
-                                Responsável legal ou Psicólogo infantil
-                            </label>
-                            </div>
-                        </div>
-                        <div class="form-group col-1"></div>
-                        </div>
-                    </fieldset>
-
-                    <!-- Validação de tipo user -->
-
-                    <div id="WarnType" class="form-row" style="display:none;"> 
-                   <div class="form-group col-1"></div>
-                    <div class="form-group col-10">
-                        
-                    <div class="alert alert-danger" role="alert">
-                        Escolha ao menos 1 das opções!
-                    </div>
-
-                    </div>
-                    <div class="form-group col-1"></div>
-                </div>
-
-                    <!-- Campo de E-mail surpevisor -->
-
-                    <div class="form-row">
-                        <div class="col-1"></div>
-                        <div id="groupSup" class="form-group col-10" style="display:none;">
-                            <label for="sup">E-mail do supervisor:</label><span class="iconInfo" data-toggle="tooltip" data-html="true" title="<strong>Preencha com um email do seu supervisor que já esteja registrado no sistema.</strong>"><?php echo $info; ?></span>
-                            <input type="email" class="form-control" id="sup" name="sup" placeholder="Campo desativado"  disabled>
-                        </div>
-                        <div class="col-1"></div>
-                    </div>
-
-                    <!-- Validação de E-mail surpevisor -->
-
-                    <div id="WarnES" class="form-row" style="display:none;"> 
-                   <div class="form-group col-1"></div>
-                    <div class="form-group col-10">
-                        
-                    <div class="alert alert-danger" role="alert">
-                        E-mail do supervisor inválido! Preencha corretamente.
-                    </div>
-
-                    </div>
-                    <div class="form-group col-1"></div>
-                </div>
+                
 
 
                 <!-- Botão de cadastrar -->
