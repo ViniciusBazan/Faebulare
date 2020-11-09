@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 // Definindo variaveis padrão
 
 /* sources */
@@ -20,6 +22,10 @@ $sep           = DIRECTORY_SEPARATOR;
     $autor         = $pathImg.'autores'.$sep;
     $bg            = $pathImg.'bg'.$sep;
     $devs          = $pathImg.'devs'.$sep;
+
+    //DB
+
+    $dbConn = "db_conn.php";
 
 /* Nome do arquivo em execução */
 

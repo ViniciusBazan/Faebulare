@@ -1,4 +1,10 @@
-<?php require_once 'inc'.DIRECTORY_SEPARATOR.'config.php'; ?>
+<?php require_once 'inc'.DIRECTORY_SEPARATOR.'config.php'; 
+
+if (isset($_SESSION['id_user'])){
+    header('Location: index.php');
+}
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -15,13 +21,32 @@
 
     <div class="container-fluid mt-5  wt-geral text-white" style="min-height:82vh;">
 
+    <?php
+
+    if (isset($_GET['cadFail'])){
+        echo '<div class="alert alert-danger alert-dismissible fade show" role="alert"><strong>Esse e-mail já foi cadastrado anteriormente!</strong> Cadastre outro e-mail ou faça login com outra conta.<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>';
+    }
+
+    if (isset($_GET['cadSuc'])){
+        echo '<div class="alert alert-success alert-dismissible fade show" role="alert"><strong>Cadastro feito com sucesso!</strong> Agora faça login para continuar.<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>';
+    }
+
+    if (isset($_GET['logFail'])){
+        echo '<div class="alert alert-danger alert-dismissible fade show" role="alert"><strong>Não foi possível verificar suas credenciais!</strong> E-mail ou senha incorretos.<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>';
+    }
+
+    if (isset($_GET['encSuc'])){
+        echo '<div class="alert alert-success alert-dismissible fade show" role="alert"><strong>Sua sessão foi encerrada com sucesso!</strong><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>';
+    }
+    ?>
+
         <div class="row">
 
             <!-- Cadastro -->
 
             <div class="col-12 col-xl-6 mt-5 mt-xl-0 border-xl-right  border-color-red-2 order-2 order-xl-1">
                 <h2 class="font-antic text-center">Não tem login? Cadastre-se</h2>
-                <form name="formCad" id="formCad" action="#" method="post">
+                <form name="formCad" id="formCad" action="inc/db_cad.php" method="post">
 
                 <!-- Campos de Nome e Sobrenome -->
 
@@ -185,7 +210,7 @@
 
             <div class="col-12 col-xl-6 border-lg-bottom order-1 border-color-red-2 order-xl-2 pb-4 pb-xl-0">
                 <h2 class="font-antic text-center mb-md-5">Faça o login</h2>
-                <form>
+                <form name="formLog" id="formLog" action="inc/db_log.php" method="post">
                    <div class="form-row"> 
                    <div class="form-group col-1 col-md-2"></div>
                     <div class="form-group col-10 col-md-8">

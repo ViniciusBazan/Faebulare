@@ -55,10 +55,16 @@
         <li class="nav-item">
             <a class="nav-link muda font-s-12 mt-lg-4 mr-lg-4" href="cont_Quem_somos.php">Sobre nós</a>
         </li>
-    
-        <li class="nav-item  ml-auto">
-            <a class="nav-link muda font-s-12 mt-lg-4 opaci-son mr-lg-3" href="Login.php"><img src="img/not_login.png" class="login-wt muda"> Faça Login</a>
-        </li>
+
+        <?php
+
+        if (isset($_SESSION['id_user'])){
+            echo "<li class='nav-item dropdown ml-auto'><a class='nav-link muda font-s-12 mt-lg-4 opaci-son mr-lg-3 dropdown-toggle' data-toggle='dropdown' id='navdrop2' href='#'><img src='img/login.png' class='login-wt muda'> Olá, ".$_SESSION['nome']."</a><div class='dropdown-menu navbar-dark bg-color-dark-2'><a class='dropdown-item muda mb-2' href='inc/db_enc.php'>Encerrar sessão</a></div></li>";
+        } else{
+            echo '<li class="nav-item  ml-auto"><a class="nav-link muda font-s-12 mt-lg-4 opaci-son mr-lg-3" href="Login.php"><img src="img/not_login.png" class="login-wt muda"> Faça Login</a></li>';
+        }
+
+        ?>
 
     </ul>
 
