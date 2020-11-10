@@ -15,8 +15,8 @@
 
         <div class="position-absolute" style="right:80px;top:200px;">
             <h1 class="font-antic">Perrault, Grimm,</h1>
-            <h1 class="font-antic">Andersen</h1>
-            <h1 class="font-antic">& outros.</h1>
+            <h1 class="font-antic"> Andersen</h1>
+            <h1 class="font-antic"> & outros.</h1>
         </div>
 
     
@@ -24,6 +24,8 @@
         <img src="<?php echo $pathImg.'livros.png' ?>" class="" style="width:100%;height:430px;object-fit: cover;object-position: center 32%;"> 
 
         <div class="container-fluid mt-4  wt-geral  position-relative" style="min-height:81vh;">
+		
+		<center><h1 class="font-london mt-5 mb-5">Mini Biografias dos principais autores citados </h1></center>
 
         <center><h1 class="font-antic mt-5 mb-5"> <span style="border-bottom: #CFBFFF solid 3px;">Charles Perrault</span> </h1></center>
 

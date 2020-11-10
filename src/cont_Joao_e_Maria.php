@@ -32,7 +32,7 @@
         <p class="text-justify mb-4 font-s-11 recuo"><span class="font-london font-s-30 mr-2 px-3 border switch-cap text-white muda" style="line-height: 1;">A</span>i daquele que pensa em encontrar uma governanta para seus filhos dando-lhes uma madrasta! Ele apenas traz para sua casa a causa de sua ruína. Nunca houve uma madrasta que olhasse com benevolência para os filhos de outra pessoa; ou se por acaso alguém assim fosse encontrado, ela seria considerada um milagre e seria chamada de corvo branco. Mas, além de todos aqueles de quem você pode ter ouvido, vou agora lhe contar sobre outra, para ser adicionada à lista das madrastas sem coração, que você considerará bem merecedoras do castigo que ela comprou para si com dinheiro disponível.</p>
         <div class="row mb-4">
 
-            <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/img20.jpg);width:100%;height:100%;"></div></div>
+            <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/JM_5.png);width:100%;height:100%;"></div></div>
             <div class="col-12 col-md-8 text-justify font-s-11"> 
               <p class="mb-4 recuo">Era uma vez um bom homem chamado Jannuccio, que tinha dois filhos, Nennillo e Nennella, a quem amava tanto quanto sua própria vida. Mas tendo a Morte, com a lima fila do Tempo, cortado as grades da prisão da alma de sua esposa, ele tomou para si uma mulher cruel, que mal havia posto os pés em sua casa, ela começou a montar no cavalo alto, dizendo:</p> 
               <p class="mb-4 recuo"> "Vim aqui, de fato, para cuidar dos filhos de outras pessoas? Um belo trabalho que empreendi, para ter todos esses problemas e ser incomodado para sempre por um casal de pirralhos gritando! Quem dera eu tivesse quebrado o pescoço antes de vir a este lugar, ter comida ruim, bebida pior e não dormir à noite! Aqui está uma vida para levar! Certamente, vim como uma esposa, não como uma serva; mas devo encontrar um meio de me livrar dessas criaturas, ou me custou minha vida: melhor corar uma vez do que ficar pálido cem vezes; portanto, acabei com eles, pois estou decidido a mandá-los embora ou a sair de casa para sempre."</p>
@@ -44,7 +44,7 @@
 
             
           <div class="col-12 col-md-8 text-justify font-s-11"> <p class="mb-4 recuo">O pobre marido, que tinha alguma afeição por esta mulher, disse-lhe: "Calma, mulher! Não te zangues, porque o açúcar é caro; e amanhã de manhã, antes que o galo cante, vou tirar este aborrecimento para agradar vocês." <br> Então, na manhã seguinte, antes que a Aurora pendurasse a colcha vermelha na janela do Leste para arejá-la, Jannuccio pegou as crianças, uma por cada mão, e com um bom cesto cheio de coisas para comer no braço, conduziu-as para um bosque, onde um exército de choupos e faias mantinham as sombras sitiadas.<br> Então Jannuccio disse: "Meus filhinhos, fiquem aqui neste bosque, e comam e bebam alegremente; mas se vocês quiserem alguma coisa, sigam esta linha de cinzas que eu tenho espalhado enquanto avançávamos; esta será uma pista para guiá-los sair do labirinto e levá-lo direto para casa."</p> </div>
-          <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/img43.jpg);width:100%;height:100%;"></div></div>
+          <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/JM_2.jpg);width:100%;height:100%;"></div></div>
             
 
         </div>
@@ -54,7 +54,7 @@
 
         <div class="row mb-4">
 
-            <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/img2.jpg);width:100%;height:100%;background-position: center 70%;"></div></div>
+            <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/JM_4.png);width:100%;height:100%;background-position: center 70%;"></div></div>
             <div class="col-12 col-md-8 text-justify font-s-11"> 
               <p class="mb-4 recuo">Pobre Jannuccio, que viu que as coisas estavam ficando muito quentes, imediatamente pegou os mais pequenos e voltou para o bosque; ao dar aos filhos outra cesta cheia de comida, disse-lhes: <br> <br> "Vejam, meus queridos, como esta minha esposa - que veio a minha casa para ser sua ruína e um prego em meu coração - os odeia; fica nesta floresta, onde as árvores, mais compassivas, te darão abrigo do sol; onde o rio, mais caridoso, te dará de beber sem veneno; e a terra, mais gentil, te dará um travesseiro de grama sem perigo . E quando você quiser comida, siga este pequeno caminho de farelo que eu fiz para você em linha reta, e você pode vir e buscar o que precisar."</p>
               <p class="mb-4 recuo">Dizendo isso, ele virou o rosto, para não se deixar ver chorar e desanimar as pobres criaturinhas.Depois de Nennillo e Nennella terem comido tudo o que havia na cesta, eles quiseram voltar para casa; mas ai! um asno - o filho do azar - havia comido todo o farelo espalhado no chão; assim, eles se perderam e vagaram desamparados na floresta por vários dias, alimentando-se de bolotas e castanhas que encontraram caídas no chão.</p>
@@ -75,7 +75,7 @@
 		  <p class="mb-4 recuo">Nennillo a princípio não deu atenção à voz, mas o príncipe, que estava em outra sacada e também a ouvira, virou-se na direção de onde vinha o som e viu o peixe. E quando ele ouviu novamente as mesmas palavras, ele ficou fora de si de espanto, e ordenou que vários servos tentassem de alguma forma pegar o peixe e puxá-lo para a terra.</p>
 		  
 		  </div>
-          <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/img1.png);width:100%;height:100%;"></div></div>
+          <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/JM_3.jpg);width:100%;height:100%;"></div></div>
             
         </div>
 				
@@ -92,7 +92,7 @@
 		
 		 <div class="row mb-4">
 
-            <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/img2.jpg);width:100%;height:100%;background-position: center 70%;"></div></div>
+            <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/JM_6.png);width:100%;height:100%;background-position: center 70%;"></div></div>
             <div class="col-12 col-md-8 text-justify font-s-11"> 
               <p class="mb-4 recuo"> Então o príncipe o fez tirar o paletó e o vestiu como um senhor; e mandando chamar a mulher de Jannuccio, mostrou-lhe aquelas duas pepitas de ouro, perguntou-lhe o que merecia aquela pessoa que lhes fizesse mal e até colocasse em perigo a vida deles.</p>
               <p class="mb-4 recuo">E ela respondeu: "De minha parte, eu a colocaria em um barril fechado e a faria rolar montanha abaixo." <br> "Assim deve ser feito!" disse o príncipe. "A cabra deu uma cabeçada em si mesma. Rápido agora! Você passou a sentença, e deve sofrer, por ter gerado tamanha malícia a esses lindos enteados."</p>

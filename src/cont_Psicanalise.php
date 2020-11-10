@@ -21,7 +21,7 @@
       <div class="col-1 col-md-3"></div>
     </div>
 
-    <img src="<?php echo $bg.'bglivros.png' ?>" class="" style="width:100%;height:490px;object-fit: cover;object-position: center 55%;"> 
+    <img src="<?php echo $bg.'bglivros2.png' ?>" class="" style="width:100%;height:490px;object-fit: cover;object-position: center 55%;"> 
 
         <div class="container-fluid mt-4  wt-geral  position-relative" >
 
