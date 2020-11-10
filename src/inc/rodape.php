@@ -4,7 +4,7 @@
     <div class="container mt-3">
         <div class="row">
             <div class="col-12 col-md-4 mt-md-5 mb-md-2 order-2 order-md-2">
-                <center><p><a class="muda alink" href="index.php">Home</a> / <a class="muda alink" href="cont_Autores.php">Autores</a> / <a class="muda alink" href="Quem_somos.php">Sobre Nós</a></p></center>
+                <center><p><a class="muda alink" href="index.php">Home</a> / <a class="muda alink" href="cont_Autores.php">Autores</a> / <a class="muda alink" href="cont_Quem_somos.php">Sobre Nós</a></p></center>
             </div>
 
             <div class="col-12 col-md-4 mt-md-5 mb-md-2 order-3 order-md-2">
