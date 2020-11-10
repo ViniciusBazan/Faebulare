@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 09-Nov-2020 às 16:03
+-- Tempo de geração: 10-Nov-2020 às 20:53
 -- Versão do servidor: 10.4.13-MariaDB
 -- versão do PHP: 7.4.8
 
@@ -33,10 +33,24 @@ CREATE TABLE `tb_coment` (
   `id_coment` int(255) NOT NULL,
   `id_user` int(255) NOT NULL,
   `id_post` int(255) NOT NULL,
-  `conteudo` varchar(255) NOT NULL,
+  `conteudo` varchar(600) NOT NULL,
   `reply` int(255) DEFAULT NULL,
   `dt_coment` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Extraindo dados da tabela `tb_coment`
+--
+
+INSERT INTO `tb_coment` (`id_coment`, `id_user`, `id_post`, `conteudo`, `reply`, `dt_coment`) VALUES
+(1, 1, 1, 'Teste de comentário. Teste 123 456 789 Teste 123 456 789 Teste 123 456 789 Teste 123 456 789 Teste 123 456 789 Teste 123 456 789 Teste 123 456 789 Teste 123 456 789 Teste 123 456 789 Teste 123 456 789 Teste 123 456 789 Teste 123 456 789 Teste 123 456 789 Teste 123 456 789 Teste 123 456 789 Teste 123 456 789 Teste 123 456 789 Teste 123 456 789 Teste 123 456 789 Teste 123 456 789 Teste 123 456 789 Teste 123 456 789 Teste 123 456 789 Teste 123 456 789 Teste 123 456 789 Teste 123 456 789 Teste 123 456 789 Teste 123 456 789 Teste 123 456 789 Teste 123 456 789', NULL, '2020-11-10 18:15:03'),
+(2, 1, 1, 'Teste de comentário. Teste número 2', NULL, '2020-11-10 18:17:15'),
+(3, 1, 1, 'teste 3', NULL, '2020-11-10 18:18:24'),
+(4, 1, 1, 'Teste 4', NULL, '2020-11-10 18:47:18'),
+(5, 1, 1, 'Teste de comentário', 4, '2020-11-10 23:36:07'),
+(6, 1, 1, 'Teste de comentario nº6', NULL, '2020-11-10 23:44:46'),
+(7, 1, 1, 'Isso é uma resposta', 2, '2020-11-10 23:45:33'),
+(8, 1, 1, 'Teste de html: <strong>Isso está em negrito!</strong>', NULL, '2020-11-10 23:49:46');
 
 -- --------------------------------------------------------
 
@@ -48,6 +62,13 @@ CREATE TABLE `tb_post` (
   `id_post` int(255) NOT NULL,
   `titulo` varchar(256) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Extraindo dados da tabela `tb_post`
+--
+
+INSERT INTO `tb_post` (`id_post`, `titulo`) VALUES
+(1, 'A Bela adormecida - Sol, Lua e Talia');
 
 -- --------------------------------------------------------
 
@@ -72,7 +93,8 @@ CREATE TABLE `tb_usuarios` (
 
 INSERT INTO `tb_usuarios` (`id_user`, `email`, `senha`, `nome`, `sobrenome`, `valid`, `security`, `dt_criar`) VALUES
 (1, 'vinicius.bazan16@gmail.com', 'TUZwMlJHaGtTVlZvWlRseVV6TmtkM0ZRVTBwRWNsRjNWMXB6V0cxT2JsQkNLeTl3UTFwdlQyWkxhejA9', 'Vinícius', 'Bazan', 1, NULL, '2020-11-09 17:49:12'),
-(3, 'vinicius.bazan18@gmail.com', 'TUZwMlJHaGtTVlZvWlRseVV6TmtkM0ZRVTBwRWNsRjNWMXB6V0cxT2JsQkNLeTl3UTFwdlQyWkxhejA9', 'Vinícius', 'Bazan', 1, NULL, '2020-11-09 19:00:52');
+(3, 'vinicius.bazan18@gmail.com', 'TUZwMlJHaGtTVlZvWlRseVV6TmtkM0ZRVTBwRWNsRjNWMXB6V0cxT2JsQkNLeTl3UTFwdlQyWkxhejA9', 'Vinícius', 'Bazan', 1, NULL, '2020-11-09 19:00:52'),
+(4, 'daniela@gmail.com', 'UVVVeldWaHRkVFJCYVVsUFZITlNaMDFZVTFoQ1p6MDk=', 'Daniela', 'Lemmo Houck', 1, NULL, '2020-11-09 20:03:55');
 
 --
 -- Índices para tabelas despejadas
@@ -106,19 +128,19 @@ ALTER TABLE `tb_usuarios`
 -- AUTO_INCREMENT de tabela `tb_coment`
 --
 ALTER TABLE `tb_coment`
-  MODIFY `id_coment` int(255) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_coment` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT de tabela `tb_post`
 --
 ALTER TABLE `tb_post`
-  MODIFY `id_post` int(255) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_post` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT de tabela `tb_usuarios`
 --
 ALTER TABLE `tb_usuarios`
-  MODIFY `id_user` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id_user` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- Restrições para despejos de tabelas

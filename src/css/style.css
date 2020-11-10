@@ -8991,7 +8991,9 @@ a.text-color-light-1:hover, a.text-color-light-1:focus {
 
 .light {
   --bg: var(--color-light-1);
+  --bg-invert: var(--color-dark-1);
   --text: black;
+  --text-invert: white;
   --fill: black;
   --fill-hover: rgba(0,0,0,.7);
   --border-fill: black;
@@ -9006,7 +9008,9 @@ a.text-color-light-1:hover, a.text-color-light-1:focus {
 
 .dark {
   --bg: var(--color-dark-1);
+  --bg-invert: var(--color-light-1);
   --text: white;
+  --text-invert: black;
   --fill: white;
   --fill-hover: rgba(255,255,255,.7);
   --border-fill: white;
@@ -9018,6 +9022,25 @@ a.text-color-light-1:hover, a.text-color-light-1:focus {
   --color-seta: #cc0000;
   --peaple-light: none;
   --peaple-dark: inline; }
+
+.alink-invert {
+  text-decoration: none !important;
+  color: var(--text-invert) !important; }
+
+.alink-normal {
+  text-decoration: none !important;
+  color: var(--text) !important; }
+
+.border-invert {
+  border-color: var(--bg) !important; }
+
+.bg-invert {
+  background-color: var(--bg-invert);
+  color: var(--text-invert); }
+
+.bg-normal {
+  background-color: var(--bg);
+  color: var(--text); }
 
 #pea-dark {
   display: var(--peaple-dark); }

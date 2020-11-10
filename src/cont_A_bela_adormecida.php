@@ -17,6 +17,14 @@
 
     <div class="container-fluid mt-4  wt-geral  position-relative" style="min-height:81vh;">
 
+    <?php
+
+    if (isset($_GET['comentSuc']) && isset($_SESSION['id_user'])){
+      echo '<div id="alertSuccess" class="alert alert-success alert-dismissible fade show mb-5 mt-5" role="alert"><strong>Seu comentário foi feito com sucesso!</strong> <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>';
+    }
+
+    ?>
+
         <div class="position-absolute  rounded-pill switch-border" style="right:0;">
 
         <a id="light" class="m-1" ><?php echo $sun; ?></a>
@@ -88,8 +96,48 @@
         <p class="text-justify mb-4 font-s-11 recuo">Enquanto o rei pronunciava estas palavras, a esposa do cozinheiro, que tinha visto seu marido em perigo, trouxe Sol e Lua. O rei abraçou-os juntamente com Talia e, chorando de alegria, não se fartava nunca de beijá-los e acariciá-los.</p>
         <p class="text-justify mb-5 font-s-11 recuo">Depois de haver destinado uma grande renda ao cozinheiro, e de havê-lo nomeado camareiro-mor do palácio, o rei se casou com Talia, que viveu feliz e contente para sempre com seu marido e filhos, depois de ter experimentado que até mesmo dormindo é possível ser favorecida com a sorte.</p>
 
-        <center><h1 class="font-antic mt-3 mb-2">Fim</h1></center>
+        <center><h1 class="font-antic mt-3 mb-5">Fim</h1></center>
+
+        <hr id="opniao" class="bg-invert mb-5 mt-5">
+
+        <h1 class="text-center mt-5 mb-5 font-antic">Deixe sua opnião</h1>
+
+        <?php
+
+
+        if(isset($_SESSION['id_user'])){
+          echo "<form id='formComent' name='formComent' action='inc/db_coment.php?post=1' method='post' class='mb-5'>";
+          echo "<div class='form-group'>
+          <label class='font-s-11' for='coment'>Digite seu comentário aqui <strong>".$_SESSION['nome']." ".$_SESSION['ltname'].".</strong> Você tem <span class='caracteres' style='color:green;'>600</span> caracteres restantes. <span id='replyText'></span></label>
+          <textarea class='form-control' id='coment' name='coment' rows='5' style='resize: none' maxlength='600'></textarea>
+          </div>
+          <span id='replySpan' style='display:none;'></span>";
+          echo '<div class="form-group">
+                  <center><button type="submit" id="env" class="btn btn-color-green-2 mt-3 border border-color-green-1 px-5 py-2">Enviar comentário</button></center>
+                </div>';
+          echo "</form>";
+        }else{
+          echo '<div class="alert alert-info mb-5 text-justify" role="alert">';
+          echo 'Você está deslogado! para deixar um comentário é necessário <a href="Login.php" class="alert-link">fazer login ou cadastrar-se primeiro</a> antes de interagir com outros usuários.';
+          echo '</div>';  
+        }
+
+        require_once 'inc/db_inc_coment.php';
+
+        exibiComentario(1);
+
+        ?>
         
+        
+          
+
+
+
+        </div>
+
+
+
+
 
     </div>
 

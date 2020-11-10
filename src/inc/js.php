@@ -16,6 +16,9 @@ if ($pagForm == "Login"){
 if ($verCont){
     echo "<script src='js/switch.js'></script>";
     echo "<script src='js/topo.js'></script>";
+    echo "<script src='js/caracteres.js'></script>";
+    echo "<script src='js/reply.js'></script>";
+    echo "<script src='js/scrollSuave.js'></script>";
 }
 
 if ($pag == "cont_Quem_somos.php" || $pag == "cont_Psicanalise.php"){

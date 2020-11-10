@@ -423,7 +423,9 @@ $font-family-sans-serif : "Andika New Basic",-apple-system, BlinkMacSystemFont, 
 
 .light{
     --bg : var(--color-light-1);
+    --bg-invert: var(--color-dark-1);
     --text: black;
+    --text-invert: white;
     --fill: black;
     --fill-hover: rgba(0,0,0,.7);
     --border-fill: black;
@@ -443,7 +445,9 @@ $font-family-sans-serif : "Andika New Basic",-apple-system, BlinkMacSystemFont, 
 
 .dark{
     --bg : var(--color-dark-1);
+    --bg-invert: var(--color-light-1);
     --text: white;
+    --text-invert: black;
     --fill: white;
     --fill-hover: rgba(255,255,255,.7);
     --border-fill: white;
@@ -459,6 +463,31 @@ $font-family-sans-serif : "Andika New Basic",-apple-system, BlinkMacSystemFont, 
     //peaple
     --peaple-light: none;
     --peaple-dark: inline;
+}
+
+.alink-invert{
+    text-decoration: none !important;
+    color: var(--text-invert) !important;
+}
+
+.alink-normal{
+    text-decoration: none !important;
+    color: var(--text) !important;
+}
+
+
+.border-invert{
+    border-color: var(--bg) !important;
+}
+
+.bg-invert{
+    background-color: var(--bg-invert);
+    color: var(--text-invert);
+}
+
+.bg-normal{
+    background-color: var(--bg);
+    color: var(--text);
 }
 
 #pea-dark{
