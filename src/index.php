@@ -34,7 +34,7 @@
   </ol>
   <center><div class="carousel-inner" style="width:90%;height:auto;">
     <div class="carousel-item active">
-	<a href="cont_Chepeuzinho_Vermelho.php">
+	<a href="cont_Chapeuzinho_Vermelho.php">
       <img class="d-block w-100" src="<?php echo $slide.'chapeuzinho.png' ?>" alt="Primeiro Slide">
       <div class="carousel-caption d-none d-md-block">
         <h3 style="background-color: rgba(0,0,0,.4)"><strong>Chapeuzinho vermelho</strong></h5>
