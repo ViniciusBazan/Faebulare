@@ -21,7 +21,7 @@ require_once $dbConn;
 
 // Verifica se é uma resposta e prossegue de duas formas dependendo da decisão
 
-$coment = $_POST['coment'];
+$coment = strip_tags($_POST['coment']);
 $posta  = $_GET['post'];
 $idUser = $_SESSION['id_user'];
 

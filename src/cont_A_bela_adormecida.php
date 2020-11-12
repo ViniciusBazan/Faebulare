@@ -109,11 +109,12 @@
           echo "<form id='formComent' name='formComent' action='inc/db_coment.php?post=1' method='post' class='mb-5'>";
           echo "<div class='form-group'>
           <label class='font-s-11' for='coment'>Digite seu comentário aqui <strong>".$_SESSION['nome']." ".$_SESSION['ltname'].".</strong> Você tem <span class='caracteres' style='color:green;'>600</span> caracteres restantes. <span id='replyText'></span></label>
-          <textarea class='form-control' id='coment' name='coment' rows='5' style='resize: none' maxlength='600'></textarea>
+          <textarea class='form-control' id='coment' name='coment' rows='5' style='resize: none' maxlength='600' required></textarea>
           </div>
           <span id='replySpan' style='display:none;'></span>";
-          echo '<div class="form-group">
-                  <center><button type="submit" id="env" class="btn btn-color-green-2 mt-3 border border-color-green-1 px-5 py-2">Enviar comentário</button></center>
+          echo '<div id="alertShort" style="display:none;" class="alert alert-warning alert-dismissible fade show mb-0 mt-0" role="alert"><strong>Seu comentário é muito curto!</strong> Escreva ao menos 20 caracteres antes de enviar </div>
+                <div class="form-group">
+                  <center><button type="button" id="env" class="btn btn-color-green-2 mt-3 border border-color-green-1 px-5 py-2" onclick="valComent()">Enviar comentário</button></center>
                 </div>';
           echo "</form>";
         }else{
