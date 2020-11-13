@@ -47,7 +47,7 @@ function exibiComentario($post){
                 </div>";
 
         $reply   = $row['id_coment'];
-        $result3 = $conn->query("SELECT tb_usuarios.nome, tb_usuarios.sobrenome, tb_coment.conteudo, tb_coment.dt_coment FROM tb_coment INNER JOIN tb_usuarios ON tb_coment.id_user=tb_usuarios.id_user INNER JOIN tb_post ON tb_coment.id_post=tb_post.id_post WHERE tb_coment.id_post = '$post' AND tb_coment.reply = '$reply' ORDER BY tb_coment.dt_coment DESC");
+        $result3 = $conn->query("SELECT tb_usuarios.nome, tb_usuarios.sobrenome, tb_coment.conteudo, tb_coment.dt_coment FROM tb_coment INNER JOIN tb_usuarios ON tb_coment.id_user=tb_usuarios.id_user INNER JOIN tb_post ON tb_coment.id_post=tb_post.id_post WHERE tb_coment.id_post = '$post' AND tb_coment.reply = '$reply' ORDER BY tb_coment.dt_coment ASC");
         while($row2 = $result3->fetch_array()){
 
             echo "<div class='col-1'></div>
