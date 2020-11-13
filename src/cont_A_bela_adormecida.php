@@ -98,6 +98,19 @@
 
         <center><h1 class="font-antic mt-3 mb-5">Fim</h1></center>
 
+        <?php if(!isset($_SESSION['id_user'])){
+
+        echo '<div class="alert alert-info  mt-3 mb-5 text-justify" role="alert">';
+        echo 'Você está deslogado! para gerar um certificado é necessário <a href="Login.php" class="alert-link">fazer login ou cadastrar-se primeiro.</a>';
+        echo '</div>';
+
+        } else{
+          echo '<center><a href="gerar_cert.php?post=1" target="_blank"><button type="button" id="env" class="btn btn-color-blue-3 mt-0 mb-1 border border-color-blue-1 px-5 py-2">Gerar certificado</button></a></center>';
+        }
+        
+        ?>
+        
+
         <hr id="opniao" class="bg-invert mb-5 mt-5">
 
         <h1 class="text-center mt-5 mb-5 font-antic">Deixe sua opnião</h1>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 10-Nov-2020 às 20:53
+-- Tempo de geração: 13-Nov-2020 às 17:41
 -- Versão do servidor: 10.4.13-MariaDB
 -- versão do PHP: 7.4.8
 
@@ -50,7 +50,16 @@ INSERT INTO `tb_coment` (`id_coment`, `id_user`, `id_post`, `conteudo`, `reply`,
 (5, 1, 1, 'Teste de comentário', 4, '2020-11-10 23:36:07'),
 (6, 1, 1, 'Teste de comentario nº6', NULL, '2020-11-10 23:44:46'),
 (7, 1, 1, 'Isso é uma resposta', 2, '2020-11-10 23:45:33'),
-(8, 1, 1, 'Teste de html: <strong>Isso está em negrito!</strong>', NULL, '2020-11-10 23:49:46');
+(8, 1, 1, 'Teste de html: <strong>Isso está em negrito!</strong>', NULL, '2020-11-10 23:49:46'),
+(9, 1, 1, 'adadasdaddadasdadadadadada adadasdaddadasdadadadadada adadasdaddadasdadadadadada adadasdaddadasdadadadadada adadasdaddadasdadadadadada adadasdaddadasdadadadadada adadasdaddadasdadadadadada  aaaaaaaaaa adadasdaddadasdadadadadada adadasdaddadasdadadadadada adadasdaddadasdadadadadada adadasdaddadasdadadadadada adadasdaddadasdadadadadada adadasdaddadasdadadadadada adadasdaddadasdadadadadada adadasdaddadasdadadadadada  adadasdaddadasdadadadadada adadasdaddadasdadadadadada adadasdaddadasdadadadadada adadasdaddadasdadadadadada adadasdaddadasdadadadadada adadasdaddadasdadadadadada adadasdaddadasdadada', NULL, '2020-11-11 00:03:32'),
+(10, 1, 1, 'dadadasda afdadasd', 4, '2020-11-11 00:04:27'),
+(11, 5, 1, 'Teste de comentario do Douglas Teste de comentario do DouglasTeste de comentario do DouglasTeste de comentario do DouglasTeste de comentario do DouglasTeste de comentario do DouglasTeste de comentario do DouglasTeste de comentario do DouglasTeste de comentario do DouglasTeste de comentario do DouglasTeste de comentario do DouglasTeste de comentario do DouglasTeste de comentario do DouglasTeste de comentario do DouglasTeste de comentario do DouglasTeste de comentario do DouglasTeste de comentario do DouglasTeste de comentario do DouglasTeste de comentario do DouglasTeste de comentario do Dougla', NULL, '2020-11-12 16:49:14'),
+(12, 5, 1, 'adaddaadwawdawdaw', 9, '2020-11-12 16:50:00'),
+(13, 5, 1, '<span style=\'color:red;\'>Isso aqui vai ficar em vermelho</span> ', NULL, '2020-11-12 16:51:52'),
+(14, 1, 1, 'Testando a segurança ao enviar tags', NULL, '2020-11-12 18:48:27'),
+(15, 1, 1, 'teste 2', NULL, '2020-11-12 18:48:55'),
+(16, 1, 1, 'testando 20 caracteres mínimos', NULL, '2020-11-12 19:06:58'),
+(17, 1, 1, 'Aqui tem o suficiente para ser enviado, além de ter um strong vermelho', NULL, '2020-11-12 19:28:21');
 
 -- --------------------------------------------------------
 
@@ -68,7 +77,17 @@ CREATE TABLE `tb_post` (
 --
 
 INSERT INTO `tb_post` (`id_post`, `titulo`) VALUES
-(1, 'A Bela adormecida - Sol, Lua e Talia');
+(1, 'A Bela adormecida'),
+(2, 'A Bela e a Fera'),
+(3, 'A princesa e o sapo'),
+(4, 'Branca de neve'),
+(5, 'Chapeuzinho vermelho'),
+(6, 'Cinderela'),
+(7, 'João e Maria'),
+(8, 'O gato de botas'),
+(9, 'A Pequena sereia'),
+(10, 'Pinoquio'),
+(11, 'Rapunzel');
 
 -- --------------------------------------------------------
 
@@ -94,7 +113,8 @@ CREATE TABLE `tb_usuarios` (
 INSERT INTO `tb_usuarios` (`id_user`, `email`, `senha`, `nome`, `sobrenome`, `valid`, `security`, `dt_criar`) VALUES
 (1, 'vinicius.bazan16@gmail.com', 'TUZwMlJHaGtTVlZvWlRseVV6TmtkM0ZRVTBwRWNsRjNWMXB6V0cxT2JsQkNLeTl3UTFwdlQyWkxhejA9', 'Vinícius', 'Bazan', 1, NULL, '2020-11-09 17:49:12'),
 (3, 'vinicius.bazan18@gmail.com', 'TUZwMlJHaGtTVlZvWlRseVV6TmtkM0ZRVTBwRWNsRjNWMXB6V0cxT2JsQkNLeTl3UTFwdlQyWkxhejA9', 'Vinícius', 'Bazan', 1, NULL, '2020-11-09 19:00:52'),
-(4, 'daniela@gmail.com', 'UVVVeldWaHRkVFJCYVVsUFZITlNaMDFZVTFoQ1p6MDk=', 'Daniela', 'Lemmo Houck', 1, NULL, '2020-11-09 20:03:55');
+(4, 'daniela@gmail.com', 'UVVVeldWaHRkVFJCYVVsUFZITlNaMDFZVTFoQ1p6MDk=', 'Daniela', 'Lemmo Houck', 1, NULL, '2020-11-09 20:03:55'),
+(5, 'douglas@gmail.com', 'WjNkcmQxb3lTR3gyUkN0VFozWTVla3hzT0dsWlVUMDk=', 'Douglas', 'De lima', 1, NULL, '2020-11-12 16:46:40');
 
 --
 -- Índices para tabelas despejadas
@@ -128,19 +148,19 @@ ALTER TABLE `tb_usuarios`
 -- AUTO_INCREMENT de tabela `tb_coment`
 --
 ALTER TABLE `tb_coment`
-  MODIFY `id_coment` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id_coment` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT de tabela `tb_post`
 --
 ALTER TABLE `tb_post`
-  MODIFY `id_post` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_post` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT de tabela `tb_usuarios`
 --
 ALTER TABLE `tb_usuarios`
-  MODIFY `id_user` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id_user` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- Restrições para despejos de tabelas
