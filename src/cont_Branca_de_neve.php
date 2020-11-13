@@ -13,7 +13,7 @@
 
     <div style="width:100%;height:auto;">
 
-    <img src="<?php echo $conto.'Branca_1.jpg' ?>" class="" style="width:100%;height:480px;object-fit: cover;object-position: center 55%;"> 
+    <img src="<?php echo $conto.'Branca_de_neve.jpg' ?>" class="" style="width:100%;height:480px;object-fit: cover;object-position: center 20%;"> 
 
     <div class="container-fluid mt-4  wt-geral  position-relative" style="min-height:81vh;">
 
@@ -40,15 +40,15 @@
 
 
           <div class="col-12 col-md-8 text-justify font-s-11"> 
-		              <p class="mb-4 text-justify font-s-11">Espelho, espelho, na parede,Quem nesta terra é a mais bela de todas?</p>
-			  <p class="mb-4 text-justify font-s-11">E o espelho sempre dizia:</p>
-			  <p class="mb-4 text-justify font-s-11">Você, minha rainha, é a mais bela de todas.</p>
-			  <p class="mb-4 text-justify font-s-11">E então ela soube com certeza que ninguém no mundo era mais bonito do que ela.</p>
+		  <p class="mb-4 text-justify font-s-11">Espelho, espelho, na parede,Quem nesta terra é a mais bela de todas?</p>
+	      <p class="mb-4 text-justify font-s-11">E o espelho sempre dizia:</p>
+		  <p class="mb-4 text-justify font-s-11">Você, minha rainha, é a mais bela de todas.</p>
+		  <p class="mb-4 text-justify font-s-11">E então ela soube com certeza que ninguém no mundo era mais bonito do que ela.</p>
 		  <p class="mb-4">Agora, Branca de Neve cresceu e, quando tinha sete anos, era tão bonita que superou até a própria rainha. Agora, quando a rainha perguntou ao espelho:</p> 
 		   <p class="mb-4">Espelho, espelho, na parede,Quem nesta terra é a mais bela de todas?</p>
             <p class="mb-4">O espelho disse:</p> 
 			<p class="mb-4">Você, minha rainha, é bela; é verdade. Mas a Pequena Branca de Neve ainda é mil vezes mais bela que você.</p>  </div>
-          <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/Branca_2.jpeg);width:100%;height:100%;"></div></div>
+          <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/Branca_4.jpeg);width:100%;height:100%;"></div></div>
            
 
         </div>
@@ -58,7 +58,7 @@
 
         <div class="row mb-4">
 
-            <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/Branca_3.jpg);width:100%;height:100%;background-position: center 70%;"></div></div>
+            <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/Branca_6.jpg);width:100%;height:100%;background-position: center 70%;"></div></div>
             <div class="col-12 col-md-8 text-justify font-s-11"> 
               <p class="mb-4">Branca de Neve estava agora sozinha na grande floresta. Ela estava com muito medo e começou a correr. Ela atropelou pedras afiadas e espinhos o dia inteiro. Finalmente, quando o sol estava se pondo, ela chegou a uma casinha. A casa pertencia a sete anões. Eles estavam trabalhando em uma mina, e não em casa. Branca de Neve entrou e descobriu que tudo era pequeno, mas limpo e organizado. Havia uma mesinha com sete pratos pequenos, sete colheres pequenas, sete facas e garfos, sete canecas pequenas, e contra a parede havia sete pequenas camas, todas recém-feitas.</p>
               <p class="mb-4">Branca de Neve estava com fome e sede, então ela comeu alguns vegetais e um pouco de pão de cada pratinho e de cada copinho bebeu uma gota de vinho. Por estar tão cansada, ela queria se deitar e dormir. Ela experimentou cada uma das sete pequenas camas, uma após a outra, mas nenhuma parecia bem até que ela chegou à sétima cama, deitou-se nela e adormeceu.</p>
@@ -80,7 +80,7 @@
 			  <p class="mb-4">O segundo, "E alguém está deitado na minha cama."</p>
 			  
 			</div>
-			<div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/Branca_4.jpg);width:100%;height:100%;background-position: center 70%;"></div></div>
+			<div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/Branca_2.jpg);width:100%;height:100%;background-position: center 70%;"></div></div>
         </div>
 		<p class="text-justify mb-4 font-s-11">E assim por diante até o sétimo, e quando ele olhou para sua cama, encontrou Branca de Neve deitada ali, dormindo profundamente. Os sete anões vieram correndo e gritaram de espanto. Eles pegaram suas sete velas e olharam para Branca de Neve. "Bom céu! Bom céu!" eles choraram. "Ela é tão bonita!" Eles gostaram muito dela. Eles não a acordaram, mas a deixaram deitada na cama. O sétimo anão teve que dormir com seus companheiros, uma hora com cada um, e então a noite acabou.</p>
         <p class="text-justify mb-4 font-s-11">Quando Branca de Neve acordou, eles perguntaram quem ela era e como ela havia encontrado o caminho para a casa deles. Ela contou a eles como sua mãe tentou matá-la, como o caçador salvou sua vida, como ela correu o dia inteiro, finalmente indo para a casa deles. Os anões tiveram pena dela e disseram: "Se você cuidar da casa para nós e cozinhar, costurar, fazer camas, lavar e tricotar e manter tudo limpo e organizado, então você pode ficar aqui e terá tudo o que você Queremos. Voltamos para casa à noite, e o jantar deve estar pronto até lá, mas passamos os dias cavando ouro na mina. Você estará sozinho então. Cuidado com a rainha e não deixe ninguém entrar. "</p>
@@ -130,7 +130,7 @@
 		   <p class="mb-4">– Não, eu não posso aceitar nada. Os anões não querem que eu aceite.</p>
             <p class="mb-4">– Se você tem medo, vou cortar a maçã ao meio e comer a metade. Aqui, você come a metade com a bela bochecha vermelha!</p> 
 			 </div>
-          <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/Branca_5.jpg);width:100%;height:100%;"></div></div>
+          <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/Branca_1.jpg);width:100%;height:100%;"></div></div>
            
 
         </div>
