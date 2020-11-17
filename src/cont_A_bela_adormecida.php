@@ -19,8 +19,14 @@
 
     <?php
 
-    if (isset($_GET['comentSuc']) && isset($_SESSION['id_user'])){
+    if (isset($_SESSION['suc']) && isset($_SESSION['id_user'])){
       echo '<div id="alertSuccess" class="alert alert-success alert-dismissible fade show mb-5 mt-5" role="alert"><strong>Seu comentário foi feito com sucesso!</strong> <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>';
+      unset($_SESSION['suc']);
+    }
+
+    if (isset($_SESSION['pal']) && isset($_SESSION['id_user'])){
+      echo '<div id="alertPal" class="alert alert-danger alert-dismissible fade show mb-5 mt-5" role="alert"><strong>Não admitimos palavras de baixo calão ou endereços de sites inapropriados nos comentários!</strong> Mensagens claramente ofensivas estão sujeitas a serem apagadas. <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>';
+      unset($_SESSION['pal']);
     }
 
     ?>
