@@ -116,6 +116,10 @@
     opacity: .5;
 }
 
+.opaci-suav:hover{
+    opacity: .9;
+}
+
 
 .muda{
     transition: all 0.8s !important;
@@ -703,5 +707,17 @@ a[href="#top"]:hover{
   /* Make all right containers behave like the left ones */
     .right-t {
       left: 0%;
+    }
+  }
+
+.home-cards{
+    width:50% !important;
+}
+
+
+
+  @media (min-width: 768px){
+    .home-cards{
+        width:83% !important;
     }
   }

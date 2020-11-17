@@ -12,7 +12,16 @@
             </div>
 
             <div class="col-12 col-md-4 mt-5 mb-md-2 order-1 order-md-3">
-                <center><p><a class="muda alink" href="Login.php">Faça login ou cadastre-se aqui</a></p></center>
+                <center><p><?php
+                    if(!isset($_SESSION['id_user'])){
+
+                    echo '<a class="muda alink" href="Login.php">Faça login ou cadastre-se aqui</a>';
+
+                    }else{
+                        echo "Olá ".$_SESSION['nome']." ".$_SESSION['ltname'].". <a class='muda alink' href='inc/db_enc.php'>Encerre sua sessão aqui!</a>";
+                    }
+                    ?>
+                </p></center>
             </div>
         </div>
     </div>

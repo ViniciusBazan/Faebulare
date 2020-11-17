@@ -6,6 +6,7 @@
 <!-- JavaScript (Opcional) -->
 
 <script src="js/bars.js"></script>
+<script src="js/scrollSuave.js"></script>
 <?php
 if ($pagForm == "Login"){
     echo "<script src='js/capsdetector.js'></script>";
@@ -18,13 +19,10 @@ if ($verCont){
     echo "<script src='js/topo.js'></script>";
     echo "<script src='js/caracteres.js'></script>";
     echo "<script src='js/reply.js'></script>";
-    echo "<script src='js/scrollSuave.js'></script>";
     echo "<script src='js/valComent.js'></script>";
     echo "<script src='js/toolTip.js'></script>";
 }
 
-if ($pag == "cont_Quem_somos.php" || $pag == "cont_Psicanalise.php"){
-    echo "<script src='js/scrollSuave.js'></script>";
-}
+
 
 ?>

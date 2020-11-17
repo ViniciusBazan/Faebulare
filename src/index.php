@@ -11,8 +11,8 @@
     <!-- Incluindo o menu -->
     <?php require_once $menu; ?>
 
-
-    <div class="container-fluid mt-4  wt-geral text-white" style="min-height:81vh;">
+    <div class="bg-home" style="width:100%;min-height:81vh;clip-path: polygon(50% 0%, 100% 0, 100% 91%, 50% 100%, 0 91%, 0 0);">
+    <div class="container-fluid mt-4  wt-geral text-white" style="">
   
     <div class="row">
     <div class="col-lg-2"></div>
@@ -132,10 +132,10 @@
 
   <div class="col-3"></div>
   <div class="col-6">
-    <center><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-chevron-double-down" fill="#cc0000" xmlns="http://www.w3.org/2000/svg">
+    <center><a href="#hist" class="scrollSuave muda opaci"><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-chevron-double-down" fill="#cc0000" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
             <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-            </svg>
+            </svg></a>
             </center>
   </div>
   <div class="col-3"></div>
@@ -149,7 +149,7 @@
   <div class="col-1"> </div>
 
   <div class="col-11">
-    <img class="position-absolute wtem-4 wtem-md-2" src="<?php echo $folhas.'1.png' ?>"  style="z-index:0;"><h1 class="font-london font-s-40 font-s-md-20 position-relative" style="z-index:1;">Nem toda história...</h1>
+    <img id="hist" class="position-absolute wtem-4 wtem-md-2" src="<?php echo $folhas.'1.png' ?>"  style="z-index:0;"><h1 class="font-london font-s-40 font-s-md-20 position-relative" style="z-index:1;">Nem toda história...</h1>
   </div>
 
   
@@ -179,7 +179,40 @@
 
 </div>
 
+<div class="row  mt-3 mb-5">
+
+  <div class="col-3"></div>
+  <div class="col-6">
+            <center><a href="#cards" class="scrollSuave muda opaci"><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-chevron-double-down" fill="#cc0000" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg><a>
+            </center>
+  </div>
+  <div class="col-3"></div>
+
+</div>
+<br>
+<br>
+
+
     </div>
+    </div>
+
+    <div class="bg-img text-white" style="width:100%;height:100%;background-image: url(img/bg/bglivros3.png);margin-top:-160px;margin-bottom:-92px;">
+      
+        <div class="container-fluid mt-5 mb-5  wt-geral ">
+        <br><br><br><br id="cards"><br>
+          <div class="row mt-5 mb-5">
+            <div class="col-12 col-md-4 mb-5 mb-md-0"><center><a href="cont_Psicanalise.php"><img class="img-fluid home-cards opaci-suav muda" src="<?php echo $cards.'img_psicanalise.png';  ?>" ></a></center></div>
+            <div class="col-12 col-md-4 mt-0 mt-md-5 mb-5 mb-lg-0"><center><a href="cont_Autores.php"><img class="img-fluid home-cards opaci-suav muda" src="<?php echo $cards.'img_autores.png';  ?>" ></a></center></div>
+            <div class="col-12 col-md-4 mb-5 mb-md-0"><center><a href="cont_Quem_somos.php"><img class="img-fluid home-cards opaci-suav muda" src="<?php echo $cards.'img_sobre.png';  ?>" ></a></center></div>
+          </div>
+        <br>
+
+        </div>
+    </div>
+<br>
 
     <!-- incluindo o rodapé -->
     <?php require_once $rodape ?>

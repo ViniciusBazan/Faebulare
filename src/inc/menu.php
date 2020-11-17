@@ -4,7 +4,7 @@
 
 <a class="navbar-brand mr-lg-4 ml-lg-3" href="index.php"><img src="img/Logo.png" class="logo-wt"></a>
 
-<img src="img/selo.png" class="selo-wt selo-pos" id="selo">
+<img src="img/selo.png" class="selo-wt selo-pos" id="selo" style="z-index:10;">
 
 <!-- Botão para abrir e fechar menu hamburguer -->
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite" onclick="openMenu(this)">

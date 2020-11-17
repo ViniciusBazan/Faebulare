@@ -22,6 +22,7 @@ $sep           = DIRECTORY_SEPARATOR;
     $autor         = $pathImg.'autores'.$sep;
     $bg            = $pathImg.'bg'.$sep;
     $devs          = $pathImg.'devs'.$sep;
+    $cards         = $pathImg.'cards'.$sep;
 
     //DB
 
