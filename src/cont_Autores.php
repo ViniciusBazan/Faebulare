@@ -73,11 +73,10 @@
 
         <div class="row mb-5">
 
-            <div class="col-12 col-lg-4 mb-4 mt-lg-0"><center><img class="img-fluid" src="<?php echo $autor.'bruno_bettelheim.png'; ?>"></center></div>
-            <div class="col-12 col-lg-8 text-justify mt-5">
+            <div class="col-12 col-lg-3 mb-4 mt-lg-0"><center><img class="img-fluid" src="<?php echo $autor.'bruno_bettelheim.png'; ?>"></center></div>
+            <div class="col-12 col-lg-9 text-justify mt-5">
             <p class="recuo font-s-11">Nascido em Viena, o psicanalista austro-americano é originário de numa família judia da alta burguesia. Entrou na universidade para fazer um curso que passava pela literatura, história da arte e estética. A partir de 1932, uniu-se a psicanalistas vienenses que se interessavam pelo tratamento de crianças. Em 1938, foi deportado pelos nazistas para um campo de concentração de Dachau e Buchenwald, onde passou um ano sendo violentamente espancado. Essa experiência desumana o marcou profundamente. Depois de liberado, Bettelheim foi morar nos Estados Unidos.</p>
-            <p class="recuo font-s-11">A partir de 1943, ligou-se à Escola Ortogênica de Chicago, que dirigiu durante cerca de trinta anos e que acolhia crianças classificadas como autistas. </p>
-            <p class="recuo font-s-11">Dizia-se um homem do trabalho de campo: um clínico que se inspirava em princípios filosóficos. Aposentado, continuou muito ativo, escrevendo diversos livros – entre os quais Psicanálise dos contos de fadas, obra inspirada nos relatórios que produziu a respeito dos casos que atendeu e que se tornou um best-seller mundial. Fazia conferências e participava de programas de rádio e televisão. Obteve grande fama na mídia dos Estados Unidos e do resto do mundo.</p>
+            <p class="recuo font-s-11">A partir de 1943, ligou-se à Escola Ortogênica de Chicago, que dirigiu durante cerca de trinta anos e que acolhia crianças classificadas como autistas. Dizia-se um homem do trabalho de campo: um clínico que se inspirava em princípios filosóficos. Aposentado, continuou muito ativo, escrevendo diversos livros – entre os quais Psicanálise dos contos de fadas, obra inspirada nos relatórios que produziu a respeito dos casos que atendeu e que se tornou um best-seller mundial. Fazia conferências e participava de programas de rádio e televisão. Obteve grande fama na mídia dos Estados Unidos e do resto do mundo.</p>
                 <div class="row mt-5">
                     <div class="col-4">
                     <center><p><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-geo-alt-fill" fill="#FFFF00" xmlns="http://www.w3.org/2000/svg">

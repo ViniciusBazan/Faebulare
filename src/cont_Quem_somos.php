@@ -60,7 +60,7 @@
 
         <!-- 1 !--><div class="col-12 col-lg-3 mb-4 mt-lg-0"><center><img id="julia" class="img-fluid" src="<?php echo $devs.'juh2.png'; ?>"></center></div><!-- /1 !-->
         <!-- 2 !--><div class="col-12 col-lg-9 text-justify mt-3">
-        <h1 class="font-antic mt-0 mb-5 font-s-30 "> <span class="pb-md-2" style="border-bottom: #00FE00 solid 3px;">Julia Oliveira</span> </h1>
+        <h1 class="font-antic mt-0 mb-5 font-s-30 "> <span class="pb-md-2" style="border-bottom: #FF7F00 solid 3px;">Julia Oliveira</span> </h1>
         <p class="recuo font-s-18 font-s-md-16"> Nasceu em fevereiro de 2003. Gosta de esportes aquáticos, livros e tem grande interessem em tecnologia. Pretende seguir na área da saúde. </p>
             <!-- 3 !--><div class="row mt-5">
                 <!-- 4 !--><div class="col-8">
@@ -79,11 +79,11 @@
                   </svg></a>
 
 
-                  <a href="https://github.com/Juh-Oliveira" target="_blank"><svg id="Bold" enable-background="new 0 0 24 24" height="2.5em" viewBox="0 0 24 24" width="2em" xmlns="http://www.w3.org/2000/svg" fill="#00FE00" class="float-right ml-2 muda opaci"><path d="m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z"/></svg></a>
+                  <a href="https://github.com/Juh-Oliveira" target="_blank"><svg id="Bold" enable-background="new 0 0 24 24" height="2.5em" viewBox="0 0 24 24" width="2em" xmlns="http://www.w3.org/2000/svg" fill="#FF7F00" class="float-right ml-2 muda opaci"><path d="m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z"/></svg></a>
 
                   
                 <!-- /4 !--></div>
-                <!-- 5 !--><div class="col-4" style="border-bottom: #00FE00 solid 3px;border-right: #00FE00 solid 3px;"></div><!-- /5 !-->
+                <!-- 5 !--><div class="col-4" style="border-bottom: #FF7F00 solid 3px;border-right: #FF7F00 solid 3px;"></div><!-- /5 !-->
             <!-- /3 !--></div>
         <!-- /2 !--></div>
 
@@ -94,7 +94,7 @@
 
         <!-- 1 !--><div class="col-12 col-lg-3 mb-4 mt-lg-0"><center><img id="hao" class="img-fluid" src="<?php echo $devs.'Hao2.png'; ?>"></center></div><!-- /1 !-->
         <!-- 2 !--><div class="col-12 col-lg-9 text-justify mt-3">
-        <h1 class="font-antic mt-0 mb-5 font-s-30 "> <span class="pb-md-2" style="border-bottom: #FF7F00 solid 3px;">Hao Zheng</span> </h1>
+        <h1 class="font-antic mt-0 mb-5 font-s-30 "> <span class="pb-md-2" style="border-bottom: #00FE00 solid 3px;">Hao Zheng</span> </h1>
         <p class="recuo font-s-18 font-s-md-16"> Nasceu em junho de 2003. Gosta de ler, jogar e estudar. Tem grande interesse em idiomas, histórias e pretende seguir na área da tecnologia e inovação. </p>
             <!-- 3 !--><div class="row mt-5">
                 <!-- 4 !--><div class="col-8">
@@ -116,7 +116,7 @@
 
                   
                 <!-- /4 !--></div>
-                <!-- 5 !--><div class="col-4" style="border-bottom: #FF7F00 solid 3px;border-right: #FF7F00 solid 3px;"></div><!-- /5 !-->
+                <!-- 5 !--><div class="col-4" style="border-bottom: #00FE00 solid 3px;border-right: #00FE00 solid 3px;"></div><!-- /5 !-->
             <!-- /3 !--></div>
         <!-- /2 !--></div>
 
