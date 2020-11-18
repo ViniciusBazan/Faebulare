@@ -1,0 +1,23 @@
+.img-animation {
+	position: fixed;
+	-webkit-animation: fade-out 2s ease-out both;
+	        animation: fade-out 2s ease-out both;
+}
+
+
+@-webkit-keyframes img-animation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

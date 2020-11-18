@@ -11,4 +11,13 @@
 
 <link rel="stylesheet" href="css/style.css">
 
+<?php
+if ($pagForm == "Home"){
+    if(!isset($_SESSION['animation'])){
+        echo "<link rel='stylesheet' href='css/animation.css'>";
+    }
+}
+
+?>
+
 <title>Faebulare | <?php echo $pagForm; ?></title>

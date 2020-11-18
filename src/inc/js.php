@@ -14,6 +14,16 @@ if ($pagForm == "Login"){
     echo "<script src='js/toolTip.js'></script>";
 }
 
+if ($pagForm == "Home"){
+
+    if(!isset($_SESSION['animation'])){
+
+        echo "<script src='js/animation.js'></script>";
+        $_SESSION['animation'] = 1;
+}
+
+}
+
 if ($verCont){
     echo "<script src='js/switch.js'></script>";
     echo "<script src='js/topo.js'></script>";

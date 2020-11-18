@@ -8,6 +8,15 @@
 
   </head>
   <body class="bg-home">
+
+    <?php
+
+      if(!isset($_SESSION['animation'])){
+        echo '<img id="animation" class="" src="img/ani.gif" style="width:100%;height:100vh;z-index:30; position:fixed;">';
+      }
+
+    ?>
+
     <!-- Incluindo o menu -->
     <?php require_once $menu; ?>
 
