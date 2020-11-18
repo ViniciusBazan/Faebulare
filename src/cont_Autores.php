@@ -13,10 +13,13 @@
 
     <div style="width:100%;height:auto;">
 
-        <div class="position-absolute" style="right:80px;top:200px;">
-            <h1 class="font-antic">Perrault, Grimm,</h1>
-            <h1 class="font-antic"> Andersen</h1>
-            <h1 class="font-antic"> & outros.</h1>
+        <div class="row position-absolute mt-5" style="width:100%;">
+            <div class="col-6"> </div>
+            <div class="col-6 ">
+                <h1 class="mt-5 text-center font-antic text-white">Perrault, Grimm,</h1>
+                <h1 class="mt-1 text-center font-antic text-white"> Andersen</h1>
+                <h1 class="mt-1 text-center font-antic text-white"> & outros.</h1>
+            </div>
         </div>
 
     
