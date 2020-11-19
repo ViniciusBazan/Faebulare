@@ -31,6 +31,14 @@ if (isset($_SESSION['id_user'])){
         echo '<div class="alert alert-success alert-dismissible fade show" role="alert"><strong>Cadastro feito com sucesso!</strong> Agora faça login para continuar.<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>';
     }
 
+    if (isset($_GET['altSuc'])){
+        echo '<div class="alert alert-success alert-dismissible fade show" role="alert"><strong>Alteração de senha feita com sucesso!</strong> Agora faça login com a nova senha para continuar.<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>';
+    }
+
+    if (isset($_GET['altFail'])){
+        echo '<div class="alert alert-danger alert-dismissible fade show" role="alert"><strong>Houve um erro ao alterar a senha.</strong><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>';
+    }
+
     if (isset($_GET['logFail'])){
         echo '<div class="alert alert-danger alert-dismissible fade show" role="alert"><strong>Não foi possível verificar suas credenciais!</strong> E-mail ou senha incorretos.<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>';
     }
@@ -209,7 +217,7 @@ if (isset($_SESSION['id_user'])){
             <!-- Login -->
 
             <div class="col-12 col-xl-6 border-lg-bottom order-1 border-color-red-2 order-xl-2 pb-4 pb-xl-0">
-                <h2 class="font-antic text-center mb-md-5">Faça o login</h2>
+                <h2 class="font-antic text-center mb-md-4">Faça o login</h2>
                 <form name="formLog" id="formLog" action="inc/db_log.php" method="post">
                    <div class="form-row"> 
                    <div class="form-group col-1 col-md-2"></div>
@@ -246,6 +254,14 @@ if (isset($_SESSION['id_user'])){
                             </label>
                         </div>
 
+                    </div>
+                    <div class="form-group col-1 col-md-2"></div>
+                   </div>
+
+                   <div class="form-row"> 
+                   <div class="form-group col-1 col-md-2"></div>
+                    <div class="form-group col-10 col-md-8">
+                        <a class="alink muda" target="_blank" href="recuperar.php">Esqueci minha senha</a>
                     </div>
                     <div class="form-group col-1 col-md-2"></div>
                    </div>
