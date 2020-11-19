@@ -243,20 +243,7 @@ if (isset($_SESSION['id_user'])){
                     <div class="form-group col-1 col-md-2"></div>
                    </div>
 
-                   <div class="form-row"> 
-                   <div class="form-group col-1 col-md-2"></div>
-                    <div class="form-group col-10 col-md-8">
-                        
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                            <label class="form-check-label" for="defaultCheck1">
-                                Lebrar de mim
-                            </label>
-                        </div>
-
-                    </div>
-                    <div class="form-group col-1 col-md-2"></div>
-                   </div>
+                   
 
                    <div class="form-row"> 
                    <div class="form-group col-1 col-md-2"></div>

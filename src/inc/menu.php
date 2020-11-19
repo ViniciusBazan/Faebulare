@@ -40,7 +40,7 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="nav-link muda font-s-12 mt-lg-4" href="cont_Psicanalise.php">Psicanalise</a>
+            <a class="nav-link muda font-s-12 mt-lg-4" href="cont_Psicanalise.php">Psicanálise</a>
         </li>
 
     </ul>
