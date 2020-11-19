@@ -8990,7 +8990,7 @@ a.text-color-light-1:hover, a.text-color-light-1:focus {
 
 .recuo {
   text-indent: 10px;
-  line-height: 1.7; }
+  line-height: 2; }
 
 .light {
   --bg: var(--color-light-1);
@@ -9086,6 +9086,12 @@ a.text-color-light-1:hover, a.text-color-light-1:focus {
   text-decoration: none !important;
   color: var(--color-seta);
   transition: all 0.1s !important; }
+
+.box-right {
+  box-shadow: 7px 7px 0 var(--bg-invert); }
+
+.box-left {
+  box-shadow: -7px -7px 0 var(--bg-invert); }
 
 #dark, #light {
   cursor: pointer; }

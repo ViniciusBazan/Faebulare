@@ -46,7 +46,7 @@
         <p class="text-justify mb-4 font-s-11 recuo"><span class="font-london font-s-30 mr-2 px-3 border switch-cap text-white muda" style="line-height: 1;">E</span>ra uma vez um grande senhor que foi agraciado com o nascimento de uma filha, a quem deu o nome de Talia. Chamou os homens sábios e astrônomos de suas terras para que predissessem o seu futuro. Encontraram-se e, assessorando-se mutuamente, consultaram seu horóscopo e chegaram à conclusão de que ela correria um grande perigo devido a uma farpa de linho. Seu pai então proibiu qualquer planta de linho, cânhamo, ou qualquer outro material desse tipo em sua casa, esperando assim que escapasse do perigo.</p>
         <div class="row mb-4">
 
-            <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/Bela_2.jpg);width:100%;height:100%;"></div></div>
+            <div class="col-12 col-md-4" ><div class="box-left bg-img imgc-size muda" style="background-image: url(img/cont/Bela_2.jpg);width:100%;height:100%;"></div></div>
             <div class="col-12 col-md-8 text-justify font-s-11"> 
               <p class="mb-4 recuo">Um dia, quando se havia convertido em uma bela jovem, Talia estava olhando através da janela e viu passar uma velha mulher fiando. Talia, que nunca tinha visto nem uma roca nem um fuso, quis ver como girava, e era tal a sua curiosidade que pediu à velha mulher que fosse até ela. Tomando a roca em sua mão, a garota começou a fiar o linho. Desgraçadamente, cravou-se uma farpa de linho debaixo da unha de Talia, e ela caiu morta ao solo. Quando a velha mulher viu o acontecido, assustou-se tanto que saiu pelas escadas e está fugindo até hoje.</p> 
               <p class="mb-4 recuo">Tão logo seu desgraçado pai viu o desastre que havia ocorrido, tomou-a e, depois de ser inundado pela tristeza e de derramar rios de lágrimas, tirou dali a belíssima Talia e levou-a até um de seus palácios no campo. Ali sentou-a em um trono de veludo debaixo de um dossel de brocado. Desejando apagar da memória todo o seu infortúnio, fechou todas as portas e abandonou para sempre o palácio onde havia sofrido sua grande perda.</p>
@@ -58,7 +58,7 @@
 
             
           <div class="col-12 col-md-8 text-justify font-s-11"> <p class="mb-4 recuo">Depois de muito tempo aconteceu que um rei caçava ali por perto. Um de seus falcões escapou de sua mão e voou ao interior do palácio através de uma janela. Como não acudisse ao chamado, o rei teve que bater à porta, crendo que o lugar fosse habitado. Mas ninguém atendeu, e então o rei mandou trazerem uma escada de vindimador, pois desejava descobrir o que havia dentro do palácio. Percorreu todos os quartos, salas e recantos, surpreendendo-se grandemente por não encontrar nenhuma alma viva. Por fim abriu a porta do quarto onde Talia se achava sob o encantamento e, crendo que apenas dormia, chamou-a. Como ela continuou inconsciente, ele tentou reanimar a bela moça, pensando que estivesse passando mal, mas não teve sucesso. Sentindo então inflamar-se seu sangue pela beleza dela, carregou-a nos braços, deitou-a na cama, beijou-a e lhe deu todo o seu amor. Deixando-a assim deitada, voltou para o seu reino e para as suas ocupações, e por um longo tempo não pensou mais naquilo que tinha acontecido.</p> </div>
-          <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/Bela_3.png);width:100%;height:100%;"></div></div>
+          <div class="col-12 col-md-4" ><div class="box-right bg-img imgc-size muda" style="background-image: url(img/cont/Bela_3.png);width:100%;height:100%;"></div></div>
             
 
         </div>
@@ -68,7 +68,7 @@
 
         <div class="row mb-4">
 
-            <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/Bela_4.jpg);width:100%;height:100%;background-position: center 70%;"></div></div>
+            <div class="col-12 col-md-4" ><div class="box-left muda bg-img imgc-size" style="background-image: url(img/cont/Bela_4.jpg);width:100%;height:100%;background-position: center 70%;"></div></div>
             <div class="col-12 col-md-8 text-justify font-s-11"> 
               <p class="mb-4 recuo">Contou a Talia quem era, e como a tinha visto e entrado naquele lugar. Eles então se conheceram melhor, a amizade de ambos imediatamente se estreitou, e ele permaneceu com ela durante alguns dias. Depois desse tempo ele se despediu, prometendo que regressaria para levá-la com ele ao seu reino. E voltou ao seu reino, onde a todo momento tinha nos lábios os nomes de Talia, Sol e Lua – pois era assim que se chamavam seus filhos. Até mesmo quando estava comendo chamava-os pelos nomes. E não dormia nem acordava sem pronunciar seus nomes.</p>
               <p class="mb-4 recuo">A rainha, vendo que algo estranho havia ocorrido ao seu marido durante a caçada, começou a suspeitar. Percebendo que ele não fazia outra coisa além de chamar pelos nomes de Talia, Sol e Lua, ficou furiosa de ciúmes. Chamou seu secretário e disse-lhe:</p>

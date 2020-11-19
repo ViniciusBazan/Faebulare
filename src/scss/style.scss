@@ -419,7 +419,7 @@ $font-family-sans-serif : "Andika New Basic",-apple-system, BlinkMacSystemFont, 
 
 .recuo{
     text-indent:10px;
-    line-height: 1.7;
+    line-height: 2;
 }
 
 // Switch css
@@ -544,6 +544,14 @@ $font-family-sans-serif : "Andika New Basic",-apple-system, BlinkMacSystemFont, 
     text-decoration: none !important;
     color: var(--color-seta);
     transition: all 0.1s !important;
+}
+
+.box-right{
+    box-shadow: 7px 7px 0 var(--bg-invert);
+}
+
+.box-left{
+    box-shadow: -7px -7px 0 var(--bg-invert);
 }
 
 #dark, #light{

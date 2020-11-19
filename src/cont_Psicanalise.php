@@ -25,13 +25,13 @@
 
         <div class="container-fluid mt-4  wt-geral  position-relative" >
 
-        <center class="position-absolute rounded-circle" style="left:50%;margin-left:-1em;top:-50px; background-color:#cc0000; width:3em;height:3em;"><a href="#introducao" class="scrollSuave muda ancora"><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-chevron-double-down mt-2 switch-icon-nohover muda opaci" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <center class="position-absolute rounded-circle" style="left:50%;margin-left:-1em;top:-50px; background-color:#cc0000; width:3em;height:3em;"><a href="#introducao"  class="scrollSuave muda ancora"><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-chevron-double-down mt-2 switch-icon-nohover muda opaci" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
             <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
             </svg></a>
             </center>
 
-            <div class="position-absolute  rounded-pill switch-border" style="right:0;">
+            <div id="introducao" class="position-absolute  rounded-pill switch-border" style="right:0;">
 
             <a id="light" class="m-1" ><?php echo $sun; ?></a>
             <a id="dark" class="m-1" ><?php echo $moon; ?></a>
@@ -40,7 +40,7 @@
 
             <br>
         
-            <p class="mt-5 mb-4 text-justify font-s-13 recuo"><span id="introducao" class="dest-purple muda" style="font-family: Brush Script MT; font-size:1.5em;">Os contos de fadas</span> possuem uma natureza ética e existencial, em muitas de suas histórias são retratados heróis e heroínas, e durante essas narrativas, é representado, por meio desses personagens, a possível realização de um ideal ou sonho. Esses contos têm grande impacto na vida da criança, visto que transmitem entretenimento, despertam a imaginação e a curiosidade de seus ouvintes, leitores e espectadores, além de ajudálos a desenvolver seu intelecto e tornar claras suas emoções, possibilitando que aquele que tenha algum tipo de contato com os contos de fadas reconheça suas dificuldades e desenvolva soluções para os problemas que o aflinge.</p> 
+            <p class="mt-5 mb-4 text-justify font-s-13 recuo"><span  class="dest-purple muda" style="font-family: Brush Script MT; font-size:1.5em;">Os contos de fadas</span> possuem uma natureza ética e existencial, em muitas de suas histórias são retratados heróis e heroínas, e durante essas narrativas, é representado, por meio desses personagens, a possível realização de um ideal ou sonho. Esses contos têm grande impacto na vida da criança, visto que transmitem entretenimento, despertam a imaginação e a curiosidade de seus ouvintes, leitores e espectadores, além de ajudálos a desenvolver seu intelecto e tornar claras suas emoções, possibilitando que aquele que tenha algum tipo de contato com os contos de fadas reconheça suas dificuldades e desenvolva soluções para os problemas que o aflinge.</p> 
         
         </div>
 
