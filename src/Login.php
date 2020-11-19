@@ -47,7 +47,7 @@ if (isset($_SESSION['id_user'])){
         echo '<div class="alert alert-success alert-dismissible fade show" role="alert"><strong>Sua sessão foi encerrada com sucesso!</strong><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>';
     }
     ?>
-
+<br>
         <div class="row">
 
             <!-- Cadastro -->
