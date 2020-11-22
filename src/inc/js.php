@@ -1,3 +1,10 @@
+<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+
 <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
 <script src="js/jquery.js"></script>
 <script src="js/popper.js"></script>
@@ -7,6 +14,10 @@
 
 <script src="js/bars.js"></script>
 <script src="js/scrollSuave.js"></script>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
 <?php
 if ($pagForm == "Login"){
     echo "<script src='js/capsdetector.js'></script>";
