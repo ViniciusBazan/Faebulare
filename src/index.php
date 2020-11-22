@@ -95,7 +95,7 @@
 	<a href="cont_Pinoquio.php">
       <img class="d-block w-100" src="<?php echo $slide.'pinoquio.png' ?>" alt="Segundo Slide">
       <div class="carousel-caption d-none d-md-block">
-        <h3 style="background-color: rgba(0,0,0,.4)"><strong>Pinoquio</strong></h5>
+        <h3 style="background-color: rgba(0,0,0,.4)"><strong>Pinóquio</strong></h5>
       </div>
     </div>
     <div class="carousel-item">

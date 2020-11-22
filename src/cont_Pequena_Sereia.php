@@ -16,6 +16,20 @@
     <img src="<?php echo $conto.'Ariel_1.jpg' ?>" class="" style="width:100%;height:430px;object-fit: cover;object-position: center 30%;"> 
 
     <div class="container-fluid mt-4  wt-geral  position-relative" style="min-height:81vh;">
+	
+	 <?php
+
+    if (isset($_SESSION['suc']) && isset($_SESSION['id_user'])){
+      echo '<div id="alertSuccess" class="alert alert-success alert-dismissible fade show mb-5 mt-5" role="alert"><strong>Seu comentário foi feito com sucesso!</strong> <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>';
+      unset($_SESSION['suc']);
+    }
+
+    if (isset($_SESSION['pal']) && isset($_SESSION['id_user'])){
+      echo '<div id="alertPal" class="alert alert-danger alert-dismissible fade show mb-5 mt-5" role="alert"><strong>Não admitimos palavras de baixo calão ou endereços de sites inapropriados nos comentários!</strong> Mensagens claramente ofensivas estão sujeitas a serem apagadas. <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>';
+      unset($_SESSION['pal']);
+    }
+
+    ?>
 
         <div class="position-absolute  rounded-pill switch-border" style="right:0;">
 
@@ -193,8 +207,62 @@ Andersen </h3></center>
 		<p class="text-justify mb-5 font-s-11 recuo">Ela lançou mais um olhar ansioso e meio-desfalecente para o príncipe, e então, se atirou do navio para o mar, e achou que o seu corpo estava se transformando em espuma. O sol subia por cima das ondas, e seus raios quentes caíam sobre a espuma fria da pequena sereia, que não se sentiu como se estivesse morrendo. Ela viu o sol brilhando, e por todos os lados pairavam centenas de seres belos e translúcidos, ela podia ver através deles as velas brancas do navio, e as nuvens vermelhas do céu, eles falavam melodiosamente, mas era por demais etéreas para serem ouvidos por ouvidos mortais, porque também não poderiam ser vistos por olhos mortais. A pequena sereia percebeu então, que o seu corpo era como o deles, e que ela continuava a subir cada vez mais alto para longe das espumas. <br>- Onde estou eu? perguntou ela, e sua voz parecia sideral, como a voz daqueles que estavam com ela, nenhuma música terreste conseguiria imitá-la.<br>- Entre suas irmãs do espaço, respondeu uma delas. <br>A pequena sereia não possui uma alma imortal, nem pode conseguir uma, exceto se conquistar o amor de um ser humano. No poder de uma outra pessoa está o destino da eternidade. Mas as filhas do espaço, embora não possuam uma alma imortal, podem, com seus atos de bondade, conseguir uma para si mesmas. Nós voamos até os países quentes, e esfriamos o ar abafado que destrói a humanidade com sua pestilência. Nós levamos o perfume das flores para espalhar a saúde e a renovação. Depois de lutarmos por trezentos anos com todo o bem ao nosso alcance, nós recebemos uma alma imortal e tomamos parte da felicidade do mundo. Você, nossa pequena sereia, tentou de todo o coração fazer o que nós estamos fazendo, você sofreu, suportou e se elevou para o mundo espiritual através das suas boas ações, e agora, lutando da mesma maneira durante trezentos anos, você pode conseguir uma alma imortal.</p>
 		<p class="text-justify mb-5 font-s-11 recuo">A pequena sereia elevou seus olhos agradecidos em direção ao sol, e sentiu, que pela primeira vez eles estavam cheios de lágrimas. No navio, onde ela havia deixado o príncipe, tudo era vida e burburinho, ela o viu com sua bela noiva e procuravam por ela, com tristeza eles olharam para a espuma perolada, como se eles soubessem que ela havia se atirado nas ondas. Invisível, ela beijou a fronte da sua noiva, e abanou o príncipe, e então subiu com as outras crianças do ar até uma nuvem rósea que flutuava através do éter.</p>
 		<p class="text-justify mb-5 font-s-11 recuo">- Depois de trezentos anos, é assim que nos locomovemos no reino dos céus, disse ela. <br>- E nós podemos chegar até lá mais rápido, murmurou uma de suas companheiras. Podemos entrar nas casas das pessoas sem sermos vistas, onde haja crianças, e todos os dias quando encontramos uma boa criança, que é a alegria de seus pais e merecedora do amor deles, o nosso tempo de provação será diminuído. A criança não sabe, quando nós passamos voando pelo ambiente, que nós sorrimos de alegria com o seu bom comportamento, e podemos calcular um ano a menos dos nossos trezentos anos. Mas quando nós observamos uma criança travessa ou mal comportada, nós derramamos lágrimas de tristeza, e para cada lágrima derramada um dia é adicionado ao nosso tempo de provação!</p>
-        <center><h1 class="font-antic mt-3 mb-2">Fim</h1></center>
+        <center><h1 class="font-antic mt-3 mb-5">Fim</h1></center>
+
+        <?php if(!isset($_SESSION['id_user'])){
+
+        echo '<div class="alert alert-info  mt-3 mb-5 text-justify" role="alert">';
+        echo 'Você está deslogado! para gerar um certificado é necessário <a href="Login.php" class="alert-link">fazer login ou cadastrar-se primeiro.</a>';
+        echo '</div>';
+
+        } else{
+          echo '<center><a href="gerar_cert.php?post=9" target="_blank"><button type="button" id="env" class="btn btn-color-blue-3 mt-0 mb-1 border border-color-blue-1 px-5 py-2">Gerar certificado</button></a></center>';
+        }
         
+        ?>
+        
+
+        <hr id="opniao" class="bg-invert mb-5 mt-5">
+
+        <h1 class="text-center mt-5 mb-5 font-antic">Deixe sua opnião</h1>
+
+        <?php
+
+
+        if(isset($_SESSION['id_user'])){
+          echo "<form id='formComent' name='formComent' action='inc/db_coment.php?post=9' method='post' class='mb-5'>";
+          echo "<div class='form-group'>
+          <label class='font-s-11' for='coment'>Digite seu comentário aqui <strong>".$_SESSION['nome']." ".$_SESSION['ltname'].".</strong> Você tem <span class='caracteres' style='color:green;'>600</span> caracteres restantes. <span id='replyText'></span></label>
+          <textarea class='form-control' id='coment' name='coment' rows='5' style='resize: none' maxlength='600' required></textarea>
+          </div>
+          <span id='replySpan' style='display:none;'></span>";
+          echo '<div id="alertShort" style="display:none;" class="alert alert-warning alert-dismissible fade show mb-0 mt-0" role="alert"><strong>Seu comentário é muito curto!</strong> Escreva ao menos 20 caracteres antes de enviar </div>
+                <div class="form-group">
+                  <center><button type="button" id="env" class="btn btn-color-green-2 mt-3 border border-color-green-1 px-5 py-2" onclick="valComent()">Enviar comentário</button></center>
+                </div>';
+          echo "</form>";
+        }else{
+          echo '<div class="alert alert-info mb-5 text-justify" role="alert">';
+          echo 'Você está deslogado! para deixar um comentário é necessário <a href="Login.php" class="alert-link">fazer login ou cadastrar-se primeiro</a> antes de interagir com outros usuários.';
+          echo '</div>';  
+        }
+
+        require_once 'inc/db_inc_coment.php';
+
+        exibiComentario(9);
+
+        ?>
+        
+        
+          
+
+
+
+        </div>
+
+
+
+
 
     </div>
 

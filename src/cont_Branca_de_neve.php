@@ -16,6 +16,20 @@
     <img src="<?php echo $conto.'Branca_de_neve.jpg' ?>" class="" style="width:100%;height:480px;object-fit: cover;object-position: center 20%;"> 
 
     <div class="container-fluid mt-4  wt-geral  position-relative" style="min-height:81vh;">
+	 
+	 <?php
+
+    if (isset($_SESSION['suc']) && isset($_SESSION['id_user'])){
+      echo '<div id="alertSuccess" class="alert alert-success alert-dismissible fade show mb-5 mt-5" role="alert"><strong>Seu comentário foi feito com sucesso!</strong> <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>';
+      unset($_SESSION['suc']);
+    }
+
+    if (isset($_SESSION['pal']) && isset($_SESSION['id_user'])){
+      echo '<div id="alertPal" class="alert alert-danger alert-dismissible fade show mb-5 mt-5" role="alert"><strong>Não admitimos palavras de baixo calão ou endereços de sites inapropriados nos comentários!</strong> Mensagens claramente ofensivas estão sujeitas a serem apagadas. <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>';
+      unset($_SESSION['pal']);
+    }
+
+    ?>
 
         <div class="position-absolute  rounded-pill switch-border" style="right:0;">
 
@@ -152,8 +166,62 @@
 		<p class="text-justify mb-5 font-s-11">– Você, minha rainha, é bela; é verdade.Mas a jovem rainhaé mil vezes mais bela que você.</p>
 		<p class="text-justify mb-5 font-s-11">Ela ficou horrorizada ao ouvir isso e tão tomada pelo medo que não conseguiu dizer nada. Ainda assim, seu ciúme a levou a ir ao casamento e ver a jovem rainha. Quando ela chegou, ela viu que era a Branca de Neve. Em seguida, colocaram um par de sapatos de ferro no fogo até que brilhassem, e ela teve que calçá-los e dançar com eles. Seus pés estavam terrivelmente queimados e ela não conseguia parar até que dançasse até a morte. </p>
 
-        <center><h1 class="font-antic mt-3 mb-2">Fim</h1></center>
+        <center><h1 class="font-antic mt-3 mb-5">Fim</h1></center>
+
+        <?php if(!isset($_SESSION['id_user'])){
+
+        echo '<div class="alert alert-info  mt-3 mb-5 text-justify" role="alert">';
+        echo 'Você está deslogado! para gerar um certificado é necessário <a href="Login.php" class="alert-link">fazer login ou cadastrar-se primeiro.</a>';
+        echo '</div>';
+
+        } else{
+          echo '<center><a href="gerar_cert.php?post=4" target="_blank"><button type="button" id="env" class="btn btn-color-blue-3 mt-0 mb-1 border border-color-blue-1 px-5 py-2">Gerar certificado</button></a></center>';
+        }
         
+        ?>
+        
+
+        <hr id="opniao" class="bg-invert mb-5 mt-5">
+
+        <h1 class="text-center mt-5 mb-5 font-antic">Deixe sua opnião</h1>
+
+        <?php
+
+
+        if(isset($_SESSION['id_user'])){
+          echo "<form id='formComent' name='formComent' action='inc/db_coment.php?post=4' method='post' class='mb-5'>";
+          echo "<div class='form-group'>
+          <label class='font-s-11' for='coment'>Digite seu comentário aqui <strong>".$_SESSION['nome']." ".$_SESSION['ltname'].".</strong> Você tem <span class='caracteres' style='color:green;'>600</span> caracteres restantes. <span id='replyText'></span></label>
+          <textarea class='form-control' id='coment' name='coment' rows='5' style='resize: none' maxlength='600' required></textarea>
+          </div>
+          <span id='replySpan' style='display:none;'></span>";
+          echo '<div id="alertShort" style="display:none;" class="alert alert-warning alert-dismissible fade show mb-0 mt-0" role="alert"><strong>Seu comentário é muito curto!</strong> Escreva ao menos 20 caracteres antes de enviar </div>
+                <div class="form-group">
+                  <center><button type="button" id="env" class="btn btn-color-green-2 mt-3 border border-color-green-1 px-5 py-2" onclick="valComent()">Enviar comentário</button></center>
+                </div>';
+          echo "</form>";
+        }else{
+          echo '<div class="alert alert-info mb-5 text-justify" role="alert">';
+          echo 'Você está deslogado! para deixar um comentário é necessário <a href="Login.php" class="alert-link">fazer login ou cadastrar-se primeiro</a> antes de interagir com outros usuários.';
+          echo '</div>';  
+        }
+
+        require_once 'inc/db_inc_coment.php';
+
+        exibiComentario(4);
+
+        ?>
+        
+        
+          
+
+
+
+        </div>
+
+
+
+
 
     </div>
 

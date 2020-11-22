@@ -27,14 +27,14 @@
             <div class="dropdown-menu navbar-dark bg-color-dark-2">
                 <a class="dropdown-item muda mb-2" href="cont_A_Bela_Adormecida.php">A bela adormecida</a>
                 <a class="dropdown-item muda mb-2" href="cont_A_Bela_e_a_Fera.php">A bela e a fera</a>
-                <a class="dropdown-item muda mb-2" href="cont_A_Princesa_e_o_Sapo.php">A princisa e o sapo</a>
+                <a class="dropdown-item muda mb-2" href="cont_A_Princesa_e_o_Sapo.php">A princesa e o sapo</a>
                 <a class="dropdown-item muda mb-2" href="cont_Branca_de_Neve.php">Branca de neve</a>
                 <a class="dropdown-item muda mb-2" href="cont_Chapeuzinho_Vermelho.php">Chapeuzinho</a>
                 <a class="dropdown-item muda mb-2" href="cont_Cinderela.php">Cinderela</a>
                 <a class="dropdown-item muda mb-2" href="cont_Joao_e_Maria.php">João e Maria</a>
                 <a class="dropdown-item muda mb-2" href="cont_O_Gato_de_Botas.php">O gato de botas</a>
                 <a class="dropdown-item muda mb-2" href="cont_Pequena_Sereia.php">Pequena sereia</a>
-                <a class="dropdown-item muda mb-2" href="cont_Pinoquio.php">Pinoquio</a>
+                <a class="dropdown-item muda mb-2" href="cont_Pinoquio.php">Pinóquio</a>
                 <a class="dropdown-item muda mb-2" href="cont_Rapunzel.php">Rapunzel</a>
             </div>
         </li>
