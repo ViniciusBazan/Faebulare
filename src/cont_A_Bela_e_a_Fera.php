@@ -48,7 +48,7 @@
 		
 		<div class="row mb-4">
 
-            <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/Fera_3.jpg);width:100%;height:100%;"></div></div>
+            <div class="col-12 col-md-4" ><div class="box-left muda bg-img imgc-size" style="background-image: url(img/cont/Fera_3.jpg);width:100%;height:100%;"></div></div>
             <div class="col-12 col-md-8 text-justify font-s-11"> 
 			
 			 <p class="mb-4 recuo">O pai de Bela perde todo seu dinheiro e é obrigado a mudar-se com toda sua numerosa família para uma modesta casa no campo. Bela é a única das irmãs que se adapta e se conforma com a mudança de status social. As outras cinco não aceitam o ocorrido e continuam vivendo sem trabalhar, sem ajudar em casa. Os seis irmãos ajudam o pai na plantação e Bela lida com os afazeres domésticos do dia a dia.</p>
@@ -73,7 +73,7 @@
 		  
 		  
 		  </div>
-          <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/Fera_5.jpg);width:100%;height:100%;"></div></div>
+          <div class="col-12 col-md-4" ><div class="box-right muda bg-img imgc-size" style="background-image: url(img/cont/Fera_5.jpg);width:100%;height:100%;"></div></div>
             
         </div>
 		
@@ -82,7 +82,7 @@
 		
 		
         <div class="row mb-4">
-            <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/Fera_2.jpg);width:100%;height:100%;background-position: center 70%;"></div></div>
+            <div class="col-12 col-md-4" ><div class="box-left muda bg-img imgc-size" style="background-image: url(img/cont/Fera_2.jpg);width:100%;height:100%;background-position: center 70%;"></div></div>
             <div class="col-12 col-md-8 text-justify font-s-11"> 
 			
 			<p class="mb-4 recuo">Na próxima noite, a fera a encontra novamente e faz a mesma pergunta: Bela quer dormir comigo? Ela novamente o responde que não. Depois de um tempo, Bela acaba se apaixonando pela Fera e aceita seu pedido. Após uma noite de amor inesquecível a Fera se transforma em um lindo homem.</p>
@@ -107,7 +107,7 @@
 	 	  <p class="mb-4 recuo">Depois que o Rei Henrique II morreu, Gonsalvus se tornou propriedade da rainha viúva, Catherine de Medici. Dona do rapaz, que ainda era visto como algo menor que um humano por muita gente, ela decidiu fazer um experimento. Ela passou a questionar o que aconteceria se Gonsalvus se relacionasse com uma mulher comum e tivesse filhos. Será que a mulher poderia gerar novas pequenas feras?</p>
 		
 		  </div>
-          <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/Fera_7.jpg);width:100%;height:100%;"></div></div>
+          <div class="col-12 col-md-4" ><div class="box-right muda bg-img imgc-size" style="background-image: url(img/cont/Fera_7.jpg);width:100%;height:100%;"></div></div>
             
         </div>
 		
@@ -116,7 +116,7 @@
 		    
 			
 	    <div class="row mb-4">
-            <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/Fera_8.jpg);width:100%;height:100%;background-position: center 70%;"></div></div>
+            <div class="col-12 col-md-4" ><div class="box-left muda bg-img imgc-size" style="background-image: url(img/cont/Fera_8.jpg);width:100%;height:100%;background-position: center 70%;"></div></div>
             <div class="col-12 col-md-8 text-justify font-s-11"> 
 			
 			<p class="mb-4 recuo">A nova família viajou por vários países da Europa até que se fixou em Parma, na Itália, onde foram contratados (ou comprados) pelo Duque Ranuccio Farnese. O duque chegou a pagar por várias pinturas da família, mas nenhuma delas apresentava as crianças que nasceram normais, pois elas não eram consideradas interessantes. Por outro lado, as crianças que apresentavam pelos por todo o corpo foram exploradas pelo duque, sendo enviadas como presentes e servindo como animais de estimação para nobres e membros da alta classe europeia.</p>

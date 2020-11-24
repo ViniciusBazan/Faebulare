@@ -47,7 +47,7 @@
 		
 		<div class="row mb-4">
 
-            <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/cinderela_2.jpg);width:100%;height:100%;"></div></div>
+            <div class="col-12 col-md-4" ><div class="box-left muda bg-img imgc-size" style="background-image: url(img/cont/cinderela_2.jpg);width:100%;height:100%;"></div></div>
             <div class="col-12 col-md-8 text-justify font-s-11"> 
               <p class="mb-4 recuo">A neve caiu sobre o túmulo da mãe como um pano branco; então, depois que o sol se retirou dela uma segunda vez, e a pequena árvore ficou verde pela segunda vez, o homem tomou outra esposa.</p> 
               <p class="mb-4 recuo">A madrasta já tinha duas filhas do primeiro marido. Elas eram bonitas de se olhar, mas em seus corações eram orgulhosas, arrogantes e maus. Depois que o casamento acabou, os três se mudaram para a casa do homem e os tempos ficaram muito ruins para sua pobre filha.</p> 
@@ -73,7 +73,7 @@
 		  
 		  
 		  </div>
-			<div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/cinderela_3.png);width:100%;height:100%;"></div></div>
+			<div class="col-12 col-md-4" ><div class="box-right muda bg-img imgc-size" style="background-image: url(img/cont/cinderela_3.png);width:100%;height:100%;"></div></div>
             
         </div>
 		
@@ -82,7 +82,7 @@
 		<p class="text-justify mb-4 font-s-11 recuo">Na manhã seguinte, as duas irmãs foram à cozinha. Eles ficaram zangados ao ver que ela havia escolhido as lentilhas, pois queriam repreendê-la. Como não podiam, começaram a contar a ela sobre o baile. Eles disseram: "Cinderela, foi tão maravilhoso no baile. O príncipe, que é o homem mais bonito do mundo, nos acompanhou e vai escolher uma de nós para ser sua esposa."</p>
 		
         <div class="row mb-4">
-            <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/cinderela_4.png);width:100%;height:100%;background-position: center 70%;"></div></div>
+            <div class="col-12 col-md-4" ><div class="box-left muda bg-img imgc-size" style="background-image: url(img/cont/cinderela_4.png);width:100%;height:100%;background-position: center 70%;"></div></div>
             <div class="col-12 col-md-8 text-justify font-s-11"> 
               <p class="mb-4 recuo">"Sim", disse Cinderela, "eu vi as luzes brilhantes. Deve ter sido magnífico." <br> - "Agora, como você fez isso?" perguntou o mais velho. <br> - "Ficando ali no poleiro dos pombos." <br>Ao ouvir isso, sua inveja a levou a mandar demolir o poleiro imediatamente.</p>
 			  <p class="mb-4 recuo">Cinderela teve que pentear seus cabelos e deixá-los prontos novamente. A irmã mais nova, que tinha um pouco de simpatia no coração, disse: "Cinderela, quando escurecer, você pode ir olhar pelas janelas de fora".<br> "Não!" disse o mais velho. "Isso só a deixaria preguiçosa. Aqui está um saco cheio de sementes. Separe as boas das ruins e faça bem. Se amanhã houver alguma ruim no lote, então jogarei todo o saco nas cinzas, e você terá que ficar sem comer até que tenha escolhido todos eles novamente." </p>
@@ -106,7 +106,7 @@
 		  <p class="mb-4 recuo">O príncipe viu a carruagem parar diante do portão e pensou que uma princesa estrangeira estava chegando. Ele mesmo desceu os degraus, ajudou Cinderela a sair e acompanhou-a até o corredor. Muitos milhares de luzes brilharam sobre ela, e ela era tão bonita que todos ficaram maravilhados. As irmãs ficaram ali, com raiva de que alguém fosse mais bonito do que elas, mas não tinham ideia de que era Cinderela, que pensavam que estava deitada em casa nas cinzas. O príncipe dançou com a Cinderela e prestou-lhe todas as honras reais. Ele pensou consigo mesmo: "Devo escolher uma noiva para mim. Não terei ninguém além dela".</p>
 		  
 		  </div>
-          <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/cinderela_5.png);width:100%;height:100%;"></div></div>
+          <div class="col-12 col-md-4" ><div class="box-right muda bg-img imgc-size" style="background-image: url(img/cont/cinderela_5.png);width:100%;height:100%;"></div></div>
             
         </div>
 				
@@ -121,7 +121,7 @@
 		
 		 <div class="row mb-4">
 
-            <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/cinderela_10.png);width:100%;height:100%;background-position: center 70%;"></div></div>
+            <div class="col-12 col-md-4" ><div class="box-left muda bg-img imgc-size" style="background-image: url(img/cont/cinderela_10.png);width:100%;height:100%;background-position: center 70%;"></div></div>
             <div class="col-12 col-md-8 text-justify font-s-11"> 
              
 			  <p class="mb-4 recuo">Cinderela pensou: "Se ao menos meus pombos viessem de novo", e seu coração bateu um pouco mais rápido. Os pombos vieram, exatamente como na noite anterior, e disseram: "Cinderela, gostaria que a ajudássemos a separar as ervilhas".<br><br>- "Sim", disse ela: Os ruins vão para sua plantação. Os bons vão para o vaso.</p>
@@ -146,7 +146,7 @@
 		  <p class="mb-4 recuo">Agora o príncipe decidiu que, uma vez que nada mais havia funcionado, ele deixaria o chinelo ajudá-lo a encontrar sua noiva. Ele proclamou que se casaria com a pessoa cujo pé cabia no sapato de ouro. Mas era pequeno demais para todos. Na verdade, alguns não poderiam ter enfiado o pé dentro, se fosse duas vezes maior. Finalmente, chegou a hora de as duas irmãs experimentarem o chinelo. Eles estavam felizes, pois tinham pés pequenos e bonitos, e cada um acreditava que ela não poderia falhar. "Se ao menos o príncipe viesse aqui mais cedo!" eles pensaram.</p>
 		  <p class="mb-4 recuo">"Escute", disse a mãe secretamente. "Pegue esta faca, e se o chinelo estiver muito apertado, apenas corte parte do seu pé. Vai doer um pouco, mas que mal é isso? A dor vai passar logo, e então uma de vocês será rainha." Em seguida, a mais velha foi para o quarto e experimentou o chinelo. A frente de seu pé entrou, mas seu calcanhar era muito grande, então ela pegou a faca e cortou parte dela, para que ela pudesse forçar seu pé no chinelo. Então ela foi até o príncipe, e quando ele viu que ela estava de chinelo, ele disse que ela seria sua noiva. Ele a acompanhou até sua carruagem e iria embora com ela. Quando ele chegou ao portão, os dois pombos estavam empoleirados acima e gritaram: <br>Rook di goo, rook di goo! Tem sangue no sapato. O sapato é muito apertado, essa noiva não está certa!</p>		  
 		  </div>
-          <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/cinderela_11.png);width:100%;height:100%;"></div></div>
+          <div class="col-12 col-md-4" ><div class="box-right muda bg-img imgc-size" style="background-image: url(img/cont/cinderela_11.png);width:100%;height:100%;"></div></div>
             
         </div>
 		
@@ -169,7 +169,7 @@
         echo '</div>';
 
         } else{
-          echo '<center><a href="gerar_cert.php?post=1" target="_blank"><button type="button" id="env" class="btn btn-color-blue-3 mt-0 mb-1 border border-color-blue-1 px-5 py-2">Gerar certificado</button></a></center>';
+          echo '<center><a href="gerar_cert.php?post=6" target="_blank"><button type="button" id="env" class="btn btn-color-blue-3 mt-0 mb-1 border border-color-blue-1 px-5 py-2">Gerar certificado</button></a></center>';
         }
         
         ?>
@@ -183,7 +183,7 @@
 
 
         if(isset($_SESSION['id_user'])){
-          echo "<form id='formComent' name='formComent' action='inc/db_coment.php?post=1' method='post' class='mb-5'>";
+          echo "<form id='formComent' name='formComent' action='inc/db_coment.php?post=6' method='post' class='mb-5'>";
           echo "<div class='form-group'>
           <label class='font-s-11' for='coment'>Digite seu comentário aqui <strong>".$_SESSION['nome']." ".$_SESSION['ltname'].".</strong> Você tem <span class='caracteres' style='color:green;'>600</span> caracteres restantes. <span id='replyText'></span></label>
           <textarea class='form-control' id='coment' name='coment' rows='5' style='resize: none' maxlength='600' required></textarea>
@@ -202,7 +202,7 @@
 
         require_once 'inc/db_inc_coment.php';
 
-        exibiComentario(1);
+        exibiComentario(6);
 
         ?>
         

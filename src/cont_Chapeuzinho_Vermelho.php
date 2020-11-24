@@ -46,7 +46,7 @@
         <p class="text-justify mb-4 font-s-11 recuo"><span class="font-london font-s-30 mr-2 px-3 border switch-cap text-white muda" style="line-height: 1;">E</span>xiste uma menina que vive numa aldeia; ela é a coisa mais linda que se podia imaginar. Sua mãe era louca por ela, e a avó mais louca ainda. A boa velinha mandou fazer para ela um chapeuzinho vermelho, e esse chapéu assentou-lhe tão bem que a menina passou a ser chamada por todo mundo de Chapeuzinho Vermelho.</p>
         <div class="row mb-4">
 
-            <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/img42.jpg);width:100%;height:100%;"></div></div>
+            <div class="col-12 col-md-4" ><div class="box-left muda bg-img imgc-size" style="background-image: url(img/cont/img42.jpg);width:100%;height:100%;"></div></div>
             <div class="col-12 col-md-8 text-justify font-s-11"> 
               <p class="mb-4 recuo">Um dia, tendo feito alguns bolos, sua mãe disse-lhe:</p> 
               <p class="mb-4 recuo"> — Vá ver como está passando a sua avó, pois fiquei sabendo que ela está um pouco adoentada. Leve-lhe um bolo e este potezinho de manteiga.<br>Chapeuzinho Vermelho partiu logo para a casa da avó que morava numa aldeia vizinha. Ao atravessar a floresta ela encontrou o Lobo, que ficou louco de vontade de comê-la; não ousou fazer isso, porém, por causa da presença de alguns lenhadores na floresta. Perguntou a ela aonde ia, e a pobre menina, que ignorava ser perigoso parar e conversar com um lobo, respondeu:</p>
@@ -58,13 +58,13 @@
 
             
           <div class="col-12 col-md-8 text-justify font-s-11"> <p class="mb-4 recuo"><br>— Vou à casa da minha avó, para levar-lhe um bolo e um potezinho de manteiga que mamãe mandou.<br><br> — Ela mora muito longe? — quis saber o Lobo. <br><br>— Mora, sim! — Falou Chapeuzinho Vermelho.<br><br>— Mora depois daquele moinho que se avista lá longe, muito longe, na primeira casa da aldeia.<br><br>— Muito bem — disse o Lobo. — Eu também vou visita-la. Eu sigo por este caminho aqui, e você por aquele lá. Vamos ver quem chega primeiro.<br></p> </div>
-          <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/img38.jpg);width:100%;height:100%;object-position: center 30%;"></div></div>
+          <div class="col-12 col-md-4" ><div class="box-right muda bg-img imgc-size" style="background-image: url(img/cont/img38.jpg);width:100%;height:100%;object-position: center 30%;"></div></div>
             
 
         </div>
         <div class="row mb-4">
 
-            <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/img39.jpg);width:100%;height:100%;background-position: center 50%;"></div></div>
+            <div class="col-12 col-md-4" ><div class="box-left muda bg-img imgc-size" style="background-image: url(img/cont/img39.jpg);width:100%;height:100%;background-position: center 50%;"></div></div>
             <div class="col-12 col-md-8 text-justify font-s-11">
 			<p class="mb-4 recuo"> O Lobo saiu correndo a toda velocidade pelo caminho mais curto, enquanto a menina seguia pelo caminho mais longo, distraindo-se a colher avelãs, a correr atrás das borboletas e a fazer um buquê com as florezinhas que ia encontrando.<br>O Lobo não levou muito tempo para chegar à casa da avó. Ele bate: toc, toc.</p>
               <p class="mb-4 recuo">  — Quem é? — pergunta a avó.</p>
@@ -78,12 +78,12 @@
 		  
 		  
 		  </div>
-          <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/img40.jpg);width:100%;height:100%;"></div></div>
+          <div class="col-12 col-md-4" ><div class="box-right muda bg-img imgc-size" style="background-image: url(img/cont/img40.jpg);width:100%;height:100%;"></div></div>
             
         </div>
 		 <div class="row mb-4">
 
-            <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/img29.jpg);width:100%;height:100%;background-position: center 70%;"></div></div>
+            <div class="col-12 col-md-4" ><div class="box-left muda bg-img imgc-size" style="background-image: url(img/cont/img29.jpg);width:100%;height:100%;background-position: center 70%;"></div></div>
             <div class="col-12 col-md-8 text-justify font-s-11"> 
 			   <p class="mb-4 recuo">Logo o Lobo repetiu o que a boa avozinha disse para ele:</p>
 			   <p class="mb-4 recuo">— Levante a aldraba, que o ferrolho sobe.</p>

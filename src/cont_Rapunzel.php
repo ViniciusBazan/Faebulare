@@ -60,7 +60,7 @@
 		   <p class="mb-4">- Não vou ser pego com essa tagarelice; você fechou o balanço da vida, a menos que prometa me dar o filho que você tiver, menina ou menino, seja ele qual for.</p>
             <p class="mb-4">A pobre Pascadozzia, para escapar do perigo em que se encontrava, jurou com as mãos cumprir a promessa. Portanto, a ogra a soltou. Mas quando chegou a sua hora, Pascadozzia deu à luz uma menina, tão bonita que era uma alegria olhar, que, por ter um belo ramo de salsa no seio, se chamava Salsa.</p> 
 			<p class="mb-4">E a garotinha crescia dia após dia, até que ela tinha sete anos de idade sua mãe a mandou para a escola; e toda vez que ela ia pela rua e encontrava a ogra, a velha lhe dizia: </p>  </div>
-          <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/Rapunzel_8.jpg);width:100%;height:100%;"></div></div>
+          <div class="col-12 col-md-4" ><div class="box-right muda bg-img imgc-size" style="background-image: url(img/cont/Rapunzel_8.jpg);width:100%;height:100%;"></div></div>
            
 
         </div>
@@ -70,7 +70,7 @@
 
         <div class="row mb-4">
 
-            <div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/Rapunzel_3.jpeg);width:100%;height:100%;background-position: center 40%;"></div></div>
+            <div class="col-12 col-md-4" ><div class="box-left muda bg-img imgc-size" style="background-image: url(img/cont/Rapunzel_3.jpeg);width:100%;height:100%;background-position: center 40%;"></div></div>
             <div class="col-12 col-md-8 text-justify font-s-12"> 
               <p class="mb-4">-Se você encontrar a velha como sempre, e ela te lembrar da promessa odiosa , responda a ela, 'Pegue!' </p>
               <p class="mb-4">Quando Parsley, que não sonhava com doenças, encontrou a ogra novamente e a ouviu repetir as mesmas palavras, ela respondeu inocentemente como sua mãe lhe dissera; então a ogra, agarrando-a pelos cabelos, levou-a para um bosque onde o sol nunca entrava. Em seguida, ela colocou a pobre menina em uma torre, que ela fez surgir com sua arte, e que não tinha portão nem escada, mas apenas uma janelinha, pela qual ela subia e descia por meio do cabelo de Salsa, que era muito longo, como o marinheiro é usado para subir e descer o mastro de um navio.</p>
@@ -94,7 +94,7 @@
 			  
 			  
 			</div>
-			<div class="col-12 col-md-4" ><div class="bg-img imgc-size" style="background-image: url(img/cont/Rapunzel_2.png);width:100%;height:100%;background-position: center 10%;"></div></div>
+			<div class="col-12 col-md-4" ><div class="box-right muda bg-img imgc-size" style="background-image: url(img/cont/Rapunzel_2.png);width:100%;height:100%;background-position: center 10%;"></div></div>
         </div>
 		 <p class="text-justify mb-4 font-s-12">Enquanto conversavam assim, Parsley, que estava com os ouvidos bem abertos e suspeitava da fofoca, ouviu tudo o que se passava. E quando a noite espalhou suas vestes negras, e o príncipe apareceu como de costume, ela o fez subir nas vigas e encontrar as nozes, sabendo muito bem que efeito elas teriam, já que ela havia se encantado com a ogra. Então, tendo feito uma escada de corda, os dois desceram ao chão, puseram-se nos calcanhares e dispararam em direção à cidade.</p>
 		<p class="text-justify mb-4 font-s-12">Mas a fofoca acontecendo ao vê-los sair, deu um grande alô, e começou a gritar e fazer tanto barulho que a ogra acordou; e vendo que Salsa tinha fugido, desceu pela mesma escada, que estava presa à janela, e saiu correndo atrás dos amantes, que, ao vê-la vindo em seus calcanhares mais rápido do que um cavalo solto, se entregaram por perdido. Mas Salsa, lembrando-se das nozes, rapidamente jogou uma no chão, e eis! instantaneamente um bulldog da Córsega começou, - uma fera terrível! - que com as mandíbulas abertas e latindo alto voou para a ogra como se fosse engoli-la de uma só vez. Mas a velha, que era mais astuta e rancorosa que o diabo, meteu a mão no bolso e, tirando um pedaço de pão, deu-o ao cão, o que o fez pendurar o rabo e acalmar a sua fúria.</p>
