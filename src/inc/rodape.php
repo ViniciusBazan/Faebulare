@@ -3,15 +3,15 @@
 <div class="container-fluid bg-color-dark-2 text-white" id="container-rodape">
     <div class="container mt-3">
         <div class="row">
-            <div class="col-12 col-md-4 mt-md-5 mb-md-2 order-2 order-md-2">
+            <div class="col-12 col-md-4 mt-md-4 mb-md-2 order-2 order-md-2">
                 <center><p><a class="muda alink" href="index.php">Home</a> / <a class="muda alink" href="cont_Autores.php">Autores</a> / <a class="muda alink" href="cont_Quem_somos.php">Sobre Nós</a></p></center>
             </div>
 
-            <div class="col-12 col-md-4 mt-md-5 mb-md-2 order-3 order-md-2">
+            <div class="col-12 col-md-4 mt-md-4 mb-md-2 order-3 order-md-2">
                 <center><p>&copy; Copyright 2020 - Faebulare</p></center>
             </div>
 
-            <div class="col-12 col-md-4 mt-5 mb-md-2 order-1 order-md-3">
+            <div class="col-12 col-md-4 mt-4 mb-md-2 order-1 order-md-3">
                 <center><p><?php
                     if(!isset($_SESSION['id_user'])){
 
