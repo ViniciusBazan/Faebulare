@@ -41,7 +41,7 @@
         <br>
     
         <center><h1 class="font-antic mt-3 mb-2"> Branca de neve </h1></center>
-        <center><h3 class="font-antic mt-3 mb-5"> Jacob e Wilhelm Grimm </h3></center>
+        <center><h3 class="font-antic mt-3 mb-5"> Jacob e Wilhelm Grimm - Little Snow-White - 1812 </h3></center>
 
         <p class="text-justify mb-4 font-s-11"><span class="font-london font-s-30 mr-2 px-3 border switch-cap text-white muda" style="line-height: 1;">E</span>ra uma vez, no meio do inverno, quando os flocos de neve caíam como penas do céu, uma linda rainha estava sentada costurando em sua janela, que tinha uma moldura de madeira de ébano preto. Enquanto costurava, ela ergueu os olhos para a neve e espetou o dedo com a agulha. Três gotas de sangue caíram na neve. O vermelho no branco parecia tão bonito que ela pensou: "Se eu tivesse um filho branco como a neve, vermelho como sangue e preto como esta moldura." Logo depois, ela teve uma filha pequena que era branca como a neve, vermelha como sangue e negra como madeira de ébano, e por isso a chamavam de Pequena Branca de Neve.
 

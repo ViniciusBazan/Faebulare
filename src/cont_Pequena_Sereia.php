@@ -41,8 +41,7 @@
         <br>
     
         <center><h1 class="font-antic mt-3 mb-2"> A Pequena Sereia </h1></center>
-        <center><h3 class="font-antic mt-3 mb-5"> Hans Christian
-Andersen </h3></center>
+        <center><h3 class="font-antic mt-3 mb-5"> Hans Christian Andersen - 1837 </h3></center>
 
         <p class="text-justify mb-4 font-s-11 recuo"><span class="font-london font-s-30 mr-2 px-3 border switch-cap text-white muda" style="line-height: 1;">M</span>uito além do oceano, onde a água é tão azul como a flor do loio, e tão clara como o cristal, era um lugar muito, muito profundo, tão profundo, de fato, que nenhum cabo poderia atravessá-lo: muitos campanários de igreja, amontoados uns sobre os outros, não conseguiriam alcançá-lo do chão, abaixo da superfície da água até lá em cima. Lá era o palácio do Rei dos Mares e de seus súditos. Não podemos imaginar que exista algo no fundo do mar mas apenas a areia amarela.</p>
         <div class="row mb-4">

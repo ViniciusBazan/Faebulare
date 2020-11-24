@@ -41,7 +41,7 @@
         <br>
     
         <center><h1 class="font-antic mt-3 mb-2"> O Príncipe Sapo </h1></center>
-        <center><h3 class="font-antic mt-3 mb-5"> Irmãos Grimm </h3></center>
+        <center><h3 class="font-antic mt-3 mb-5"> Jacob e Wilhelm Grimm - 1812 </h3></center>
 
         <p class="text-justify mb-4 font-s-11 recuo"><span class="font-london font-s-30 mr-2 px-3 border switch-cap text-white muda" style="line-height: 1;">H</span>á muito tempo, quando os desejos funcionavam, vivia um rei que tinha filhas muito belas. A mais jovem era tão linda que o sol, que já viu tantas maravilhas, ainda assim ficava atônito sempre que iluminava seu rosto. Perto do castelo do rei havia um bosque grande e escuro no qual havia um lagoa sob uma velha árvore. Quando o dia era quente, a princesinha ia ao bosque e se sentava junto à fonte. Quando se aborrecia, pegava sua bola de ouro, a jogava alto e recolhia. Essa bola era seu brinquedo favorito. Porém aconteceu que uma das vezes que a princesa jogou a bola, esta não caiu em sua mão, mas sim no solo, rodando e caindo direto na água. A princesa viu como ia desaparecendo na lagoa, que era profunda, tanto que não se via o fundo. Então começou a chorar, mais e mais forte, e não se consolava e tanto se lamenta, que alguém lhe diz:</p>
         <div class="row mb-4">
