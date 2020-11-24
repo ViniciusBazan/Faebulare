@@ -16,7 +16,7 @@
     <div class="row position-absolute mt-5" style="width:100%;">
       <div class="col-1 col-md-3"></div>
       <div class="col-10 col-md-6 mt-5">
-        <center><h1 class="mt-5 text-center font-london font-s-40 text-white">A psicanálise por trás dos contos de fadas</h1></center>
+        <center><h1 class="mt-5 text-center font-london font-s-35 text-white">A psicanálise por trás dos contos de fadas</h1></center>
       </div>
       <div class="col-1 col-md-3"></div>
     </div>

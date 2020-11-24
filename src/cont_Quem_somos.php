@@ -22,7 +22,7 @@
             <div class="col-md-2"></div><div class="col-12 col-md-8"><center><h3>A equipe do Faebulare é composta por 4 adolescentes que cursam informática para a internet na Etec Parque Belém e são grandes interessados em contos de fadas.</h3></center></div><div class="col-md-2"></div>
         </div>
 
-        <center class="mt-5"><a href="#julia" class="scrollSuave opaci muda"><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-chevron-double-down" fill="#cc0000" xmlns="http://www.w3.org/2000/svg">
+        <center class="mt-5"><a href="#devs" class="scrollSuave opaci muda"><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-chevron-double-down" fill="#cc0000" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
             <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
             </svg></a>
@@ -31,7 +31,7 @@
     </div>
 
     
-      <div class="bg-img " style="background-image: url(img/bg/bg2.png);width:100%;height:100%;">
+      <div id="devs" class="bg-img " style="background-image: url(img/bg/bg2.png);width:100%;height:100%;">
       
         <div class="container-fluid mt-5 mb-5  wt-geral text-white">
         <br><br><br>
