@@ -13,7 +13,7 @@
 
     <div style="width:100%;height:auto;">
 
-    <img src="<?php echo $conto.'img13.jpg' ?>" class="" style="width:100%;height:550px;object-fit: cover;object-position: center 25%;"> 
+    <img src="<?php echo $conto.'img13.jpg' ?>" class="" style="width:100%;height:430px;object-fit: cover;object-position: center 20%;"> 
 
     <div class="container-fluid mt-4  wt-geral  position-relative" style="min-height:81vh;">
 	
