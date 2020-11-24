@@ -137,7 +137,8 @@
         echo '</div>';
 
         } else{
-          echo '<center><a href="gerar_cert.php?post=2" target="_blank"><button type="button" id="env" class="btn btn-color-blue-3 mt-0 mb-1 border border-color-blue-1 px-5 py-2">Gerar certificado</button></a></center>';
+          echo '<center><a href="manual.php" target="_blank"><button type="button" id="env" class="btn btn-color-blue-3 mt-0 mb-1 border border-color-blue-1 px-5 py-2 mr-2">Como imprimir</button></a>';
+          echo '<a href="gerar_cert.php?post=2" target="_blank"><button type="button" id="env" class="btn btn-color-blue-3 mt-0 mb-1 border border-color-blue-1 px-5 py-2 mr-2">Gerar certificado</button></a></center>';
         }
         
         ?>

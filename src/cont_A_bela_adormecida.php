@@ -41,7 +41,7 @@
         <br>
     
         <center><h1 class="font-antic mt-3 mb-2"> A bela adormecida </h1></center>
-        <center><h3 class="font-antic mt-3 mb-5"> Sol, lua e Talia </h3></center>
+        <center><h3 class="font-antic mt-3 mb-5"> Sol, lua e Talia - Giambattista Basile - 1634 </h3></center>
 
         <p class="text-justify mb-4 font-s-11 recuo"><span class="font-london font-s-30 mr-2 px-3 border switch-cap text-white muda" style="line-height: 1;">E</span>ra uma vez um grande senhor que foi agraciado com o nascimento de uma filha, a quem deu o nome de Talia. Chamou os homens sábios e astrônomos de suas terras para que predissessem o seu futuro. Encontraram-se e, assessorando-se mutuamente, consultaram seu horóscopo e chegaram à conclusão de que ela correria um grande perigo devido a uma farpa de linho. Seu pai então proibiu qualquer planta de linho, cânhamo, ou qualquer outro material desse tipo em sua casa, esperando assim que escapasse do perigo.</p>
         <div class="row mb-4">
@@ -111,7 +111,8 @@
         echo '</div>';
 
         } else{
-          echo '<center><a href="gerar_cert.php?post=1" target="_blank"><button type="button" id="env" class="btn btn-color-blue-3 mt-0 mb-1 border border-color-blue-1 px-5 py-2">Gerar certificado</button></a></center>';
+          echo '<center><a href="manual.php" target="_blank"><button type="button" id="env" class="btn btn-color-blue-3 mt-0 mb-1 border border-color-blue-1 px-5 py-2 mr-2">Como imprimir</button></a>';
+          echo '<a href="gerar_cert.php?post=1" target="_blank"><button type="button" id="env" class="btn btn-color-blue-3 mt-0 mb-1 border border-color-blue-1 px-5 py-2">Gerar certificado</button></a></center>';
         }
         
         ?>

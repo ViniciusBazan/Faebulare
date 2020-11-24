@@ -41,7 +41,7 @@
         <br>
     
         <center><h1 class="font-antic mt-3 mb-2"> Pinóquio </h1></center>
-        <center><h3 class="font-antic mt-3 mb-5"> Carlo Collodi</h3></center>
+        <center><h3 class="font-antic mt-3 mb-5"> Le avventure di pinocchio - Carlo Collodi - 1880</h3></center>
 
         <p class="text-justify mb-4 font-s-11 recuo"><span class="font-london font-s-30 mr-2 px-3 border switch-cap text-white muda" style="line-height: 1;">G</span>epeto, um carpinteiro conhecido em sua cidade, ganha um presente de um antigo amigo, um pedaço de madeira falante. Ambicioso, ele decidiu que faria uma marionete mágica e rodaria o mundo ganhando centenas de euros a cada espetáculo. Primeiro ele esculpiu os olhos e pode ver que se mexiam, o observando curiosamente, depois desenhou um nariz que não parava de crescer, uma boca que imediatamente formou um sorriso debochado cheio de dentes.<br><br></p>
         <div class="row mb-4">
@@ -82,7 +82,8 @@
         echo '</div>';
 
         } else{
-          echo '<center><a href="gerar_cert.php?post=10" target="_blank"><button type="button" id="env" class="btn btn-color-blue-3 mt-0 mb-1 border border-color-blue-1 px-5 py-2">Gerar certificado</button></a></center>';
+          echo '<center><a href="manual.php" target="_blank"><button type="button" id="env" class="btn btn-color-blue-3 mt-0 mb-1 border border-color-blue-1 px-5 py-2 mr-2">Como imprimir</button></a>';
+          echo '<a href="gerar_cert.php?post=10" target="_blank"><button type="button" id="env" class="btn btn-color-blue-3 mt-0 mb-1 border border-color-blue-1 px-5 py-2">Gerar certificado</button></a></center>';
         }
         
         ?>
