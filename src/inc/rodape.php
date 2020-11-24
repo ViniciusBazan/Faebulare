@@ -1,5 +1,5 @@
 
-<img src="img/book.png" class="book-wt book-pos" id="book">
+<!-- <img src="img/book.png" class="book-wt book-pos" id="book"> --> 
 <div class="container-fluid bg-color-dark-2 text-white" id="container-rodape">
     <div class="container mt-3">
         <div class="row">
