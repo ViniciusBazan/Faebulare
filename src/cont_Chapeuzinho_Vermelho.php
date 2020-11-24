@@ -41,7 +41,7 @@
         <br>
     
         <center><h1 class="font-antic mt-3 mb-2"> Chapeuzinho Vermelho  </h1></center>
-        <center><h3 class="font-antic mt-3 mb-5"> Charles Perroult - 1697</h3></center>
+        <center><h3 class="font-antic mt-3 mb-5"> Le Petit Chaperon Rouge - Charles Perroult - 1697</h3></center>
 
         <p class="text-justify mb-4 font-s-11 recuo"><span class="font-london font-s-30 mr-2 px-3 border switch-cap text-white muda" style="line-height: 1;">E</span>xiste uma menina que vive numa aldeia; ela é a coisa mais linda que se podia imaginar. Sua mãe era louca por ela, e a avó mais louca ainda. A boa velinha mandou fazer para ela um chapeuzinho vermelho, e esse chapéu assentou-lhe tão bem que a menina passou a ser chamada por todo mundo de Chapeuzinho Vermelho.</p>
         <div class="row mb-4">
@@ -104,7 +104,8 @@
         echo '</div>';
 
         } else{
-          echo '<center><a href="gerar_cert.php?post=5" target="_blank"><button type="button" id="env" class="btn btn-color-blue-3 mt-0 mb-1 border border-color-blue-1 px-5 py-2">Gerar certificado</button></a></center>';
+          echo '<center><a href="manual.php" target="_blank"><button type="button" id="env" class="btn btn-color-blue-3 mt-0 mb-1 border border-color-blue-1 px-5 py-2 mr-2">Como imprimir</button></a>';
+          echo '<a href="gerar_cert.php?post=5" target="_blank"><button type="button" id="env" class="btn btn-color-blue-3 mt-0 mb-1 border border-color-blue-1 px-5 py-2">Gerar certificado</button></a></center>';
         }
         
         ?>

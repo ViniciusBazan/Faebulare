@@ -41,7 +41,7 @@
         <br>
     
         <center><h1 class="font-antic mt-3 mb-2"> O Gato de Botas </h1></center>
-        <center><h3 class="font-antic mt-3 mb-5"> Charles Perrault - 1697</h3></center>
+        <center><h3 class="font-antic mt-3 mb-5"> Le Chat Botte - Charles Perrault - 1697</h3></center>
 
         <p class="text-justify mb-4 font-s-11 recuo"><span class="font-london font-s-30 mr-2 px-3 border switch-cap text-white muda" style="line-height: 1;">E</span>ra uma vez um moleiro que, ao morrer, deixou como herança para os seus três filhos todos os seus bens, que consistiam em um moinho, um burro e um gato. A divisão foi logo feita. Não foram chamados para fazê-la notários ou advogados, que acabariam fazendo desaparecer em pouco tempo o pequeno patrimônio. O filho mais velho ficou com o moinho, o segundo ficou com o burro e o pobre do caçula teve de se contentar com o gato, naturalmente muito aborrecido por ter de se contentar com um quinhão tão pequeno. <br>- Os meus irmãos – disse ele – vão poder ganhar a vida honestamente, trabalhando em conjunto. Eu, porém, depois de comer meu gato e fazer um chinelo com a sua pele, vou ter de morrer de fome. </p>
         <div class="row mb-4">
@@ -130,7 +130,8 @@
         echo '</div>';
 
         } else{
-          echo '<center><a href="gerar_cert.php?post=8" target="_blank"><button type="button" id="env" class="btn btn-color-blue-3 mt-0 mb-1 border border-color-blue-1 px-5 py-2">Gerar certificado</button></a></center>';
+          echo '<center><a href="manual.php" target="_blank"><button type="button" id="env" class="btn btn-color-blue-3 mt-0 mb-1 border border-color-blue-1 px-5 py-2 mr-2">Como imprimir</button></a>';
+          echo '<a href="gerar_cert.php?post=8" target="_blank"><button type="button" id="env" class="btn btn-color-blue-3 mt-0 mb-1 border border-color-blue-1 px-5 py-2">Gerar certificado</button></a></center>';
         }
         
         ?>

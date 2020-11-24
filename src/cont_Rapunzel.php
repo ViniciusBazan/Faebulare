@@ -41,7 +41,7 @@
         <br>
     
         <center><h1 class="font-antic mt-3 mb-2"> Rapunzel </h1></center>
-        <center><h3 class="font-antic mt-3 mb-5"> Giambattista Basile - Petrosinella - 1634 </h3></center>
+        <center><h3 class="font-antic mt-3 mb-5"> Petrosinella - Giambattista Basile - 1634 </h3></center>
 
         <p class="text-justify mb-4 font-s-12"><span class="font-london font-s-30 mr-2 px-3 border switch-cap text-white muda" style="line-height: 1;">E</span>ra uma vez uma mulher chamada Pascadozzia. Estando um dia diante de uma janela que dava para o jardim de uma ogra, viu um lindo canteiro de salsa, pela qual sentiu tanta saudade que quase desmaiou; e sendo incapaz de resistir ao seu desejo, ela observou até que a ogra saiu, e então arrancou um punhado dela.</p>
         
@@ -111,7 +111,8 @@
         echo '</div>';
 
         } else{
-          echo '<center><a href="gerar_cert.php?post=11" target="_blank"><button type="button" id="env" class="btn btn-color-blue-3 mt-0 mb-1 border border-color-blue-1 px-5 py-2">Gerar certificado</button></a></center>';
+          echo '<center><a href="manual.php" target="_blank"><button type="button" id="env" class="btn btn-color-blue-3 mt-0 mb-1 border border-color-blue-1 px-5 py-2 mr-2">Como imprimir</button></a>';
+          echo '<a href="gerar_cert.php?post=11" target="_blank"><button type="button" id="env" class="btn btn-color-blue-3 mt-0 mb-1 border border-color-blue-1 px-5 py-2">Gerar certificado</button></a></center>';
         }
         
         ?>
