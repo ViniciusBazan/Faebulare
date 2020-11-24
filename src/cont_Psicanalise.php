@@ -111,7 +111,7 @@
               </div>
               <div class="col-12 col-md-6 mt-4 mt-md-0">
 
-              <p class="mt-1 mb-4 text-justify font-s-13 recuo"> Ressalva-se a importância dos contos para entender os problemas sociais existentes em nossa sociedade desde a antiguedade. Ao analisar os contos de fadas folclóricos nota-se elementos mais perversos do que os apresentados nas versões de Walter Elias Disney.</p> 
+              <p class="mt-1 mb-4 text-justify font-s-13 recuo"> Ressalva-se a importância dos contos para entender os problemas sociais existentes em nossa sociedade desde a antiguidade. Ao analisar os contos de fadas folclóricos nota-se elementos mais perversos do que os apresentados nas versões de Walter Elias Disney.</p> 
 
               <p class="mt-1 mb-4 text-justify font-s-13 recuo"> Neles são abordados temas como o abandono, o estupro, o incesto, o canibalismo, a antropofagia, a mutilação e a <span style="color:#f4b12f;">miséria</span>.</p>
 
