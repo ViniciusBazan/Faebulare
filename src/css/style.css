@@ -9074,8 +9074,8 @@ a.text-color-light-1:hover, a.text-color-light-1:focus {
   border-color: var(--border-fill) !important; }
 
 .switch-cap {
-  border-color: var(--border-cap) !important;
-  background-color: var(--bg-cap) !important; }
+  border: 6px double var(--color-gold) !important;
+  background-color: var(--color-red-1) !important; }
 
 .ancora {
   text-decoration: none !important;

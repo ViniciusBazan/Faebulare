@@ -531,8 +531,8 @@ $font-family-sans-serif : "Andika New Basic",-apple-system, BlinkMacSystemFont, 
 }
 
 .switch-cap{
-    border-color: var(--border-cap) !important;
-    background-color: var(--bg-cap) !important;
+    border: 6px double var(--color-gold) !important;
+    background-color: var(--color-red-1) !important;
 }
 
 .ancora{
