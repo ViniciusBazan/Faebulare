@@ -148,14 +148,14 @@
 
 </div>
 
-<br><br><br><br>
+<br><br ><br id="hist"><br>
 
 <div class="row mt-3 mt-md-5">
 
   <div class="col-1"> </div>
 
   <div class="col-11">
-    <img id="hist" class="position-absolute wtem-4 wtem-md-2" src="<?php echo $folhas.'1.png' ?>"  style="z-index:0;"><h1 class="font-london font-s-40 font-s-md-20 position-relative" style="z-index:1;">Nem toda história...</h1>
+    <img  class="position-absolute wtem-4 wtem-md-2" src="<?php echo $folhas.'1.png' ?>"  style="z-index:0;"><h1 class="font-london font-s-40 font-s-md-20 position-relative" style="z-index:1;">Nem toda história...</h1>
   </div>
 
   

@@ -28,6 +28,8 @@ $idUser = $_SESSION['id_user'];
 
 // Blacklist de palavrões
 $palavroes = array (
+    " babaca",
+    " idiota",
     " puta",
     " pqp",
     " p.q.p",
