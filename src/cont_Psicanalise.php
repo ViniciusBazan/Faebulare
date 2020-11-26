@@ -40,7 +40,7 @@
 
             <br>
         
-            <p class="mt-5 mb-4 text-justify font-s-13 recuo"><span  class="dest-purple muda" style="font-family: Brush Script MT; font-size:1.5em; ">Os contos de fadas</span> possuem uma natureza ética e existencial, em muitas de suas histórias são retratados heróis e heroínas, e durante essas narrativas, é representado, por meio desses personagens, a possível realização de um ideal ou sonho. Esses contos têm grande impacto na vida da criança, visto que transmitem entretenimento, despertam a imaginação e a curiosidade de seus ouvintes, leitores e espectadores, além de ajudálos a desenvolver seu intelecto e tornar claras suas emoções, possibilitando que aquele que tenha algum tipo de contato com os contos de fadas reconheça suas dificuldades e desenvolva soluções para os problemas que o aflinge.</p> 
+            <p class="mt-5 mb-4 text-justify font-s-13 recuo"><span  class="dest-purple muda" style="font-family: Brush Script MT; font-size:1.5em; ">Os contos de fadas</span> possuem uma natureza ética e existencial, em muitas de suas histórias são retratados heróis e heroínas, e durante essas narrativas, é representado, por meio desses personagens, a possível realização de um ideal ou sonho. Esses contos têm grande impacto na vida da criança, visto que transmitem entretenimento, despertam a imaginação e a curiosidade de seus ouvintes, leitores e espectadores, além de ajudá-los a desenvolver seu intelecto e tornar claras suas emoções, possibilitando que aquele que tenha algum tipo de contato com os contos de fadas reconheça suas dificuldades e desenvolva soluções para os problemas que o aflinge.</p> 
         
         </div>
 
