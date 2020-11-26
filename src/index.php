@@ -137,14 +137,11 @@
 
 
 
-<div class="row d-none d-md-flex">
+<div class="row mt-3">
 
   <div class="col-3"></div>
   <div class="col-6">
-    <center><a href="#hist" class="scrollSuave muda opaci"><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-chevron-double-down" fill="#cc0000" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-            <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-            </svg></a>
+    <center><a href="#hist" class="scrollSuave muda opaci"><img src="img/arrow.png" style="width:2em;height:2.4em;"></a>
             </center>
   </div>
   <div class="col-3"></div>
@@ -153,7 +150,7 @@
 
 <br><br><br><br>
 
-<div class="row mt-5">
+<div class="row mt-3 mt-md-5">
 
   <div class="col-1"> </div>
 
@@ -192,10 +189,7 @@
 
   <div class="col-3"></div>
   <div class="col-6">
-            <center><a href="#cards" class="scrollSuave muda opaci"><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-chevron-double-down" fill="#cc0000" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-                    <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-                    </svg><a>
+            <center><a href="#cards" class="scrollSuave muda opaci"><img src="img/arrow.png" style="width:2em;height:2.4em;"><a>
             </center>
   </div>
   <div class="col-3"></div>
