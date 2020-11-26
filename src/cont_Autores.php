@@ -16,9 +16,9 @@
         <div class="row position-absolute mt-5" style="width:100%;">
             <div class="col-6"> </div>
             <div class="col-6 ">
-                <h1 class="mt-5 text-center font-antic text-white">Perrault, Grimm,</h1>
-                <h1 class="mt-1 text-center font-antic text-white"> Andersen</h1>
-                <h1 class="mt-1 text-center font-antic text-white"> & outros.</h1>
+                <h1 class="mt-5 text-center font-antic text-white" style="text-shadow: 4px 3px 2px #000;">Perrault, Grimm,</h1>
+                <h1 class="mt-1 text-center font-antic text-white" style="text-shadow: 4px 3px 2px #000;"> Andersen</h1>
+                <h1 class="mt-1 text-center font-antic text-white" style="text-shadow: 4px 3px 2px #000;"> & outros.</h1>
             </div>
         </div>
 

@@ -16,7 +16,7 @@
     <div class="row position-absolute mt-5" style="width:100%;">
       <div class="col-1 col-md-3"></div>
       <div class="col-10 col-md-6 mt-5">
-        <center><h1 class="mt-5 text-center font-london font-s-35 text-white">A psicanálise por trás dos contos de fadas</h1></center>
+        <center><h1 class="mt-5 text-center font-london font-s-35 text-white" style="text-shadow:  4px 3px 2px #000;">A psicanálise por trás dos contos de fadas</h1></center>
       </div>
       <div class="col-1 col-md-3"></div>
     </div>
@@ -40,7 +40,7 @@
 
             <br>
         
-            <p class="mt-5 mb-4 text-justify font-s-13 recuo"><span  class="dest-purple muda" style="font-family: Brush Script MT; font-size:1.5em;">Os contos de fadas</span> possuem uma natureza ética e existencial, em muitas de suas histórias são retratados heróis e heroínas, e durante essas narrativas, é representado, por meio desses personagens, a possível realização de um ideal ou sonho. Esses contos têm grande impacto na vida da criança, visto que transmitem entretenimento, despertam a imaginação e a curiosidade de seus ouvintes, leitores e espectadores, além de ajudálos a desenvolver seu intelecto e tornar claras suas emoções, possibilitando que aquele que tenha algum tipo de contato com os contos de fadas reconheça suas dificuldades e desenvolva soluções para os problemas que o aflinge.</p> 
+            <p class="mt-5 mb-4 text-justify font-s-13 recuo"><span  class="dest-purple muda" style="font-family: Brush Script MT; font-size:1.5em; ">Os contos de fadas</span> possuem uma natureza ética e existencial, em muitas de suas histórias são retratados heróis e heroínas, e durante essas narrativas, é representado, por meio desses personagens, a possível realização de um ideal ou sonho. Esses contos têm grande impacto na vida da criança, visto que transmitem entretenimento, despertam a imaginação e a curiosidade de seus ouvintes, leitores e espectadores, além de ajudálos a desenvolver seu intelecto e tornar claras suas emoções, possibilitando que aquele que tenha algum tipo de contato com os contos de fadas reconheça suas dificuldades e desenvolva soluções para os problemas que o aflinge.</p> 
         
         </div>
 
