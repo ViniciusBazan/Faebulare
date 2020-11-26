@@ -43,11 +43,17 @@
         <center><h1 class="font-antic mt-3 mb-2"> A bela adormecida </h1></center>
         <center><h3 class="font-antic mt-3 mb-5"> Sol, lua e Talia - Giambattista Basile - 1634 </h3></center>
 
-        <p class="text-justify mb-4 font-s-11 recuo"><span class="font-london font-s-30 mr-2 px-3 switch-cap text-white muda" style="line-height: 1;">E</span>ra uma vez um grande senhor que foi agraciado com o nascimento de uma filha, a quem deu o nome de Talia. Chamou os homens sábios e astrônomos de suas terras para que predissessem o seu futuro. Encontraram-se e, assessorando-se mutuamente, consultaram seu horóscopo e chegaram à conclusão de que ela correria um grande perigo devido a uma farpa de linho. Seu pai então proibiu qualquer planta de linho, cânhamo, ou qualquer outro material desse tipo em sua casa, esperando assim que escapasse do perigo.</p>
+        <div class="row mb-4">
+          <div class="col-12 col-md-8 text-justify font-s-11">
+            <p class="mb-4 recuo"><span class="font-london font-s-30 mr-2 px-3 switch-cap text-white muda" style="line-height: 1;">E</span>ra uma vez um grande senhor que foi agraciado com o nascimento de uma filha, a quem deu o nome de Talia. Chamou os homens sábios e astrônomos de suas terras para que predissessem o seu futuro. Encontraram-se e, assessorando-se mutuamente, consultaram seu horóscopo e chegaram à conclusão de que ela correria um grande perigo devido a uma farpa de linho. Seu pai então proibiu qualquer planta de linho, cânhamo, ou qualquer outro material desse tipo em sua casa, esperando assim que escapasse do perigo.</p>
+          </div>
+          <div class="col-12 col-md-4" ><div class="box-right bg-img imgc-size muda" style="background-image: url(img/cont/Bela_5.jpeg);width:100%;height:100%;"></div></div>
+        </div>
+
         <div class="row mb-4">
 
-            <div class="col-12 col-md-4" ><div class="box-left bg-img imgc-size muda" style="background-image: url(img/cont/Bela_2.jpg);width:100%;height:100%;"></div></div>
-            <div class="col-12 col-md-8 text-justify font-s-11"> 
+            <div class="col-12 col-md-4 order-2 order-md-1" ><div class="box-left bg-img imgc-size muda" style="background-image: url(img/cont/Bela_2.jpg);width:100%;height:100%;"></div></div>
+            <div class="col-12 col-md-8 text-justify font-s-11 order-1 order-md-2"> 
               <p class="mb-4 recuo">Um dia, quando se havia convertido em uma bela jovem, Talia estava olhando através da janela e viu passar uma velha mulher fiando. Talia, que nunca tinha visto nem uma roca nem um fuso, quis ver como girava, e era tal a sua curiosidade que pediu à velha mulher que fosse até ela. Tomando a roca em sua mão, a garota começou a fiar o linho. Desgraçadamente, cravou-se uma farpa de linho debaixo da unha de Talia, e ela caiu morta ao solo. Quando a velha mulher viu o acontecido, assustou-se tanto que saiu pelas escadas e está fugindo até hoje.</p> 
               <p class="mb-4 recuo">Tão logo seu desgraçado pai viu o desastre que havia ocorrido, tomou-a e, depois de ser inundado pela tristeza e de derramar rios de lágrimas, tirou dali a belíssima Talia e levou-a até um de seus palácios no campo. Ali sentou-a em um trono de veludo debaixo de um dossel de brocado. Desejando apagar da memória todo o seu infortúnio, fechou todas as portas e abandonou para sempre o palácio onde havia sofrido sua grande perda.</p>
             </div>
@@ -77,7 +83,14 @@
 
         <p class="text-justify mb-4 font-s-11 recuo">– Escuta, meu querido, tu estás entre a cruz e a espada. Se me disseres de quem o rei, meu marido, está enamorado, te farei enriquecer; e se me esconderes a verdade, te farei morrer.</p>
         <p class="text-justify mb-4 font-s-11 recuo">O secretário, por um lado, estava assustado; por outro lado, estava ávido pela riqueza. A avareza e o medo lhe fizeram esquecer a honra, a justiça e a lealdade, e contou-lhe tudo que sabia.</p>
-        <p class="text-justify mb-4 font-s-11 recuo">Então a rainha ordenou que o secretário fosse até Talia, e lhe dissesse que o rei queria as crianças no palácio. Talia, com grande contentamento, obedeceu e enviou Sol e Lua pelo secretário, que os entregou nas mãos da rainha. Esta, que era mais venenosa que uma víbora, pediu ao cozinheiro que os matasse e cozinhasse em vários e apetitosos molhos, e os servisse para o rei comer. Mas o cozinheiro, tendo um coração terno, ao ver aquelas duas jóias formosas, sentiu compaixão e os entregou à sua esposa para que cuidasse deles. No palácio, ele preparou dois cordeiros de acordo com cem receitas diferentes.</p>
+        
+        <div class="row mb-4">
+          <div class="col-12 col-md-8 text-justify font-s-11">
+            <p class="mb-4 recuo">Então a rainha ordenou que o secretário fosse até Talia, e lhe dissesse que o rei queria as crianças no palácio. Talia, com grande contentamento, obedeceu e enviou Sol e Lua pelo secretário, que os entregou nas mãos da rainha. Esta, que era mais venenosa que uma víbora, pediu ao cozinheiro que os matasse e cozinhasse em vários e apetitosos molhos, e os servisse para o rei comer. Mas o cozinheiro, tendo um coração terno, ao ver aquelas duas jóias formosas, sentiu compaixão e os entregou à sua esposa para que cuidasse deles. No palácio, ele preparou dois cordeiros de acordo com cem receitas diferentes.</p>
+          </div>
+          <div class="col-12 col-md-4" ><div class="box-right bg-img imgc-size muda" style="background-image: url(img/cont/Bela_6.jpg);width:100%;height:100%;"></div></div>
+        </div>
+        
         <p class="text-justify mb-4 font-s-11 recuo">Quando o rei chegou, a rainha, toda satisfeita, mandou servir a comida. O rei comeu com gosto, exclamando:</p>
         <p class="text-justify mb-4 font-s-11 recuo">– Oh, como isto é bom! Que requinte! Que primor!</p>
         <p class="text-justify mb-4 font-s-11 recuo">E ela, de quando em quando, lhe dizia:</p>
