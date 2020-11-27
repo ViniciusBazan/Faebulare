@@ -164,7 +164,7 @@
   <div class="col-3"> </div>
 
   <div class="col-9">
-  <h1 class="font-london font-s-40 font-s-md-20 position-relative" style="z-index:1">Terminou com um final feliz... </h1>
+  <h1 class="font-london font-s-40 font-s-md-20 position-relative" style="z-index:1">Terminou com um final feliz </h1>
   
   </div>
 
@@ -177,11 +177,11 @@
 
 <div class="row">
 
-  <div class="col-3 d-none d-lg-flex"> <img  src="<?php echo $folhas.'3.png' ?>" style="width:70%;height:auto;" > </div>
+  <div class="col-3 d-none d-lg-flex"> <img  src="<?php echo $folhas.'3.png' ?>" style="width:45%; height:75%;" > </div>
 
   <div class="col-12 col-lg-6"> <center><p class="font-antic font-s-md-16 font-s-18">Reunimos alguns dos contos mais conhecidos mundialmente em suas versões menos disseminadas.</p></center> </div>
 
-  <div class="col-3 d-none d-lg-flex"> <img  src="<?php echo $folhas.'4.png' ?>" style="width:70%;height:auto;" > </div>
+  <div class="col-3 d-none d-lg-flex"> <img  src="<?php echo $folhas.'4.png' ?>" style="width:50%; height:auto;" > </div>
 
 </div>
 
