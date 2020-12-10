@@ -45,20 +45,6 @@ CREATE TABLE IF NOT EXISTS `tb_coment` (
   KEY `fk_post` (`id_post`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
---
--- RELACIONAMENTOS PARA TABELAS `tb_coment`:
---   `id_post`
---       `tb_post` -> `id_post`
---   `id_user`
---       `tb_usuarios` -> `id_user`
---
-
---
--- Extraindo dados da tabela `tb_coment`
---
-
-INSERT INTO `tb_coment` (`id_coment`, `id_user`, `id_post`, `conteudo`, `reply`, `dt_coment`) VALUES
-(1, 1, 1, 'História muito interessante, desconhecia esse lado dela!', NULL, '2020-11-17 19:17:47');
 
 -- --------------------------------------------------------
 
@@ -122,12 +108,6 @@ CREATE TABLE IF NOT EXISTS `tb_usuarios` (
 -- RELACIONAMENTOS PARA TABELAS `tb_usuarios`:
 --
 
---
--- Extraindo dados da tabela `tb_usuarios`
---
-
-INSERT INTO `tb_usuarios` (`id_user`, `email`, `senha`, `nome`, `sobrenome`, `valid`, `security`, `dt_criar`) VALUES
-(1, 'vinicius.bazan16@gmail.com', 'TUZwMlJHaGtTVlZvWlRseVV6TmtkM0ZRVTBwRWNsRjNWMXB6V0cxT2JsQkNLeTl3UTFwdlQyWkxhejA9', 'Vinícius', 'Verissimo Bazan', 1, NULL, '2020-11-17 19:10:31');
 
 --
 -- Restrições para despejos de tabelas
